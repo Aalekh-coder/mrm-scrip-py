@@ -1,35 +1,3 @@
-"""
-doc_scraper.py
-==============
-Discovers and extracts metadata from publicly exposed documents on a domain.
-
-Finds:
-  - PDFs              (.pdf)
-  - Word documents    (.doc, .docx)
-  - Excel sheets      (.xls, .xlsx)
-  - Presentations     (.ppt, .pptx)
-  - Text / CSV / JSON (.txt, .csv, .json)
-  - Public reports    (any above linked from pages)
-
-Extracts metadata from each file:
-  - File name, URL, size, content-type, last-modified
-  - Author, creator, title, subject, keywords, created/modified dates
-    (from PDF, DOCX, XLSX, PPTX internal metadata)
-  - Emails and phone numbers found inside documents
-  - Software/tool that created the file (version leaks)
-
-Discovery methods:
-  1. Crawl the domain and collect all document links from <a href>
-  2. Google-dork style URL patterns (sitemap.xml, robots.txt, /uploads/, /docs/, etc.)
-  3. Common exposed directory paths
-
-Usage:
-  python doc_scraper.py
-  > Enter domain: example.com
-
-Output:
-  results saved to  doc_scraper_<domain>.json
-"""
 
 import re
 import io
