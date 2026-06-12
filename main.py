@@ -200,6 +200,7 @@ def clean_address_candidate(raw: str):
     for pattern in ADDRESS_NOISE_PATTERNS:
         text = pattern.sub("", text)
     text = re.sub(r"\s{2,}", " ", text).strip()
+    text = text.strip(" ,;:-")
     if len(text) < 20:
         return None
     if not ADDRESS_KEYWORDS.search(text) and not PINCODE_REGEX.search(text):
@@ -209,14 +210,22 @@ def clean_address_candidate(raw: str):
 
 def extract_address_candidates(text: str) -> set:
     addresses = set()
-    for match in PINCODE_REGEX.finditer(text):
-        start = max(0, match.start() - 200)
-        end = min(len(text), match.end() + 80)
-        raw = " ".join(text[start:end].split())
-        for fragment in re.split(r"\bGet directions\b", raw, flags=re.IGNORECASE):
-            cleaned = clean_address_candidate(fragment)
-            if cleaned:
-                addresses.add(cleaned)
+    for fragment in re.split(r"\n+|\bGet directions\b", text, flags=re.IGNORECASE):
+        fragment = " ".join(fragment.split())
+        if not fragment:
+            continue
+
+        matches = list(PINCODE_REGEX.finditer(fragment))
+        if len(matches) != 1:
+            continue
+
+        match = matches[0]
+        start = max(0, match.start() - 160)
+        end = min(len(fragment), match.end() + 70)
+        raw = fragment[start:end]
+        cleaned = clean_address_candidate(raw)
+        if cleaned and len(cleaned) <= 220:
+            addresses.add(cleaned)
     return addresses
 
 
@@ -225,16 +234,16 @@ def extract_footer_nav_text(soup: BeautifulSoup) -> str:
     parts = []
 
     for tag in soup.find_all(["footer", "nav"]):
-        parts.append(tag.get_text(" ", strip=True))
+        parts.append(tag.get_text("\n", strip=True))
 
     for tag in soup.find_all(True):
         tag_id = tag.get("id", "").lower()
         tag_class = " ".join(tag.get("class", [])).lower()
         combined = tag_id + " " + tag_class
         if any(kw in combined for kw in ("footer", "contact-info", "contact_info", "address", "reach-us")):
-            parts.append(tag.get_text(" ", strip=True))
+            parts.append(tag.get_text("\n", strip=True))
 
-    return " ".join(parts)
+    return "\n".join(parts)
 
 
 def find_pages_by_keywords(base_url: str, soup: BeautifulSoup, keywords: list) -> set:
@@ -262,7 +271,7 @@ def process_page(url: str, include_footer: bool = False) -> dict:
         return result
 
     soup = BeautifulSoup(html, "lxml")
-    full_text = soup.get_text(" ", strip=True)
+    full_text = soup.get_text("\n", strip=True)
 
     result["emails"].update(extract_emails(full_text))
     result["phones"].update(extract_phones(full_text))
@@ -280,7 +289,7 @@ def process_page(url: str, include_footer: bool = False) -> dict:
     # on fallback pages use footer+nav text only
     if include_footer:
         footer_text = extract_footer_nav_text(soup)
-        address_source = footer_text + " " + full_text
+        address_source = footer_text + "\n" + full_text
     else:
         address_source = full_text
 
