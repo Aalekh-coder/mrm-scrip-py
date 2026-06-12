@@ -20,7 +20,7 @@ PHONE_REGEX = re.compile(
     r"\d{3,5}[\s\-]?\d{3,5}[\s\-]?\d{2,5}"
 )
 
-PINCODE_REGEX = re.compile(r"\b\d{6}\b")
+PINCODE_REGEX = re.compile(r"\b[1-9]\d{4,5}\b")
 
 ADDRESS_NOISE_PATTERNS = [
     re.compile(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}"),
@@ -199,6 +199,7 @@ def clean_address_candidate(raw: str):
     text = raw
     for pattern in ADDRESS_NOISE_PATTERNS:
         text = pattern.sub("", text)
+    text = re.sub(r",\s*,", ",", text)
     text = re.sub(r"\s{2,}", " ", text).strip()
     text = text.strip(" ,;:-")
     if len(text) < 20:
@@ -210,22 +211,52 @@ def clean_address_candidate(raw: str):
 
 def extract_address_candidates(text: str) -> set:
     addresses = set()
-    for fragment in re.split(r"\n+|\bGet directions\b", text, flags=re.IGNORECASE):
-        fragment = " ".join(fragment.split())
-        if not fragment:
-            continue
+    lines = text.splitlines()
+    
+    for i, line in enumerate(lines):
+        for match in PINCODE_REGEX.finditer(line):
+            # Check if this match is part of a student ID or reference code
+            start_idx = match.start()
+            prefix = line[max(0, start_idx - 10):start_idx].lower()
+            if any(kw in prefix for kw in ["imts", "roll", "ref", "id"]):
+                continue
 
-        matches = list(PINCODE_REGEX.finditer(fragment))
-        if len(matches) != 1:
-            continue
+            addr_lines = []
+            # Gather up to 6 non-empty lines (including the pincode line) going backwards
+            for j in range(i, max(-1, i - 10), -1):
+                curr_line = lines[j].strip()
+                if not curr_line:
+                    continue
+                if len(curr_line) > 200:
+                    break
+                
+                lower_line = curr_line.lower()
+                # Stop if we hit obvious boundary keywords
+                if any(kw in lower_line for kw in ["phone", "email", "working hours", "follow us", "website", "links", "copyright", "lunch break", "visit us"]):
+                    break
+                
+                # Stop if we hit exact menu/navigation links or headers
+                if any(kw == lower_line for kw in ["home", "courses", "services", "blog", "gallery", "careers", "about us", "contact us", "our media", "quick links", "find us", "get in touch"]):
+                    break
+                
+                # Stop if we hit a line containing another pincode (excluding the starting line itself)
+                if j != i and PINCODE_REGEX.search(curr_line):
+                    break
+                
+                addr_lines.insert(0, curr_line)
+                if lower_line == "address":
+                    if addr_lines and addr_lines[0].lower() == "address":
+                        addr_lines.pop(0)
+                    break
+                # Limit to maximum of 5 lines to keep address concise
+                if len(addr_lines) >= 5:
+                    break
 
-        match = matches[0]
-        start = max(0, match.start() - 160)
-        end = min(len(fragment), match.end() + 70)
-        raw = fragment[start:end]
-        cleaned = clean_address_candidate(raw)
-        if cleaned and len(cleaned) <= 220:
-            addresses.add(cleaned)
+            if addr_lines:
+                full_addr = ", ".join(addr_lines)
+                cleaned = clean_address_candidate(full_addr)
+                if cleaned and len(cleaned) <= 250:
+                    addresses.add(cleaned)
     return addresses
 
 
