@@ -213,9 +213,10 @@ def extract_address_candidates(text: str) -> set:
         start = max(0, match.start() - 200)
         end = min(len(text), match.end() + 80)
         raw = " ".join(text[start:end].split())
-        cleaned = clean_address_candidate(raw)
-        if cleaned:
-            addresses.add(cleaned)
+        for fragment in re.split(r"\bGet directions\b", raw, flags=re.IGNORECASE):
+            cleaned = clean_address_candidate(fragment)
+            if cleaned:
+                addresses.add(cleaned)
     return addresses
 
 
@@ -308,6 +309,10 @@ def extract_contact_details(domain: str) -> dict:
 
     homepage_soup = BeautifulSoup(homepage_html, "lxml")
 
+    # Always scan the homepage first so partial results still get the site's
+    # own contact blocks even when contact/about pages only expose some fields.
+    merge(final, process_page(base_url, include_footer=True))
+
     # Step 2 — crawl contact + about pages only
     primary_pages = find_pages_by_keywords(base_url, homepage_soup, PRIMARY_PAGE_KEYWORDS)
 
@@ -316,18 +321,13 @@ def extract_contact_details(domain: str) -> dict:
         print("  Scanning:", page)
         merge(final, process_page(page, include_footer=True))
 
-    # Step 3 — if still empty, fall back to footer/nav on homepage + extra pages
-    if is_empty_result(final):
-        print("[Fallback] Primary pages returned nothing — scanning footer/nav...")
-
-        # Homepage footer/nav
-        merge(final, process_page(base_url, include_footer=True))
-
-        # A few extra fallback pages discovered from nav/footer links
-        fallback_pages = find_pages_by_keywords(base_url, homepage_soup, FALLBACK_PAGE_KEYWORDS)
-        for page in fallback_pages:
-            print("  Scanning (fallback):", page)
-            merge(final, process_page(page, include_footer=True))
+    # Step 3 — also scan a small set of fallback pages from nav/footer.
+    fallback_pages = find_pages_by_keywords(base_url, homepage_soup, FALLBACK_PAGE_KEYWORDS)
+    if fallback_pages:
+        print(f"[Fallback] Found {len(fallback_pages)} page(s): nav/footer")
+    for page in fallback_pages:
+        print("  Scanning (fallback):", page)
+        merge(final, process_page(page, include_footer=True))
 
     return {
         "emails": sorted(final["emails"]),
