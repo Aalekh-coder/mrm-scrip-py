@@ -3,8 +3,12 @@ import json
 import requests
 
 from bs4 import BeautifulSoup
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlparse
 
+
+# ---------------------------------------------------------------------------
+# Regex helpers
+# ---------------------------------------------------------------------------
 
 EMAIL_REGEX = re.compile(
     r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}"
@@ -18,16 +22,17 @@ PHONE_REGEX = re.compile(
 
 PINCODE_REGEX = re.compile(r"\b\d{6}\b")
 
-# Address noise patterns to strip out after extraction
 ADDRESS_NOISE_PATTERNS = [
-    re.compile(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}"),  # emails
-    re.compile(r"(?:\+?\d[\s\-]?){8,15}"),                            # phone numbers
-    re.compile(r"https?://\S+"),                                        # URLs
-    re.compile(r"©.*", re.IGNORECASE),                                  # copyright lines
-    re.compile(r"(follow us|subscribe|cookie|privacy policy|terms|all rights reserved).*", re.IGNORECASE),
+    re.compile(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}"),
+    re.compile(r"(?:\+?\d[\s\-]?){8,15}"),
+    re.compile(r"https?://\S+"),
+    re.compile(r"©.*", re.IGNORECASE),
+    re.compile(
+        r"(follow us|subscribe|cookie|privacy policy|terms|all rights reserved).*",
+        re.IGNORECASE,
+    ),
 ]
 
-# Words that suggest a line is address content
 ADDRESS_KEYWORDS = re.compile(
     r"\b(street|st\.|road|rd\.|avenue|ave\.|sector|block|floor|plot|nagar|"
     r"colony|phase|opposite|near|above|behind|landmark|lane|marg|chowk|"
@@ -36,48 +41,114 @@ ADDRESS_KEYWORDS = re.compile(
     re.IGNORECASE,
 )
 
-SOCIAL_DOMAINS = [
-    "facebook.com",
-    "instagram.com",
-    "linkedin.com",
-    "twitter.com",
-    "x.com",
-    "youtube.com",
-    "pinterest.com",
-    "t.me",
-]
 
-IMPORTANT_PAGE_KEYWORDS = [
-    "contact",
-    "contact-us",
-    "about",
-    "about-us",
-    "support",
-    "help",
-    "reach-us",
-    "company",
-    "team",
-]
+
+SOCIAL_PLATFORMS = {
+    "facebook.com": {
+        "reject": re.compile(
+            r"/(sharer|login|share|dialog|plugins|watch|groups|events|pages/create)",
+            re.IGNORECASE,
+        ),
+        "require": re.compile(r"facebook\.com/[A-Za-z0-9_.]+/?$"),
+    },
+    "instagram.com": {
+        "reject": re.compile(
+            r"/(p/|reel/|explore/|accounts/|stories/|tv/)", re.IGNORECASE
+        ),
+        "require": re.compile(r"instagram\.com/[A-Za-z0-9_.]+/?#?$"),
+    },
+    "x.com": {
+        "reject": re.compile(
+            r"/(intent|share|home|hashtag|search|login|signup|i/|compose)",
+            re.IGNORECASE,
+        ),
+        "require": re.compile(r"x\.com/[A-Za-z0-9_]+/?$"),
+    },
+    "twitter.com": {
+        "reject": re.compile(
+            r"/(intent|share|home|hashtag|search|login|signup|i/|compose)",
+            re.IGNORECASE,
+        ),
+        "require": re.compile(r"twitter\.com/[A-Za-z0-9_]+/?$"),
+    },
+    "youtube.com": {
+        "reject": re.compile(
+            r"/(watch|playlist|redirect|results|shorts/[^@]|feed|gaming|premium|"
+            r"reporthistory|account|signin|logout)",
+            re.IGNORECASE,
+        ),
+        "require": re.compile(
+            r"youtube\.com/(channel/|@|user/)[A-Za-z0-9_\-]+/?$"
+        ),
+    },
+    "wa.me": {
+        "reject": re.compile(r"^$"),   # nothing to reject — all wa.me links are valid
+        "require": re.compile(r"wa\.me/\d+"),
+    },
+    "api.whatsapp.com": {
+        "reject": re.compile(r"^$"),
+        "require": re.compile(r"api\.whatsapp\.com/send"),
+    },
+    "linkedin.com": {
+        # Only keep company profile pages (in.linkedin.com/company/X or linkedin.com/company/X)
+        # Strip out everything else: jobs, signup, login, legal, posts, showcase,
+        # psettings, pub, uas, learning, /in/ personal profiles, etc.
+        "reject": re.compile(
+            r"/(jobs/|signup|login|legal|learning|posts/|psettings|pub/|uas/|"
+            r"top-content|games|accessibility|redir/|showcase/|feed/|in/[^c])",
+            re.IGNORECASE,
+        ),
+        "require": re.compile(
+            r"linkedin\.com/company/[A-Za-z0-9_\-]+/?(\?.*)?$"
+        ),
+    },
+}
+
+
+def is_valid_social_url(href: str) -> bool:
+    """Return True only if href is a clean social profile/channel URL."""
+    href = href.strip()
+    for domain, rules in SOCIAL_PLATFORMS.items():
+        if domain in href:
+            if not rules["require"].search(href):
+                return False
+            if rules["reject"].search(href):
+                return False
+            return True
+    return False
+
+
+# ---------------------------------------------------------------------------
+# Pages to crawl
+# ---------------------------------------------------------------------------
+
+# Primary targets — contact & about pages only
+PRIMARY_PAGE_KEYWORDS = ["contact", "contact-us", "about", "about-us"]
+
+# Fallback targets — nav links and footer links
+FALLBACK_PAGE_KEYWORDS = ["reach-us", "support", "help", "company", "team"]
 
 HEADERS = {
     "User-Agent": (
-        "Mozilla/5.0 "
-        "(Windows NT 10.0; Win64; x64) "
-        "AppleWebKit/537.36 "
-        "(KHTML, like Gecko) "
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
         "Chrome/125.0 Safari/537.36"
     )
 }
 
 
-def normalize_domain(domain: str):
+# ---------------------------------------------------------------------------
+# Core helpers
+# ---------------------------------------------------------------------------
+
+def normalize_domain(domain: str) -> str:
     domain = domain.strip()
     if not domain.startswith(("http://", "https://")):
         domain = "https://" + domain
     return domain
 
 
-def fetch_html(url: str):
+def fetch_html(url: str) -> str:
     try:
         response = requests.get(url, headers=HEADERS, timeout=15, allow_redirects=True)
         response.raise_for_status()
@@ -86,24 +157,23 @@ def fetch_html(url: str):
         return ""
 
 
-def clean_phone(phone):
+def clean_phone(phone: str):
     digits = re.sub(r"\D", "", phone)
-    if len(digits) < 8 or len(digits) > 15:
+    if len(digits) < 9 or len(digits) > 15:
         return None
     return digits
 
 
-def extract_emails(text):
+def extract_emails(text: str) -> set:
     emails = set()
     for email in EMAIL_REGEX.findall(text):
         email = email.lower().strip()
-        # Skip image filenames and common false positives
         if email and not email.endswith((".png", ".jpg", ".gif", ".svg", ".webp")):
             emails.add(email)
     return emails
 
 
-def extract_phones(text):
+def extract_phones(text: str) -> set:
     phones = set()
     for match in PHONE_REGEX.findall(text):
         phone = clean_phone(match)
@@ -112,112 +182,85 @@ def extract_phones(text):
     return phones
 
 
-def extract_socials(soup):
+def extract_socials(soup: BeautifulSoup) -> set:
     socials = set()
     for tag in soup.find_all("a", href=True):
         href = tag["href"].strip()
-        for domain in SOCIAL_DOMAINS:
-            if domain in href:
-                socials.add(href)
+        if is_valid_social_url(href):
+            # Normalise: strip query params for non-linkedin links
+            parsed = urlparse(href)
+            if "linkedin.com" not in href:
+                href = parsed._replace(query="", fragment="").geturl()
+            socials.add(href)
     return socials
 
 
-def clean_address_candidate(raw: str) -> str | None:
-    """
-    Strip noise (emails, phones, URLs, legal boilerplate) from a raw
-    address candidate and return only the address portion, or None if
-    what remains doesn't look like an address.
-    """
+def clean_address_candidate(raw: str):
     text = raw
-
-    # Remove noise patterns
     for pattern in ADDRESS_NOISE_PATTERNS:
         text = pattern.sub("", text)
-
-    # Collapse extra whitespace
     text = re.sub(r"\s{2,}", " ", text).strip()
-
-    # Drop short leftovers
     if len(text) < 20:
         return None
-
-    # Must contain at least one address-like keyword or a pincode
     if not ADDRESS_KEYWORDS.search(text) and not PINCODE_REGEX.search(text):
         return None
-
     return text
 
 
 def extract_address_candidates(text: str) -> set:
-    """
-    Find address blocks by locating 6-digit pincodes and extracting
-    a window around them, then clean and validate each candidate.
-    """
     addresses = set()
-
     for match in PINCODE_REGEX.finditer(text):
-        # Widen the window to capture multi-line addresses
         start = max(0, match.start() - 200)
         end = min(len(text), match.end() + 80)
-
-        raw = text[start:end]
-        raw = " ".join(raw.split())  # normalise whitespace
-
+        raw = " ".join(text[start:end].split())
         cleaned = clean_address_candidate(raw)
         if cleaned:
             addresses.add(cleaned)
-
     return addresses
 
 
-def extract_footer_text(soup: BeautifulSoup) -> str:
-    """
-    Pull visible text from footer-like elements: <footer>, elements
-    with footer/contact in their id or class, and common footer divs.
-    """
-    footer_texts = []
+def extract_footer_nav_text(soup: BeautifulSoup) -> str:
+    """Pull text from <footer>, <nav>, and elements whose id/class suggests footer."""
+    parts = []
 
-    # Semantic <footer> tag
-    for footer in soup.find_all("footer"):
-        footer_texts.append(footer.get_text(" ", strip=True))
+    for tag in soup.find_all(["footer", "nav"]):
+        parts.append(tag.get_text(" ", strip=True))
 
-    # Elements whose id or class suggests footer / contact info
     for tag in soup.find_all(True):
-        tag_id = " ".join(tag.get("id", "").lower().split())
+        tag_id = tag.get("id", "").lower()
         tag_class = " ".join(tag.get("class", [])).lower()
         combined = tag_id + " " + tag_class
-
         if any(kw in combined for kw in ("footer", "contact-info", "contact_info", "address", "reach-us")):
-            footer_texts.append(tag.get_text(" ", strip=True))
+            parts.append(tag.get_text(" ", strip=True))
 
-    return " ".join(footer_texts)
+    return " ".join(parts)
 
 
-def find_important_pages(base_url, soup):
+def find_pages_by_keywords(base_url: str, soup: BeautifulSoup, keywords: list) -> set:
     pages = set()
     for tag in soup.find_all("a", href=True):
         href = tag["href"].lower()
-        if any(word in href for word in IMPORTANT_PAGE_KEYWORDS):
-            full_url = urljoin(base_url, href)
-            pages.add(full_url)
+        if any(word in href for word in keywords):
+            pages.add(urljoin(base_url, href))
     return pages
 
 
-def process_page(url: str) -> dict:
-    result = {
-        "emails": set(),
-        "phones": set(),
-        "socials": set(),
-        "addresses": set(),
-    }
+def is_empty_result(result: dict) -> bool:
+    return not any(result[k] for k in ("emails", "phones", "socials", "addresses"))
+
+
+# ---------------------------------------------------------------------------
+# Page processor
+# ---------------------------------------------------------------------------
+
+def process_page(url: str, include_footer: bool = False) -> dict:
+    result = {"emails": set(), "phones": set(), "socials": set(), "addresses": set()}
 
     html = fetch_html(url)
     if not html:
         return result
 
     soup = BeautifulSoup(html, "lxml")
-
-    # Full page text (for emails / phones)
     full_text = soup.get_text(" ", strip=True)
 
     result["emails"].update(extract_emails(full_text))
@@ -232,40 +275,59 @@ def process_page(url: str) -> dict:
             if email:
                 result["emails"].add(email)
 
-    # --- Address extraction: footer + full page ---
-    footer_text = extract_footer_text(soup)
-    combined_for_address = footer_text + " " + full_text
-    result["addresses"].update(extract_address_candidates(combined_for_address))
+    # Address: always include footer text on contact/about pages;
+    # on fallback pages use footer+nav text only
+    if include_footer:
+        footer_text = extract_footer_nav_text(soup)
+        address_source = footer_text + " " + full_text
+    else:
+        address_source = full_text
 
+    result["addresses"].update(extract_address_candidates(address_source))
     return result
 
+
+def merge(final: dict, data: dict):
+    for key in ("emails", "phones", "socials", "addresses"):
+        final[key].update(data[key])
+
+
+# ---------------------------------------------------------------------------
+# Main entry point
+# ---------------------------------------------------------------------------
 
 def extract_contact_details(domain: str) -> dict:
     base_url = normalize_domain(domain)
 
-    final = {
-        "emails": set(),
-        "phones": set(),
-        "socials": set(),
-        "addresses": set(),
-    }
+    final = {"emails": set(), "phones": set(), "socials": set(), "addresses": set()}
 
+    # Step 1 — fetch homepage to discover links
     homepage_html = fetch_html(base_url)
     if not homepage_html:
         return {"error": "Unable to fetch website"}
 
     homepage_soup = BeautifulSoup(homepage_html, "lxml")
 
-    pages_to_crawl = {base_url}
-    pages_to_crawl.update(find_important_pages(base_url, homepage_soup))
+    # Step 2 — crawl contact + about pages only
+    primary_pages = find_pages_by_keywords(base_url, homepage_soup, PRIMARY_PAGE_KEYWORDS)
 
-    for page in pages_to_crawl:
-        print("Scanning:", page)
-        data = process_page(page)
-        final["emails"].update(data["emails"])
-        final["phones"].update(data["phones"])
-        final["socials"].update(data["socials"])
-        final["addresses"].update(data["addresses"])
+    print(f"[Primary] Found {len(primary_pages)} page(s): contact / about")
+    for page in primary_pages:
+        print("  Scanning:", page)
+        merge(final, process_page(page, include_footer=True))
+
+    # Step 3 — if still empty, fall back to footer/nav on homepage + extra pages
+    if is_empty_result(final):
+        print("[Fallback] Primary pages returned nothing — scanning footer/nav...")
+
+        # Homepage footer/nav
+        merge(final, process_page(base_url, include_footer=True))
+
+        # A few extra fallback pages discovered from nav/footer links
+        fallback_pages = find_pages_by_keywords(base_url, homepage_soup, FALLBACK_PAGE_KEYWORDS)
+        for page in fallback_pages:
+            print("  Scanning (fallback):", page)
+            merge(final, process_page(page, include_footer=True))
 
     return {
         "emails": sorted(final["emails"]),
