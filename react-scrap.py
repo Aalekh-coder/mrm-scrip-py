@@ -9,7 +9,7 @@ HEADERS = {
     )
 }
 
-def fetch_html(url: str) -> str:
+def fetch_html_react(url: str) -> str:
     try:
         with sync_playwright() as p:
             browser = p.chromium.launch(headless=True)

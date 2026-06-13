@@ -5,6 +5,12 @@ import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin, urlparse
 
+try:
+    from playwright.sync_api import sync_playwright
+    PLAYWRIGHT_AVAILABLE = True
+except ImportError:
+    PLAYWRIGHT_AVAILABLE = False
+
 
 # ---------------------------------------------------------------------------
 # Regex helpers
@@ -122,7 +128,6 @@ DOCUMENT_EXTENSIONS = re.compile(
     re.IGNORECASE,
 )
 
-# Human-readable label for each extension group
 EXT_TYPE_MAP = {
     "pdf":  "PDF",
     "doc":  "Word Document",
@@ -155,6 +160,81 @@ HEADERS = {
     )
 }
 
+# Markers that strongly indicate a JS-rendered SPA shell
+SPA_SIGNALS = [
+    "__NEXT_DATA__",       # Next.js
+    "data-reactroot",      # React
+    "react-root",          # Common React root id
+    "__nuxt",              # Nuxt.js
+    "ng-version",          # Angular
+    "__svelte",            # Svelte
+    "data-n-head",         # Nuxt head
+    "_app",                # Generic SPA marker
+]
+
+
+# ---------------------------------------------------------------------------
+# Fetch helpers
+# ---------------------------------------------------------------------------
+
+def _fetch_with_requests(url: str) -> str:
+    """Fast path: plain HTTP fetch, no JS execution."""
+    try:
+        response = requests.get(url, headers=HEADERS, timeout=15, allow_redirects=True)
+        response.raise_for_status()
+        return response.text
+    except Exception:
+        return ""
+
+
+def _fetch_with_playwright(url: str) -> str:
+    """Slow path: headless browser that executes JS and waits for network idle."""
+    if not PLAYWRIGHT_AVAILABLE:
+        print("  [Playwright] Not installed — skipping browser fetch.")
+        print("  Install with: pip install playwright && playwright install chromium")
+        return ""
+    try:
+        with sync_playwright() as p:
+            browser = p.chromium.launch(headless=True)
+            page = browser.new_page()
+            page.set_extra_http_headers(HEADERS)
+            page.goto(url, wait_until="networkidle", timeout=20000)
+            page.wait_for_timeout(2000)          # extra wait for lazy content
+            html = page.content()
+            browser.close()
+            return html
+    except Exception:
+        return ""
+
+
+def _is_spa_shell(html: str) -> bool:
+    """
+    Returns True when the page looks like a JS-only shell:
+    - contains a known SPA framework marker, OR
+    - has very little visible text (< 300 chars) after stripping tags
+    """
+    if not html:
+        return True
+    if any(signal in html for signal in SPA_SIGNALS):
+        return True
+    visible = BeautifulSoup(html, "lxml").get_text().strip()
+    return len(visible) < 300
+
+
+def fetch_html(url: str) -> str:
+    """
+    Hybrid fetch strategy:
+      1. Try fast requests-based fetch.
+      2. If the result is empty OR looks like a SPA shell → fall back to Playwright.
+    """
+    html = _fetch_with_requests(url)
+
+    if _is_spa_shell(html):
+        print(f"  [SPA detected] Switching to Playwright for: {url}")
+        html = _fetch_with_playwright(url)
+
+    return html
+
 
 # ---------------------------------------------------------------------------
 # Core helpers
@@ -165,15 +245,6 @@ def normalize_domain(domain: str) -> str:
     if not domain.startswith(("http://", "https://")):
         domain = "https://" + domain
     return domain
-
-
-def fetch_html(url: str) -> str:
-    try:
-        response = requests.get(url, headers=HEADERS, timeout=15, allow_redirects=True)
-        response.raise_for_status()
-        return response.text
-    except Exception:
-        return ""
 
 
 def clean_phone(phone: str):
@@ -319,11 +390,6 @@ def get_extension(url: str) -> str:
 
 
 def discover_document_links(base_url: str, soup: BeautifulSoup) -> list:
-    """
-    Collect all publicly linked document URLs from a page.
-    Returns list of dicts: {url, fileType, linkedText}.
-    No files are downloaded.
-    """
     seen = set()
     records = []
 
@@ -342,10 +408,7 @@ def discover_document_links(base_url: str, soup: BeautifulSoup) -> list:
         file_type = EXT_TYPE_MAP.get(ext, ext.upper())
         link_text = tag.get_text(strip=True) or ""
 
-        record = {
-            "url":      abs_url,
-            "fileType": file_type,
-        }
+        record = {"url": abs_url, "fileType": file_type}
         if link_text:
             record["linkedText"] = link_text
 
@@ -367,6 +430,7 @@ def process_page(url: str, include_footer: bool = False) -> dict:
         "doc_links": [],
     }
 
+    # fetch_html already handles the SPA fallback transparently
     html = fetch_html(url)
     if not html:
         return result
@@ -399,7 +463,6 @@ def process_page(url: str, include_footer: bool = False) -> dict:
 def merge(final: dict, data: dict):
     for key in ("emails", "phones", "socials", "addresses"):
         final[key].update(data[key])
-    # Deduplicate doc_links by URL
     seen_urls = {d["url"] for d in final["doc_links"]}
     for doc in data["doc_links"]:
         if doc["url"] not in seen_urls:
@@ -422,7 +485,7 @@ def extract_contact_details(domain: str) -> dict:
         "doc_links": [],
     }
 
-    # Step 1 — homepage
+    # Step 1 — homepage (fetch_html handles SPA detection internally)
     homepage_html = fetch_html(base_url)
     if not homepage_html:
         return {"error": "Unable to fetch website"}
