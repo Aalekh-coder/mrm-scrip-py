@@ -20,7 +20,7 @@ PHONE_REGEX = re.compile(
     r"\d{3,5}[\s\-]?\d{3,5}[\s\-]?\d{2,5}"
 )
 
-PINCODE_REGEX = re.compile(r"\b\d{6}\b")
+PINCODE_REGEX = re.compile(r"\b[1-9]\d{4,5}\b")
 
 ADDRESS_NOISE_PATTERNS = [
     re.compile(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}"),
@@ -199,7 +199,9 @@ def clean_address_candidate(raw: str):
     text = raw
     for pattern in ADDRESS_NOISE_PATTERNS:
         text = pattern.sub("", text)
+    text = re.sub(r",\s*,", ",", text)
     text = re.sub(r"\s{2,}", " ", text).strip()
+    text = text.strip(" ,;:-")
     if len(text) < 20:
         return None
     if not ADDRESS_KEYWORDS.search(text) and not PINCODE_REGEX.search(text):
@@ -209,13 +211,52 @@ def clean_address_candidate(raw: str):
 
 def extract_address_candidates(text: str) -> set:
     addresses = set()
-    for match in PINCODE_REGEX.finditer(text):
-        start = max(0, match.start() - 200)
-        end = min(len(text), match.end() + 80)
-        raw = " ".join(text[start:end].split())
-        cleaned = clean_address_candidate(raw)
-        if cleaned:
-            addresses.add(cleaned)
+    lines = text.splitlines()
+    
+    for i, line in enumerate(lines):
+        for match in PINCODE_REGEX.finditer(line):
+            # Check if this match is part of a student ID or reference code
+            start_idx = match.start()
+            prefix = line[max(0, start_idx - 10):start_idx].lower()
+            if any(kw in prefix for kw in ["imts", "roll", "ref", "id"]):
+                continue
+
+            addr_lines = []
+            # Gather up to 6 non-empty lines (including the pincode line) going backwards
+            for j in range(i, max(-1, i - 10), -1):
+                curr_line = lines[j].strip()
+                if not curr_line:
+                    continue
+                if len(curr_line) > 200:
+                    break
+                
+                lower_line = curr_line.lower()
+                # Stop if we hit obvious boundary keywords
+                if any(kw in lower_line for kw in ["phone", "email", "working hours", "follow us", "website", "links", "copyright", "lunch break", "visit us"]):
+                    break
+                
+                # Stop if we hit exact menu/navigation links or headers
+                if any(kw == lower_line for kw in ["home", "courses", "services", "blog", "gallery", "careers", "about us", "contact us", "our media", "quick links", "find us", "get in touch"]):
+                    break
+                
+                # Stop if we hit a line containing another pincode (excluding the starting line itself)
+                if j != i and PINCODE_REGEX.search(curr_line):
+                    break
+                
+                addr_lines.insert(0, curr_line)
+                if lower_line == "address":
+                    if addr_lines and addr_lines[0].lower() == "address":
+                        addr_lines.pop(0)
+                    break
+                # Limit to maximum of 5 lines to keep address concise
+                if len(addr_lines) >= 5:
+                    break
+
+            if addr_lines:
+                full_addr = ", ".join(addr_lines)
+                cleaned = clean_address_candidate(full_addr)
+                if cleaned and len(cleaned) <= 250:
+                    addresses.add(cleaned)
     return addresses
 
 
@@ -224,16 +265,16 @@ def extract_footer_nav_text(soup: BeautifulSoup) -> str:
     parts = []
 
     for tag in soup.find_all(["footer", "nav"]):
-        parts.append(tag.get_text(" ", strip=True))
+        parts.append(tag.get_text("\n", strip=True))
 
     for tag in soup.find_all(True):
         tag_id = tag.get("id", "").lower()
         tag_class = " ".join(tag.get("class", [])).lower()
         combined = tag_id + " " + tag_class
         if any(kw in combined for kw in ("footer", "contact-info", "contact_info", "address", "reach-us")):
-            parts.append(tag.get_text(" ", strip=True))
+            parts.append(tag.get_text("\n", strip=True))
 
-    return " ".join(parts)
+    return "\n".join(parts)
 
 
 def find_pages_by_keywords(base_url: str, soup: BeautifulSoup, keywords: list) -> set:
@@ -261,7 +302,7 @@ def process_page(url: str, include_footer: bool = False) -> dict:
         return result
 
     soup = BeautifulSoup(html, "lxml")
-    full_text = soup.get_text(" ", strip=True)
+    full_text = soup.get_text("\n", strip=True)
 
     result["emails"].update(extract_emails(full_text))
     result["phones"].update(extract_phones(full_text))
@@ -279,7 +320,7 @@ def process_page(url: str, include_footer: bool = False) -> dict:
     # on fallback pages use footer+nav text only
     if include_footer:
         footer_text = extract_footer_nav_text(soup)
-        address_source = footer_text + " " + full_text
+        address_source = footer_text + "\n" + full_text
     else:
         address_source = full_text
 
@@ -308,6 +349,10 @@ def extract_contact_details(domain: str) -> dict:
 
     homepage_soup = BeautifulSoup(homepage_html, "lxml")
 
+    # Always scan the homepage first so partial results still get the site's
+    # own contact blocks even when contact/about pages only expose some fields.
+    merge(final, process_page(base_url, include_footer=True))
+
     # Step 2 — crawl contact + about pages only
     primary_pages = find_pages_by_keywords(base_url, homepage_soup, PRIMARY_PAGE_KEYWORDS)
 
@@ -316,18 +361,13 @@ def extract_contact_details(domain: str) -> dict:
         print("  Scanning:", page)
         merge(final, process_page(page, include_footer=True))
 
-    # Step 3 — if still empty, fall back to footer/nav on homepage + extra pages
-    if is_empty_result(final):
-        print("[Fallback] Primary pages returned nothing — scanning footer/nav...")
-
-        # Homepage footer/nav
-        merge(final, process_page(base_url, include_footer=True))
-
-        # A few extra fallback pages discovered from nav/footer links
-        fallback_pages = find_pages_by_keywords(base_url, homepage_soup, FALLBACK_PAGE_KEYWORDS)
-        for page in fallback_pages:
-            print("  Scanning (fallback):", page)
-            merge(final, process_page(page, include_footer=True))
+    # Step 3 — also scan a small set of fallback pages from nav/footer.
+    fallback_pages = find_pages_by_keywords(base_url, homepage_soup, FALLBACK_PAGE_KEYWORDS)
+    if fallback_pages:
+        print(f"[Fallback] Found {len(fallback_pages)} page(s): nav/footer")
+    for page in fallback_pages:
+        print("  Scanning (fallback):", page)
+        merge(final, process_page(page, include_footer=True))
 
     return {
         "emails": sorted(final["emails"]),
