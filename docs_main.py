@@ -542,7 +542,7 @@ def scrape_documents(domain: str) -> dict:
     skipped = []
 
     for url in sorted(all_doc_urls):
-        print(f"  → {url}")
+        print(f"  -> {url}")
 
         # HEAD first to check size and get HTTP metadata without full download
         head_resp = head(url)
