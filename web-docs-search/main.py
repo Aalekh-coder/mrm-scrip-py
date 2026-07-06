@@ -4,6 +4,8 @@ import sys
 import re
 import random
 from urllib.parse import urlparse, unquote
+import os
+from dotenv import load_dotenv
 
 try:
     import requests
@@ -11,9 +13,8 @@ except ImportError:
     print("Install with:  pip install requests")
     sys.exit(1)
 
+SERPAPI_KEY = os.getenv("SERPAPI_KEY")
 
-
-SERPAPI_KEY      = "c4c3d45597f73f0c10649f77fd02ecda35ea8a58bff0c9878288ef8f1dd0f2c8"  
 RESULTS_PER_TYPE = 10    # max results per file type (1 API call = 10 results)
 PAUSE_SECONDS    = 1     # seconds between API calls (SerpApi has no strict limit)
 
