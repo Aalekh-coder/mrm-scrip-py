@@ -1,0 +1,87 @@
+[
+  {
+    "title": "Wipro Open Source",
+    "url": "https://github.com/WiproOpenSource",
+    "snippet": "Bangalore; http://www.wipro.com/ · ask.opensource@wipro.com · Overview · Repositories 36 · Projects · Packages · People 14. More. Overview · Repositories ...Read more",
+    "source": "github_search",
+    "filetype": "github_repo",
+    "repository_details": {}
+  },
+  {
+    "title": "CVE-2021-38146.yaml - projectdiscovery/nuclei-templates",
+    "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2021/CVE-2021-38146.yaml",
+    "snippet": "... wipro.com/holmes/ - https://nvd.nist.gov/vuln/detail/CVE-2021-38146 ... - https://www.wipro.com/holmes/. - https://nvd.nist.gov/vuln/detail/CVE-2021 ...",
+    "source": "github_search",
+    "filetype": "github_repo",
+    "repository_details": {
+      "owner": "projectdiscovery",
+      "repo": "nuclei-templates",
+      "full_name": "projectdiscovery/nuclei-templates",
+      "description": "Community curated list of templates for the nuclei engine to find security vulnerabilities.",
+      "stars": 12644,
+      "forks": 3570,
+      "language": "JavaScript",
+      "created_at": "2020-04-04T16:21:34Z",
+      "updated_at": "2026-07-17T09:26:58Z",
+      "has_wiki": true,
+      "has_pages": false,
+      "open_issues": 135,
+      "license": "MIT License",
+      "readme_preview": "\n\n<h1 align=\"center\">\nNuclei Templates\n</h1>\n<h4 align=\"center\">Community curated list of templates for the nuclei engine to find security vulnerabilities in applications.</h4>\n\n\n<p align=\"center\">\n<a href=\"https://github.com/projectdiscovery/nuclei-templates/issues\"><img src=\"https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat\"></a>\n<a href=\"https://github.com/projectdiscovery/nuclei-templates/releases\"><img src=\"https://img.shields.io/github/release/projectdiscovery/n..."
+    }
+  },
+  {
+    "title": "wipro.md - A-Hemeda/Remote-Jobs-List",
+    "url": "https://github.com/A-Hemeda/Remote-Jobs-List/blob/main/company-profiles/wipro.md",
+    "snippet": "Wipro Limited (formerly, Western India Palm Refined Oils Limited) is an Indian multinational corporation that provides information technology, ...Read more",
+    "source": "github_search",
+    "filetype": "github_repo",
+    "repository_details": {
+      "owner": "A-Hemeda",
+      "repo": "Remote-Jobs-List",
+      "full_name": "A-Hemeda/Remote-Jobs-List",
+      "description": null,
+      "stars": 698,
+      "forks": 42,
+      "language": null,
+      "created_at": "2025-07-13T09:34:20Z",
+      "updated_at": "2026-07-16T10:49:57Z",
+      "has_wiki": true,
+      "has_pages": false,
+      "open_issues": 0,
+      "license": "",
+      "readme_preview": "<h1 align=\"center\">Remote Jobs Companies</h1>\n\n### A list of semi to fully remote-friendly companies in or around tech.\n\nName | Website | Region\n------------ | ------- | -------\n[10up](/company-profiles/10up.md) | https://10up.com/ | Worldwide\n[15Five](/company-profiles/15five.md) | https://www.15five.com | Europe, Americas\n[18F](/company-profiles/18f.md) | https://18f.gsa.gov/ | USA\n[1Password](/company-profiles/1password.md) | https://www.1password.com | North America, UK\n[37signals](/company-..."
+    }
+  },
+  {
+    "title": "CandidateMain.java",
+    "url": "https://github.com/DA-and-Cloud/Candidate-Management-System/blob/master/LakshyaBansal%2018021120002/src/com/wipro/candidate/service/CandidateMain.java",
+    "snippet": "Candidate-Management-System · LakshyaBansal 18021120002 · src · com · wipro · candidate · service.",
+    "source": "github_search",
+    "filetype": "github_repo",
+    "repository_details": {
+      "owner": "DA-and-Cloud",
+      "repo": "Candidate-Management-System",
+      "full_name": "DA-and-Cloud/Candidate-Management-System",
+      "description": null,
+      "stars": 2,
+      "forks": 36,
+      "language": "Java",
+      "created_at": "2020-09-02T13:58:42Z",
+      "updated_at": "2020-09-28T12:32:33Z",
+      "has_wiki": true,
+      "has_pages": false,
+      "open_issues": 1,
+      "license": "",
+      "readme_preview": "# Candidate-Management-System\n## Instructions\n- Make a subfolder inside this repository with your name followed by enrollment number.\n- Push all your code and files inside your folder only.\n- For contributing in someone else's code first raise an issue then start contributing.\n\n### Good Luck!\n"
+    }
+  },
+  {
+    "title": "Wipro",
+    "url": "https://github.com/wipro",
+    "snippet": "GitHub is where Wipro builds software. Search code, repositories, users, issues, pull requests... This organization has no public repositories.",
+    "source": "github_search",
+    "filetype": "github_repo",
+    "repository_details": {}
+  }
+]

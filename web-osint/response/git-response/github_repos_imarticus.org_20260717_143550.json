@@ -1,0 +1,153 @@
+[
+  {
+    "title": "Imarticus Learning Private Limited",
+    "url": "https://github.com/eckovation",
+    "snippet": "Delhi; http://www.imarticus.org · support@imarticus.com · Overview · Repositories 3 · Projects · Packages · People. More. Overview · Repositories · Projects ...Read more",
+    "source": "github_search",
+    "filetype": "github_repo",
+    "repository_details": {}
+  },
+  {
+    "title": "Sanjana-R/Movie-Recommendation-Systems",
+    "url": "https://github.com/Sanjana-R/Movie-Recommendation-Systems",
+    "snippet": "https://blog.imarticus.org/data-analytics-popular-algorithms-explained/ · https://www.analyticsvidhya.com/blog/2018/06/comprehensive-guide-recommendation ...",
+    "source": "github_search",
+    "filetype": "github_repo",
+    "repository_details": {
+      "owner": "Sanjana-R",
+      "repo": "Movie-Recommendation-Systems",
+      "full_name": "Sanjana-R/Movie-Recommendation-Systems",
+      "description": "Movie recommendation systems using K-Nearest Neighbour Algorithm, Correlation Analysis and Matrix Factorization. ",
+      "stars": 2,
+      "forks": 1,
+      "language": "Jupyter Notebook",
+      "created_at": "2020-08-06T20:59:05Z",
+      "updated_at": "2023-12-21T10:39:51Z",
+      "has_wiki": true,
+      "has_pages": false,
+      "open_issues": 0,
+      "license": "",
+      "readme_preview": "# Movie Recommendation Systems\nThree movie recommendation systems using 1) K-Nearest Neighbour Algorithm, 2) Correlation Analysis and 3) Matrix Factorization. \n\n## Details \n\n### - Setup Details\nJupyter notebook\n\nPython\n\nSciPy library\n\nNumPy\n\nScikit-learn\n\nPandas\n\nFuzzywuzzy\n\n### - About the Dataset\nMovielens Dataset: https://grouplens.org/datasets/movielens/100k/\n\nThis dataset consists of:\n* 100,000 ratings (1-5) from 943 users on 1682 movies.\n* Each user has rated at least 20 movies.\n* Simple d..."
+    }
+  },
+  {
+    "title": "VALLABH MASAL vallabh1822",
+    "url": "https://github.com/vallabh1822",
+    "snippet": "https://imarticus.org/. Block or report user. Block or report vallabh1822. Block user. Prevent this user from interacting with your repositories and sending you ...",
+    "source": "github_search",
+    "filetype": "github_repo",
+    "repository_details": {}
+  },
+  {
+    "title": "nursnaaz/Imarticus: This is the course material ...",
+    "url": "https://github.com/nursnaaz/Imarticus",
+    "snippet": "This is the course material for Data Science Class. Statistics Material. https://drive.google.com/open?id=1YmihfY7b1yJaEjeKx93tL-gaubfPVf9yRead more",
+    "source": "github_search",
+    "filetype": "github_repo",
+    "repository_details": {
+      "owner": "nursnaaz",
+      "repo": "Imarticus",
+      "full_name": "nursnaaz/Imarticus",
+      "description": "This is the course material for Data Science batch",
+      "stars": 3,
+      "forks": 8,
+      "language": "Jupyter Notebook",
+      "created_at": "2018-08-17T13:49:52Z",
+      "updated_at": "2021-01-08T15:02:58Z",
+      "has_wiki": true,
+      "has_pages": false,
+      "open_issues": 0,
+      "license": "",
+      "readme_preview": "# Imarticus\nThis is the course material for Data Science Class\n\n\nStatistics Material\n\nhttps://drive.google.com/open?id=1YmihfY7b1yJaEjeKx93tL-gaubfPVf9y\n"
+    }
+  },
+  {
+    "title": "alokproc/imarticus",
+    "url": "https://github.com/alokproc/imarticus",
+    "snippet": "Contribute to alokproc/imarticus development by creating an account on GitHub. Search code, repositories, users, issues, pull requests... description, website, ...",
+    "source": "github_search",
+    "filetype": "github_repo",
+    "repository_details": {
+      "owner": "alokproc",
+      "repo": "imarticus",
+      "full_name": "alokproc/imarticus",
+      "description": null,
+      "stars": 7,
+      "forks": 19,
+      "language": "Jupyter Notebook",
+      "created_at": "2019-11-23T07:26:00Z",
+      "updated_at": "2022-10-01T17:03:32Z",
+      "has_wiki": true,
+      "has_pages": false,
+      "open_issues": 1,
+      "license": ""
+    }
+  },
+  {
+    "title": "imarticus/R/Class1_IntroToR.R at master",
+    "url": "https://github.com/alokproc/imarticus/blob/master/R/Class1_IntroToR.R",
+    "snippet": "Contribute to alokproc/imarticus development by creating an account on GitHub. Search code, repositories, users, issues, pull requests... #how to install and ...",
+    "source": "github_search",
+    "filetype": "github_repo",
+    "repository_details": {
+      "owner": "alokproc",
+      "repo": "imarticus",
+      "full_name": "alokproc/imarticus",
+      "description": null,
+      "stars": 7,
+      "forks": 19,
+      "language": "Jupyter Notebook",
+      "created_at": "2019-11-23T07:26:00Z",
+      "updated_at": "2022-10-01T17:03:32Z",
+      "has_wiki": true,
+      "has_pages": false,
+      "open_issues": 1,
+      "license": ""
+    }
+  },
+  {
+    "title": "Imarticus/Class_3.R at master",
+    "url": "https://github.com/asharvi1/Imarticus/blob/master/Class_3.R",
+    "snippet": "Data Science Program. Contribute to asharvi1/Imarticus development by creating an account on GitHub.",
+    "source": "github_search",
+    "filetype": "github_repo",
+    "repository_details": {
+      "owner": "asharvi1",
+      "repo": "Imarticus",
+      "full_name": "asharvi1/Imarticus",
+      "description": "Data Science Program",
+      "stars": 0,
+      "forks": 1,
+      "language": "Jupyter Notebook",
+      "created_at": "2018-02-18T16:15:47Z",
+      "updated_at": "2018-05-06T14:03:34Z",
+      "has_wiki": true,
+      "has_pages": false,
+      "open_issues": 0,
+      "license": ""
+    }
+  },
+  {
+    "title": "Predicting The Costs Of Used Cars - Hackathon By ...",
+    "url": "https://github.com/chetanambi/Predicting-The-Costs-Of-Used-Cars-Hackathon-By-Imarticus-Learning/blob/master/Predict%20the%20Cost%20of%20Used%20Cars.ipynb",
+    "snippet": "Predicting The Costs Of Used Cars - Hackathon By Imarticus Learning¶. FEATURES: Name: The brand and model of the car. Location: The location in which the car is ...Read more",
+    "source": "github_search",
+    "filetype": "github_repo",
+    "repository_details": {
+      "owner": "chetanambi",
+      "repo": "Predicting-The-Costs-Of-Used-Cars-Hackathon-By-Imarticus-Learning",
+      "full_name": "chetanambi/Predicting-The-Costs-Of-Used-Cars-Hackathon-By-Imarticus-Learning",
+      "description": "MachineHack is an online platform for Machine Learning competitions. We host toughest business problems that can now find solutions in Machine Learning & Data Science.",
+      "stars": 15,
+      "forks": 11,
+      "language": "Jupyter Notebook",
+      "created_at": "2019-07-21T05:14:00Z",
+      "updated_at": "2025-07-17T13:07:11Z",
+      "has_wiki": true,
+      "has_pages": false,
+      "open_issues": 0,
+      "license": "Apache License 2.0",
+      "readme_preview": "# Predicting The Costs Of Used Cars Hackathon By Imarticus Learning\n\n![image](https://user-images.githubusercontent.com/37707687/61587289-09919480-aba5-11e9-9b79-015a310f40b9.png)\n\nDriverless cars are getting closer to reality and at a faster pace than ever. But it is still a bit far fetched dream to have one in your garage. For the time being, there are still a lot of combustion and hybrid cars that roar around the road, for some it chills. Though the overall data on sales of automobiles shows ..."
+    }
+  }
+]

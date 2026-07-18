@@ -1,0 +1,90 @@
+[
+  {
+    "title": "Omkar Kushwaha omkarkushwaha",
+    "url": "https://github.com/omkarkushwaha",
+    "snippet": "Python Full Stack Developer Trainee. CodeSquadz, Noida May 2025 – Present. Projects: ✓ Todo List Application; Login & Registration System; Admin ...Read more",
+    "source": "github_search",
+    "filetype": "github_repo",
+    "repository_details": {
+      "type": "unknown"
+    }
+  },
+  {
+    "title": "MaverickWingman/javaEditor: Java Text Editor",
+    "url": "https://github.com/MaverickWingman/javaEditor",
+    "snippet": "A lightweight, open-source text editor for Java developers. Create, edit, and run Java code seamlessly. CodeSquadz, Noida]. Java code seamlessly.",
+    "source": "github_search",
+    "filetype": "github_repo",
+    "repository_details": {
+      "type": "repository",
+      "owner": "MaverickWingman",
+      "repo": "javaEditor",
+      "full_name": "MaverickWingman/javaEditor",
+      "description": "Java Text Editor: A lightweight, open-source text editor for Java developers. Create, edit, and run Java code seamlessly.",
+      "stars": 1,
+      "forks": 0,
+      "language": "Java",
+      "created_at": "2023-07-15T11:00:10Z",
+      "updated_at": "2024-07-11T04:02:10Z",
+      "has_wiki": true,
+      "has_pages": false,
+      "open_issues": 0,
+      "license": "",
+      "readme_preview": "# Java Text Editor\n\nA simple text editor implemented in Java using Swing components. This text editor provides basic functionalities like creating, opening, and saving text files, along with editing operations such as cut, copy, paste, and delete. Additionally, it supports compiling and running Java code directly from the editor.\n\n## Features\n\n- **File Operations**: Create new files, open existing ones, save files, and save files with a different name.\n- **Editing Operations**: Cut, copy, paste,..."
+    }
+  },
+  {
+    "title": "Shashi Raj shashirajraja",
+    "url": "https://github.com/shashirajraja",
+    "snippet": "A Passionate Programmer and a code Enthusiast , Currently working as Software Engineer, Improving Skills and excelling reach: shashiraj.972@gmail.com",
+    "source": "github_search",
+    "filetype": "github_repo",
+    "repository_details": {
+      "type": "unknown"
+    }
+  },
+  {
+    "title": "Breast-Cancer-Detection/final(project breast_cancer).ipynb at main",
+    "url": "https://github.com/Surya821/Breast-Cancer-Detection/blob/main/final(project%20breast_cancer).ipynb",
+    "snippet": "This project focuses on breast cancer detection using machine learning to classify tumors as benign or malignant. Using the Breast Cancer Wisconsin dataset, ...",
+    "source": "github_search",
+    "filetype": "github_repo",
+    "repository_details": {
+      "type": "repository",
+      "owner": "Surya821",
+      "repo": "Breast-Cancer-Detection",
+      "full_name": "Surya821/Breast-Cancer-Detection",
+      "description": "This project focuses on breast cancer detection using machine learning to classify tumors as benign or malignant. Using the Breast Cancer Wisconsin dataset, it includes data preprocessing, model training (Logistic Regression, KNN, SVM, Decision Tree, Random Forest), and evaluation to identify the most accurate model.",
+      "stars": 1,
+      "forks": 0,
+      "language": "Jupyter Notebook",
+      "created_at": "2025-06-26T06:10:09Z",
+      "updated_at": "2025-11-16T12:49:05Z",
+      "has_wiki": true,
+      "has_pages": false,
+      "open_issues": 0,
+      "license": "",
+      "readme_preview": "# Breast-Cancer-Detection\nThis project focuses on breast cancer detection using machine learning to classify tumors as benign or malignant. Using the Breast Cancer Wisconsin dataset, it includes data preprocessing, model training (Logistic Regression, KNN, SVM, Decision Tree, Random Forest), and evaluation to identify the most accurate model.\n"
+    }
+  },
+  {
+    "title": "shashi pandey shashipandey100192",
+    "url": "https://github.com/shashipandey100192",
+    "snippet": "shashipandey100192 has 28 repositories available. Follow their code on GitHub. Search code, repositories, users, issues, pull requests...",
+    "source": "github_search",
+    "filetype": "github_repo",
+    "repository_details": {
+      "type": "unknown"
+    }
+  },
+  {
+    "title": "CodeSquad",
+    "url": "https://github.com/code-squad",
+    "snippet": "CodeSquad has 102 repositories available. Follow their code on GitHub. Search code, repositories, users, issues, pull requests... http Repositories Projects ...",
+    "source": "github_search",
+    "filetype": "github_repo",
+    "repository_details": {
+      "type": "unknown"
+    }
+  }
+]

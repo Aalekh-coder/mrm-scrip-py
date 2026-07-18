@@ -1,0 +1,122 @@
+[
+  {
+    "title": "PacktPublishing/Data-Visualization-Solutions-for-Beginners",
+    "url": "https://github.com/PacktPublishing/Data-Visualization-Solutions-for-Beginners-/blob/master/Section%206/Data/startup_funding.csv",
+    "snippet": "Djubo.com, Cloud Based Hotel Sales Platform, New Delhi, Ibibo Group, Private Equity, Strategic Investment. 1891. 1889, 28/08/2015, BetterButter.in, online ...Read more",
+    "source": "github_search",
+    "filetype": "github_repo",
+    "repository_details": {
+      "owner": "PacktPublishing",
+      "repo": "Data-Visualization-Solutions-for-Beginners-",
+      "full_name": "PacktPublishing/Data-Visualization-Solutions-for-Beginners-",
+      "description": null,
+      "stars": 4,
+      "forks": 4,
+      "language": "Jupyter Notebook",
+      "created_at": "2019-05-20T05:44:45Z",
+      "updated_at": "2022-06-27T15:25:14Z",
+      "has_wiki": true,
+      "has_pages": false,
+      "open_issues": 0,
+      "license": "MIT License",
+      "readme_preview": "# Data Visualization Solutions for Beginners [Video]\nThis is the code repository for [Data Visualization Solutions for Beginners [Video]](https://www.packtpub.com/big-data-and-business-intelligence/data-visualization-solutions-beginners-video?utm_source=github&utm_medium=repository&utm_campaign=9781788395786), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the video course from start to finish.\n## About th..."
+    }
+  },
+  {
+    "title": "Startup VC linkage India",
+    "url": "https://gist.github.com/manishsans/d36a8ab05d5b339921705c03fdd5e5b0",
+    "snippet": "Djubo.Com, Ibibo Group. Eazy Coach, Ravi Agarwal. Instasafe, Undisclosed Investors. Rollmafia, Equentia Natural Resources. Betterbutter.In, Growx Ventures.Read more",
+    "source": "github_search",
+    "filetype": "github_repo",
+    "repository_details": {
+      "owner": "manishsans",
+      "repo": "d36a8ab05d5b339921705c03fdd5e5b0",
+      "full_name": "manishsans/d36a8ab05d5b339921705c03fdd5e5b0"
+    }
+  },
+  {
+    "title": "Case-Study-on-Startup-Funding/Startup_Funding.ipynb ...",
+    "url": "https://github.com/abhisngh/Case-Study-on-Startup-Funding/blob/master/Startup_Funding.ipynb",
+    "snippet": "... Djubo.com', 'Reverie', 'Infinite Analytics', 'Retigence Technologies', 'NxtGen', 'Gozoomo', 'Goqii', 'Paper Boat', 'Wudstay', 'Liases Foras', 'Saavn ...Read more",
+    "source": "github_search",
+    "filetype": "github_repo",
+    "repository_details": {
+      "owner": "abhisngh",
+      "repo": "Case-Study-on-Startup-Funding",
+      "full_name": "abhisngh/Case-Study-on-Startup-Funding",
+      "description": null,
+      "stars": 1,
+      "forks": 1,
+      "language": "Jupyter Notebook",
+      "created_at": "2020-04-18T09:23:18Z",
+      "updated_at": "2020-05-29T20:08:13Z",
+      "has_wiki": true,
+      "has_pages": false,
+      "open_issues": 0,
+      "license": "MIT License",
+      "readme_preview": "# Startup Funding\nThis Project is for the Analysis Purpose where the Dataset is provided with some questions and that need to answer from the\nthe same Dataset.\n\n# Dataset\nThis dataset has funding information of the Indian startups from January 2015 to August 2017.\nFeature Details :\n\nSNo - Serial number.\nDate - Date of funding in format DD/MM/YYYY.\nStartupName - Name of the startup which got funded.\nIndustryVertical - Industry to which the startup belongs.\nSubVertical - Sub-category of the indust..."
+    }
+  },
+  {
+    "title": "Indian Startup Funding Insights.ipynb",
+    "url": "https://github.com/blaine12100/Indian-Startup-Funding-Analysis/blob/master/Indian%20Startup%20Funding%20Insights.ipynb",
+    "snippet": "... Djubo.com 1 Unnati Helpers 1 Happy2Refer 1 RevX 1 Lets Endorse 1 Toffee 1 Unocoin 1 Prepathon 1 Vidgyor 1 Lumiere 1 Gameezop 1 MagicX 1 TaxiVaxi 1 ...Read more",
+    "source": "github_search",
+    "filetype": "github_repo",
+    "repository_details": {
+      "owner": "blaine12100",
+      "repo": "Indian-Startup-Funding-Analysis",
+      "full_name": "blaine12100/Indian-Startup-Funding-Analysis",
+      "description": "This Repository contains an analysis of the dataset Uploaded on Kaggle By SRK for Startup funding in India.This is currently a work in progress and will be updated as time permits.",
+      "stars": 2,
+      "forks": 0,
+      "language": "Jupyter Notebook",
+      "created_at": "2019-12-10T19:00:48Z",
+      "updated_at": "2026-01-06T10:36:14Z",
+      "has_wiki": true,
+      "has_pages": false,
+      "open_issues": 0,
+      "license": "",
+      "readme_preview": "# Indian-Startup-Funding-Analysis\nThis Repository contains an analysis of the dataset Uploaded on Kaggle By SRK for Startup funding in India.This is currently a work in progress and will be updated as time permits.\n"
+    }
+  },
+  {
+    "title": "ynxaron",
+    "url": "https://github.com/ynxaron",
+    "snippet": "An Attendance Cum Profile Overview App for DJUBO. Python. ohhSvelteDev ohhSvelteDev Public. This Repo Would Add Solutions To The Question On Svelte Roadmap.",
+    "source": "github_search",
+    "filetype": "github_repo",
+    "repository_details": {}
+  },
+  {
+    "title": "my_file.txt",
+    "url": "https://gist.github.com/4721933",
+    "snippet": "GitHub Gist: instantly share code, notes, and snippets. djubo,Djubo djubog,Djubog",
+    "source": "github_search",
+    "filetype": "github_repo",
+    "repository_details": {}
+  },
+  {
+    "title": "Indian-Startup-Funding-/startup_funding.csv at gh-pages",
+    "url": "https://github.com/DeepakKumarGS/Indian-Startup-Funding-/blob/gh-pages/startup_funding.csv",
+    "snippet": "Exploratory Data Analysis of Startup funding in India using dataset from Kaggle. Search code, repositories, users, issues, pull requests...",
+    "source": "github_search",
+    "filetype": "github_repo",
+    "repository_details": {
+      "owner": "DeepakKumarGS",
+      "repo": "Indian-Startup-Funding-",
+      "full_name": "DeepakKumarGS/Indian-Startup-Funding-",
+      "description": "Exploratory Data Analysis of Startup funding in India using dataset from Kaggle.",
+      "stars": 4,
+      "forks": 5,
+      "language": "HTML",
+      "created_at": "2017-10-28T07:58:25Z",
+      "updated_at": "2026-04-23T02:55:13Z",
+      "has_wiki": true,
+      "has_pages": true,
+      "open_issues": 0,
+      "license": "MIT License",
+      "readme_preview": "# Indian-Startup-Funding\n\nAn indepth analysis and report on Indian Startup Funding from 2015 to 2017.Dataset consist of 2000 observations and 10 variables.Perfomed data wrangling,data visualisation and report.\n\nTo view the report pls follow this link : https://deepakkumargs.github.io/Indian-Startup-Funding-/\n"
+    }
+  }
+]

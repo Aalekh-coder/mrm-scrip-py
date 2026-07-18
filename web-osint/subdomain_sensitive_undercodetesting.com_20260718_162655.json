@@ -1,0 +1,282 @@
+{
+  "domain": "undercodetesting.com",
+  "search_time": "2026-07-18T16:23:32.596961",
+  "total_subdomains": 2,
+  "subdomains": [
+    {
+      "subdomain": "bounty.undercodetesting.com",
+      "repositories": [
+        {
+          "url": "https://github.com/The-OSINT-Newsletter/OSINT-Tools-Library/blob/GitBook/osint-tools/picarta.md",
+          "title": "picarta.md - The-OSINT-Newsletter/OSINT-Tools-Library",
+          "snippet": "OpenStreetMap. Sources. https://picarta.ai/ · https://www.crunchbase.com/organization/picarta · https://devhunt.org/tool/picarta · https://undercodetesting.com ...",
+          "details": {
+            "type": "repository",
+            "owner": "The-OSINT-Newsletter",
+            "repo": "OSINT-Tools-Library",
+            "full_name": "The-OSINT-Newsletter/OSINT-Tools-Library",
+            "description": "A resource for open source intelligence investigators produced and maintained by the OSINT Newsletter & community.",
+            "stars": 66,
+            "forks": 14,
+            "language": null,
+            "created_at": "2026-03-21T18:01:26Z",
+            "updated_at": "2026-07-18T05:11:33Z",
+            "license": "",
+            "default_branch": "GitBook",
+            "has_sensitive_data": false
+          }
+        },
+        {
+          "url": "https://github.com/The-OSINT-Newsletter/OSINT-Tools-Library/blob/GitBook/osint-tools/fofa.md",
+          "title": "fofa.md - The-OSINT-Newsletter/OSINT-Tools-Library",
+          "snippet": "https://undercodetesting.com/cryptominer-threat-hunting-using-osint-and-fofa/ https://www.sciencedirect.com/science/article/pii/S2949715925000459 · https://x ...",
+          "details": {
+            "type": "repository",
+            "owner": "The-OSINT-Newsletter",
+            "repo": "OSINT-Tools-Library",
+            "full_name": "The-OSINT-Newsletter/OSINT-Tools-Library",
+            "description": "A resource for open source intelligence investigators produced and maintained by the OSINT Newsletter & community.",
+            "stars": 66,
+            "forks": 14,
+            "language": null,
+            "created_at": "2026-03-21T18:01:26Z",
+            "updated_at": "2026-07-18T05:11:33Z",
+            "license": "",
+            "default_branch": "GitBook",
+            "has_sensitive_data": false
+          }
+        },
+        {
+          "url": "https://github.com/The-OSINT-Newsletter/OSINT-Tools-Library/blob/GitBook/osint-tools/telegram-spoiler-decoder.md",
+          "title": "OSINT-Tools-Library/osint-tools/telegram-spoiler-decoder.md at ...",
+          "snippet": "http://undercodetesting.com/unmasking-hidden-messages-how-this-free-osint-tool-cracks-telegrams-secret-spoiler-code-video/. Footer. © 2026 GitHub, Inc. Footer ...",
+          "details": {
+            "type": "repository",
+            "owner": "The-OSINT-Newsletter",
+            "repo": "OSINT-Tools-Library",
+            "full_name": "The-OSINT-Newsletter/OSINT-Tools-Library",
+            "description": "A resource for open source intelligence investigators produced and maintained by the OSINT Newsletter & community.",
+            "stars": 66,
+            "forks": 14,
+            "language": null,
+            "created_at": "2026-03-21T18:01:26Z",
+            "updated_at": "2026-07-18T05:11:33Z",
+            "license": "",
+            "default_branch": "GitBook",
+            "has_sensitive_data": false
+          }
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-3qf4-5xvv-769w",
+          "title": "Shenzhen TVT Digital Technology Co., Ltd. NVMS-9000...",
+          "snippet": "Nov 24, 2025 — https://undercodetesting.com/eleven11-botnet-mirai-variant-targeting-nvms-9000-devices · https://www.greynoise.io/blog/surge-exploitation ...Read more",
+          "details": {
+            "type": "repository",
+            "owner": "advisories",
+            "repo": "GHSA-3qf4-5xvv-769w",
+            "full_name": "advisories/GHSA-3qf4-5xvv-769w"
+          }
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-w8q2-24wh-63pr",
+          "title": "The QVidium Opera11 device (firmware version 2.9.0-Ax4x...",
+          "snippet": "The QVidium Opera11 device (firmware version 2.9.0-Ax4x-opera11) is vulnerable to Remote Code Execution (RCE) due to improper input validation on the ...",
+          "details": {
+            "type": "repository",
+            "owner": "advisories",
+            "repo": "GHSA-w8q2-24wh-63pr",
+            "full_name": "advisories/GHSA-w8q2-24wh-63pr"
+          }
+        },
+        {
+          "url": "https://github.com/christosgalano/sKaleQL",
+          "title": "sKaleQL is an opinionated template repository ...",
+          "snippet": "sKaleQL is a comprehensive template repository for managing, executing, and organizing Kusto Query Language (KQL) queries against Azure Log Analytics ...Read more",
+          "details": {
+            "type": "repository",
+            "owner": "christosgalano",
+            "repo": "sKaleQL",
+            "full_name": "christosgalano/sKaleQL"
+          }
+        },
+        {
+          "url": "https://github.com/w3c/wot-thing-description/blob/master/testing/report.html",
+          "title": "wot-thing-description/testing/report.html at main",
+          "snippet": "Web of Things (WoT) Thing Description. Contribute to w3c/wot-thing-description development by creating an account on GitHub.",
+          "details": {
+            "type": "repository",
+            "owner": "w3c",
+            "repo": "wot-thing-description",
+            "full_name": "w3c/wot-thing-description"
+          }
+        },
+        {
+          "url": "https://github.com/BishopFox/VulnerableGWTApp",
+          "title": "An intentionally-vulnerable GWT-based web application to ...",
+          "snippet": "Dec 12, 2023 — An intentionally-vulnerable GWT-based web application to test tooling and techniques. It should only be used for testing detection and ...",
+          "details": {
+            "type": "repository",
+            "owner": "BishopFox",
+            "repo": "VulnerableGWTApp",
+            "full_name": "BishopFox/VulnerableGWTApp"
+          }
+        },
+        {
+          "url": "https://github.com/Nessa1609/CRASHCODES-1/blob/master/README.md",
+          "title": "README.md - Nessa1609/CRASHCODES-1",
+          "snippet": "TESTED BY UNDERCODE TESTING COMPANIE (U.T.C) MAIL US AT : UNDERCODETESTING@HOTMAIL.COM",
+          "details": {
+            "type": "repository",
+            "owner": "Nessa1609",
+            "repo": "CRASHCODES-1",
+            "full_name": "Nessa1609/CRASHCODES-1"
+          }
+        },
+        {
+          "url": "https://github.com/daniellowrie/ActiveDirectory-Pentest-Resources",
+          "title": "List of tools and resources for pentesting Microsoft Active ...",
+          "snippet": "List of tools and resources for pentesting Microsoft Active Directory. Create Vulnerable AD Lab, AD Pentesting Cheat Sheets, AD Pentesting Cheat-Sheets.Read more",
+          "details": {
+            "type": "repository",
+            "owner": "daniellowrie",
+            "repo": "ActiveDirectory-Pentest-Resources",
+            "full_name": "daniellowrie/ActiveDirectory-Pentest-Resources"
+          }
+        }
+      ],
+      "sensitive_repositories": 0,
+      "total_sensitive_findings": 0
+    },
+    {
+      "subdomain": "www.undercodetesting.com",
+      "repositories": [
+        {
+          "url": "https://github.com/The-OSINT-Newsletter/OSINT-Tools-Library/blob/GitBook/osint-tools/picarta.md",
+          "title": "picarta.md - The-OSINT-Newsletter/OSINT-Tools-Library",
+          "snippet": "A resource for open source intelligence investigators produced and maintained by the OSINT Newsletter & community.",
+          "details": {
+            "type": "repository",
+            "owner": "The-OSINT-Newsletter",
+            "repo": "OSINT-Tools-Library",
+            "full_name": "The-OSINT-Newsletter/OSINT-Tools-Library"
+          }
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-w8q2-24wh-63pr",
+          "title": "The QVidium Opera11 device (firmware version 2.9.0-Ax4x...",
+          "snippet": "The QVidium Opera11 device (firmware version 2.9.0-Ax4x-opera11) is vulnerable to Remote Code Execution (RCE) due to improper input validation on the ...",
+          "details": {
+            "type": "repository",
+            "owner": "advisories",
+            "repo": "GHSA-w8q2-24wh-63pr",
+            "full_name": "advisories/GHSA-w8q2-24wh-63pr"
+          }
+        },
+        {
+          "url": "https://github.com/The-OSINT-Newsletter/OSINT-Tools-Library/blob/GitBook/osint-tools/telegram-spoiler-decoder.md",
+          "title": "OSINT-Tools-Library/osint-tools/telegram-spoiler-decoder.md at ...",
+          "snippet": "The Telegram Spoiler Decoder is a third-party tool that removes Telegram's spoiler formatting, allowing users to view text that has been intentionally hidden in ...",
+          "details": {
+            "type": "repository",
+            "owner": "The-OSINT-Newsletter",
+            "repo": "OSINT-Tools-Library",
+            "full_name": "The-OSINT-Newsletter/OSINT-Tools-Library"
+          }
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-3qf4-5xvv-769w",
+          "title": "Shenzhen TVT Digital Technology Co., Ltd. NVMS-9000...",
+          "snippet": "Nov 24, 2025 — https://undercodetesting.com/eleven11-botnet-mirai-variant-targeting-nvms-9000-devices · https://www.greynoise.io/blog/surge-exploitation ...Read more",
+          "details": {
+            "type": "repository",
+            "owner": "advisories",
+            "repo": "GHSA-3qf4-5xvv-769w",
+            "full_name": "advisories/GHSA-3qf4-5xvv-769w"
+          }
+        },
+        {
+          "url": "https://github.com/w3c/wot-thing-description/blob/master/testing/report.html",
+          "title": "wot-thing-description/testing/report.html at main",
+          "snippet": "Web of Things (WoT) Thing Description. Contribute to w3c/wot-thing-description development by creating an account on GitHub.",
+          "details": {
+            "type": "repository",
+            "owner": "w3c",
+            "repo": "wot-thing-description",
+            "full_name": "w3c/wot-thing-description"
+          }
+        },
+        {
+          "url": "https://github.com/christosgalano/sKaleQL",
+          "title": "sKaleQL is an opinionated template repository ...",
+          "snippet": "sKaleQL is a comprehensive template repository for managing, executing, and organizing Kusto Query Language (KQL) queries against Azure Log Analytics ...Read more",
+          "details": {
+            "type": "repository",
+            "owner": "christosgalano",
+            "repo": "sKaleQL",
+            "full_name": "christosgalano/sKaleQL"
+          }
+        },
+        {
+          "url": "https://github.com/daniellowrie/ActiveDirectory-Pentest-Resources",
+          "title": "List of tools and resources for pentesting Microsoft Active ...",
+          "snippet": "List of tools and resources for pentesting Microsoft Active Directory. Create Vulnerable AD Lab, AD Pentesting Cheat Sheets, AD Pentesting Cheat-Sheets.Read more",
+          "details": {
+            "type": "repository",
+            "owner": "daniellowrie",
+            "repo": "ActiveDirectory-Pentest-Resources",
+            "full_name": "daniellowrie/ActiveDirectory-Pentest-Resources"
+          }
+        },
+        {
+          "url": "https://github.com/Nessa1609/CRASHCODES-1/blob/master/README.md",
+          "title": "README.md - Nessa1609/CRASHCODES-1",
+          "snippet": "TO JOIN OUR WHATSAPP GROUPES FOR FREE KNOWLEDGE MAIL US AT : UNDERCODETESTING@HOTMAIL.COM. HOW TO CRASH WHATSAPP? SEE THIS YOUTUBE: https://youtu.be ...Read more",
+          "details": {
+            "type": "repository",
+            "owner": "Nessa1609",
+            "repo": "CRASHCODES-1",
+            "full_name": "Nessa1609/CRASHCODES-1"
+          }
+        },
+        {
+          "url": "https://github.com/BishopFox/VulnerableGWTApp",
+          "title": "An intentionally-vulnerable GWT-based web application to ...",
+          "snippet": "Dec 12, 2023 — An intentionally-vulnerable GWT-based web application to test tooling and techniques. It should only be used for testing detection and ...",
+          "details": {
+            "type": "repository",
+            "owner": "BishopFox",
+            "repo": "VulnerableGWTApp",
+            "full_name": "BishopFox/VulnerableGWTApp"
+          }
+        },
+        {
+          "url": "https://github.com/ZyXMysteryZyX/CrashCodes-2",
+          "title": "ZyXMysteryZyX/CrashCodes-2: POWERFULL CRASH ...",
+          "snippet": "POWERFULL CRASH CODES FOR WHATSAPP/ TESTED BY UNDERCODE TESTING COMPANIE (U.T.C) UNDERCODETESTING@HOTMAIL.COM",
+          "details": {
+            "type": "repository",
+            "owner": "ZyXMysteryZyX",
+            "repo": "CrashCodes-2",
+            "full_name": "ZyXMysteryZyX/CrashCodes-2"
+          }
+        },
+        {
+          "url": "https://github.com/The-OSINT-Newsletter/OSINT-Tools-Library/blob/GitBook/osint-tools/fofa.md",
+          "title": "fofa.md - The-OSINT-Newsletter/OSINT-Tools-Library",
+          "snippet": "https://undercodetesting.com/cryptominer-threat-hunting-using-osint-and-fofa/ https://www.sciencedirect.com/science/article/pii/S2949715925000459 · https://x ...",
+          "details": {
+            "type": "repository",
+            "owner": "The-OSINT-Newsletter",
+            "repo": "OSINT-Tools-Library",
+            "full_name": "The-OSINT-Newsletter/OSINT-Tools-Library"
+          }
+        }
+      ],
+      "sensitive_repositories": 0,
+      "total_sensitive_findings": 0
+    }
+  ],
+  "total_repositories": 21,
+  "total_sensitive_findings": 0,
+  "repositories_with_sensitive": 0
+}

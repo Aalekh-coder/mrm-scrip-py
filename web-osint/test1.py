@@ -13,7 +13,13 @@ except ImportError:
     print("Install with:  pip install requests")
     sys.exit(1)
 
+# Load the .env that sits next to this script so execution from other
+# working directories still picks up local secrets.
+load_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), ".env"))
+
 SERPAPI_KEY = os.getenv("SERPAPI_KEY")
+
+
 
 RESULTS_PER_TYPE = 10    # max results per file type (1 API call = 10 results)
 PAUSE_SECONDS    = 1     # seconds between API calls (SerpApi has no strict limit)

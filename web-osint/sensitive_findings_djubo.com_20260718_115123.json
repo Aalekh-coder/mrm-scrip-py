@@ -1,0 +1,188 @@
+{
+  "domain": "djubo.com",
+  "search_time": "2026-07-18T11:51:23.495589",
+  "total_findings": 22,
+  "findings_by_type": {
+    "google_sensitive_file": 10,
+    "google_sensitive_content": 6,
+    "github_sensitive_file": 6
+  },
+  "findings": [
+    {
+      "title": "How Hotels Can Use Guest Data to Drive Repeat Stays ...",
+      "url": "https://www.djubo.com/blog/hotel-guest-data-repeat-stays-lifetime-value",
+      "snippet": "Apr 26, 2026 — Discover how hotels can turn raw PMS data into personalised guest experiences that drive repeat stays and higher lifetime value through ...",
+      "file_type": "application.properties",
+      "description": "Java properties",
+      "search_type": "google_sensitive_file"
+    },
+    {
+      "title": "DJUBO — Smarter Hotel. Higher Revenue.",
+      "url": "https://djubo.com/",
+      "snippet": "Download our mobile apps and manage your property on the go. Full property management in your pocket.",
+      "file_type": "application.properties",
+      "description": "Java properties",
+      "search_type": "google_sensitive_file"
+    },
+    {
+      "title": "Self Check-in Kiosk — DJUBO Xpress",
+      "url": "https://www.djubo.com/products/self-checkin",
+      "snippet": "Let guests check themselves in via a tablet kiosk. Manage your hotel from anywhere. Full PMS access, reservations, room status and revenue reports from your ...",
+      "file_type": "application.properties",
+      "description": "Java properties",
+      "search_type": "google_sensitive_file"
+    },
+    {
+      "title": "How a Modern Hotel PMS Eliminates Front Desk Bottlenecks",
+      "url": "https://www.djubo.com/blog/hotel-pms-front-desk-bottlenecks",
+      "snippet": "Jul 8, 2026 — A PMS that surfaces guest history and real-time availability at check-in turns upselling from a sales tactic into attentive hospitality — a ...Read more",
+      "file_type": "application.properties",
+      "description": "Java properties",
+      "search_type": "google_sensitive_file"
+    },
+    {
+      "title": "Request a Demo | DJUBO Hotel Management Software",
+      "url": "https://www.djubo.com/contact",
+      "snippet": "Book a free demo of DJUBO's hotel management software. Trusted by 2500+ hotels in 19 countries. Our team responds within 24 hours.",
+      "file_type": "application.properties",
+      "description": "Java properties",
+      "search_type": "google_sensitive_file"
+    },
+    {
+      "title": "Press & Media | DJUBO Hotel Management Software",
+      "url": "https://www.djubo.com/press",
+      "snippet": "1,182 hotels and growing. DJUBO crosses 1,000 active hotel properties. Launches iOS app, QuickPay portal and TripAdvisor integration.Read more",
+      "file_type": "application.properties",
+      "description": "Java properties",
+      "search_type": "google_sensitive_file"
+    },
+    {
+      "title": "Hotel Management Software Built for Hoteliers",
+      "url": "https://www.djubo.com/about",
+      "snippet": "DJUBO was designed from day one for independent hotels, boutique properties and growing chains. One relationship. One contract, one support team, one invoice ...Read more",
+      "file_type": "application.properties",
+      "description": "Java properties",
+      "search_type": "google_sensitive_file"
+    },
+    {
+      "title": "Partner Programme | DJUBO Hotel Management Software",
+      "url": "https://www.djubo.com/partners",
+      "snippet": "Earn commissions by referring hotels to the leading integrated hotel technology suite. Fill in our partner application form. start bringing hotels to DJUBO. ...",
+      "file_type": "application.properties",
+      "description": "Java properties",
+      "search_type": "google_sensitive_file"
+    },
+    {
+      "title": "API Documentation | DJUBO Hotel Management Software",
+      "url": "https://www.djubo.com/api-docs",
+      "snippet": "Integrate your systems with DJUBO using our REST API. Access reservations, inventory, rates and guest data programmatically — built for developers who want full ...Read more",
+      "file_type": "application.properties",
+      "description": "Java properties",
+      "search_type": "google_sensitive_file"
+    },
+    {
+      "title": "Hotel Management App",
+      "url": "https://www.djubo.com/products/hotel-management-app",
+      "snippet": "Manage your hotel from anywhere. Full PMS access, reservations, room status and revenue reports from your phone.",
+      "file_type": "application.properties",
+      "description": "Java properties",
+      "search_type": "google_sensitive_file"
+    },
+    {
+      "title": "Forgotten password",
+      "url": "https://lms.djubo.com/login/forgot_password.php",
+      "snippet": "To reset your password, submit your username or your email address below. If we can find you in the database, an email will be sent to your email address ...",
+      "file_type": "password",
+      "description": "Sensitive content: Password in code",
+      "search_type": "google_sensitive_content"
+    },
+    {
+      "title": "Djubo",
+      "url": "https://bookings.djubo.com/",
+      "snippet": "Invalid User Name or Password. Forgot your password?",
+      "file_type": "password",
+      "description": "Sensitive content: Password in code",
+      "search_type": "google_sensitive_content"
+    },
+    {
+      "title": "DJUBO Learning Portal",
+      "url": "https://lms.djubo.com/mod/customcert/verify_certificate.php",
+      "snippet": "Skip to main content. DJUBO Learning Portal. Username. Password Log in. Create new account · Home · Verify Certificate; More. Search courses. DJUBO Learning ...",
+      "file_type": "password",
+      "description": "Sensitive content: Password in code",
+      "search_type": "google_sensitive_content"
+    },
+    {
+      "title": "DJUBO Learning Portal: Home",
+      "url": "https://lms.djubo.com/",
+      "snippet": "Password Log in. Create new account · Home · Verify Certificate; More. Search courses. slideshow banner. Bringing Innovation to Hoteliers to maximise revenue.",
+      "file_type": "password",
+      "description": "Sensitive content: Password in code",
+      "search_type": "google_sensitive_content"
+    },
+    {
+      "title": "Data retention summary",
+      "url": "https://lms.djubo.com/admin/tool/dataprivacy/summary.php",
+      "snippet": "Skip to main content. DJUBO Learning Portal. Username. Password Log in. Create new account · Home · Verify Certificate; More. Search courses. DJUBO Learning ...",
+      "file_type": "password",
+      "description": "Sensitive content: Password in code",
+      "search_type": "google_sensitive_content"
+    },
+    {
+      "title": "License Agreement | DJUBO Hotel Management Software",
+      "url": "https://www.djubo.com/legal-agreement",
+      "snippet": "The Licensee will be provided with a log-in ID and a password for accessing the booking information pertaining to the Hotel available on the Hotel Sales ...",
+      "file_type": "password",
+      "description": "Sensitive content: Password in code",
+      "search_type": "google_sensitive_content"
+    },
+    {
+      "title": "PacktPublishing/Data-Visualization-Solutions-for-Beginners",
+      "url": "https://github.com/PacktPublishing/Data-Visualization-Solutions-for-Beginners-/blob/master/Section%206/Data/startup_funding.csv",
+      "snippet": "Video Funding 233,000. Online Video production company Mumbai. Djubo.com Cloud Based Hotel Sales Platform",
+      "file_type": ".env.production",
+      "description": "GitHub: Production environment file",
+      "search_type": "github_sensitive_file"
+    },
+    {
+      "title": "Indian Startup Funding Insights.ipynb",
+      "url": "https://github.com/blaine12100/Indian-Startup-Funding-Analysis/blob/master/Indian%20Startup%20Funding%20Insights.ipynb",
+      "snippet": "This dataset is a chance to explore the Indian start up scene. Deep dive into funding data and derive insights into the future!Read more",
+      "file_type": ".env.development",
+      "description": "GitHub: Development environment file",
+      "search_type": "github_sensitive_file"
+    },
+    {
+      "title": "Indian-Startup-Funding-/startup_funding.csv at gh-pages",
+      "url": "https://github.com/DeepakKumarGS/Indian-Startup-Funding-/blob/gh-pages/startup_funding.csv",
+      "snippet": "Exploratory Data Analysis of Startup funding in India using dataset from Kaggle. To see all available qualifiers, see our documentation.",
+      "file_type": "settings.py",
+      "description": "GitHub: Python settings",
+      "search_type": "github_sensitive_file"
+    },
+    {
+      "title": "Startup VC linkage India",
+      "url": "https://gist.github.com/manishsans/d36a8ab05d5b339921705c03fdd5e5b0",
+      "snippet": "Djubo.Com, Ibibo Group. Eazy Coach, Ravi Agarwal. Instasafe, Undisclosed Investors. Rollmafia, Equentia Natural Resources. Betterbutter.In, Growx Ventures.",
+      "file_type": "application.properties",
+      "description": "GitHub: Java properties",
+      "search_type": "github_sensitive_file"
+    },
+    {
+      "title": "The Block List Project - Abuse List (adguard) · Issue #103",
+      "url": "https://github.com/jarelllama/Blocklist-Checker/issues/103",
+      "snippet": "APPLICATION SECURITY. GitHub Advanced SecurityFind and fix vulnerabilities · Code securitySecure your code as you build · Secret protectionStop leaks before ...",
+      "file_type": "application.properties",
+      "description": "GitHub: Java properties",
+      "search_type": "github_sensitive_file"
+    },
+    {
+      "title": "Case-Study-on-Startup-Funding/Startup_Funding.ipynb ...",
+      "url": "https://github.com/abhisngh/Case-Study-on-Startup-Funding/blob/master/Startup_Funding.ipynb",
+      "snippet": "APPLICATION SECURITY. GitHub Advanced SecurityFind and fix vulnerabilities · Code ... Djubo.com', 'Reverie', 'Infinite Analytics', 'Retigence Technologies ...",
+      "file_type": "application.properties",
+      "description": "GitHub: Java properties",
+      "search_type": "github_sensitive_file"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+[
+  {
+    "title": "edtechhub/kerko-docs.edtechhub.org",
+    "url": "https://github.com/edtechhub/kerko-docs.edtechhub.org",
+    "snippet": "Contribute to edtechhub/kerko-docs.edtechhub.org development by creating an account on GitHub ... git clone https://github.com/edtechhub/kerko-docs.edtechhub.org ...",
+    "source": "github_search",
+    "filetype": "github_repo",
+    "repository_details": {
+      "type": "repository",
+      "owner": "edtechhub",
+      "repo": "kerko-docs.edtechhub.org",
+      "full_name": "edtechhub/kerko-docs.edtechhub.org",
+      "description": null,
+      "stars": 1,
+      "forks": 2,
+      "language": "Python",
+      "created_at": "2019-12-06T10:51:53Z",
+      "updated_at": "2024-04-11T08:01:56Z",
+      "has_wiki": true,
+      "has_pages": false,
+      "open_issues": 1,
+      "license": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "readme_preview": "# EdTechHubLib - The EdTech Hub Evidence Library application\n\nThis application uses [Kerko] to provide a user-friendly search and browsing\nweb interface for a bibliography managed with the [Zotero] reference manager.\n\nThis is a fork of [KerkoApp] (version 1.0).\n\n## About this application\n\nSome things to know:\n\n- Although the structure and some bits of code are similar to the standard\n  KerkoApp, there is no guaranty that this application is compatible with\n  KerkoApp in any way. Since this appli..."
+    }
+  },
+  {
+    "title": "EdTech Hub",
+    "url": "https://github.com/edtechhub",
+    "snippet": "Scripts for interacting with the Zotero API and the Zenodo API. JavaScript 2 2 · kerko-docs.edtechhub.org kerko-docs.edtechhub.org Public. Python 1 2 ...Read more",
+    "source": "github_search",
+    "filetype": "github_repo",
+    "repository_details": {
+      "type": "unknown"
+    }
+  },
+  {
+    "title": "edtechhub/zotero-edtechhub",
+    "url": "https://github.com/edtechhub/zotero-edtechhub",
+    "snippet": "Embedded item ids turn into links to our public evidence library, available here https://docs.edtechhub.org (which uses https://github.com/edtechhub/eth ...Read more",
+    "source": "github_search",
+    "filetype": "github_repo",
+    "repository_details": {
+      "type": "repository",
+      "owner": "edtechhub",
+      "repo": "zotero-edtechhub",
+      "full_name": "edtechhub/zotero-edtechhub",
+      "description": null,
+      "stars": 15,
+      "forks": 4,
+      "language": "TypeScript",
+      "created_at": "2019-07-21T13:56:04Z",
+      "updated_at": "2026-04-13T12:38:53Z",
+      "has_wiki": true,
+      "has_pages": false,
+      "open_issues": 13,
+      "license": "",
+      "readme_preview": "Edtechhub\n=================\n\n[![Greenkeeper badge](https://badges.greenkeeper.io/edtechhub/zotero-edtechhub.svg)](https://greenkeeper.io/)\n\nInstall by downloading the [latest version](https://github.com/edtechhub/zotero-edtechhub/releases/latest)\n\n# EdTech hub companion plugin for Zotero\n\nThis is a plugin for Zotero, developed by [@retorquere](https://github.com/retorquere) and [@bjohas](https://github.com/bjohas) for use in the EdTech Hub. Contributions by @ZainaSaadeddin and @sheraz-ishaq.\n\nTo..."
+    }
+  },
+  {
+    "title": "edtechhub/zotero-cli: Commandline interface for Zotero",
+    "url": "https://github.com/edtechhub/zotero-cli",
+    "snippet": "A commandline tool to interact with the Zotero API. Get help with zotero-cli -h which returns a set of commands, such as key, collection, collections, items, © ...",
+    "source": "github_search",
+    "filetype": "github_repo",
+    "repository_details": {
+      "type": "repository",
+      "owner": "edtechhub",
+      "repo": "zotero-cli",
+      "full_name": "edtechhub/zotero-cli",
+      "api_error": "HTTP 403"
+    }
+  },
+  {
+    "title": "Releases · edtechhub/zotzen-cli",
+    "url": "https://github.com/edtechhub/zotzen-cli/releases",
+    "snippet": "Scripts for interacting with the Zotero API and the Zenodo API. command line interface to move data between Zotero and Zenodo … released this Nov 16, 2020",
+    "source": "github_search",
+    "filetype": "github_repo",
+    "repository_details": {
+      "type": "repository",
+      "owner": "edtechhub",
+      "repo": "zotzen-cli",
+      "full_name": "edtechhub/zotzen-cli",
+      "api_error": "HTTP 403"
+    }
+  },
+  {
+    "title": "spud/requirements.txt at master · edtechhub/spud",
+    "url": "https://github.com/edtechhub/spud/blob/master/requirements.txt",
+    "snippet": "Contribute to edtechhub/spud development by creating an account on GitHub. Search code, repositories, users, issues, pull requests...",
+    "source": "github_search",
+    "filetype": "github_repo",
+    "repository_details": {
+      "type": "repository",
+      "owner": "edtechhub",
+      "repo": "spud",
+      "full_name": "edtechhub/spud",
+      "api_error": "HTTP 403"
+    }
+  },
+  {
+    "title": "edtech-corpus",
+    "url": "https://github.com/edtech-corpus/corpus",
+    "snippet": "This repository contains a snapshot of the data used for the paper \"Digital Classrooms and Real Harms\".",
+    "source": "github_search",
+    "filetype": "github_repo",
+    "repository_details": {
+      "type": "repository",
+      "owner": "edtech-corpus",
+      "repo": "corpus",
+      "full_name": "edtech-corpus/corpus",
+      "api_error": "HTTP 403"
+    }
+  },
+  {
+    "title": "Open Development & Education",
+    "url": "https://github.com/OpenDevEd",
+    "snippet": "edtechhub/zenodo-cli-python. Seamlessly log your AI-powered coding conversations. This command-line interface (CLI) tool captures your terminal interactions ...",
+    "source": "github_search",
+    "filetype": "github_repo",
+    "repository_details": {
+      "type": "unknown"
+    }
+  }
+]

@@ -1,0 +1,64 @@
+[
+  {
+    "title": "kriti-banka/college-vidya-app-flutter",
+    "url": "https://github.com/kriti-banka/college-vidya-app-flutter",
+    "snippet": "A mobile app that provided its users with a smooth user experience, straightforward navigation, and vital functionality. The app titled “College Vidya” aims ...",
+    "source": "github_search",
+    "filetype": "github_repo",
+    "repository_details": {
+      "owner": "kriti-banka",
+      "repo": "college-vidya-app-flutter",
+      "full_name": "kriti-banka/college-vidya-app-flutter",
+      "description": null,
+      "stars": 0,
+      "forks": 1,
+      "language": "Dart",
+      "created_at": "2023-06-05T12:35:22Z",
+      "updated_at": "2024-06-06T14:28:22Z",
+      "has_wiki": true,
+      "has_pages": false,
+      "open_issues": 0,
+      "license": "",
+      "readme_preview": "# collegevidya\n\nA mobile app that provided its users with a smooth user experience, straightforward navigation, and vital functionality. The app titled “College Vidya” aims to revolutionize the user experience from a website to mobile application. In a mobile application, it’s a lot convenient for user to handle their own account. \n\n## Getting Started\n\nThis project is a starting point for a Flutter application.\n\nA few resources to get you started if this is your first Flutter project:\n\n- [Lab: W..."
+    }
+  },
+  {
+    "title": "Ejaj Ahmad ejajahmad",
+    "url": "https://github.com/ejajahmad",
+    "snippet": "Full-Stack Developer @ InsideEdge (College Vidya) Building scalable real-time platforms using WebRTC, WebSockets & modern architectures. About Me. I ...",
+    "source": "github_search",
+    "filetype": "github_repo",
+    "repository_details": {}
+  },
+  {
+    "title": "kriti-banka",
+    "url": "https://github.com/kriti-banka",
+    "snippet": "College Vidya App. Description: CollegeVidya is a feature-rich mobile app crafted with Flutter, blending Dart and Java for a seamless frontend experience.",
+    "source": "github_search",
+    "filetype": "github_repo",
+    "repository_details": {}
+  },
+  {
+    "title": "alberto-rj/age-calculator-app - Frontend Mentor",
+    "url": "https://github.com/alberto-rj/age-calculator-app",
+    "snippet": "How to calculate age in year, month and day. Useful resources. College Vidya Tool - Age calculator app - Here is where I've easily learned how to calculate ...",
+    "source": "github_search",
+    "filetype": "github_repo",
+    "repository_details": {
+      "owner": "alberto-rj",
+      "repo": "age-calculator-app",
+      "full_name": "alberto-rj/age-calculator-app",
+      "description": "This is a solution to the \"Age calculator app\" challenge on Frontend Mentor",
+      "stars": 0,
+      "forks": 0,
+      "language": "JavaScript",
+      "created_at": "2024-04-02T16:01:53Z",
+      "updated_at": "2024-07-18T11:19:38Z",
+      "has_wiki": true,
+      "has_pages": true,
+      "open_issues": 0,
+      "license": "MIT License",
+      "readme_preview": "# Frontend Mentor - Age calculator app solution\n\n![Desktop version screenshot](./design/solution-desktop.png)\n\nThis is a solution to the [Age calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q). Frontend Mentor challenges help you improve your coding skills by building realistic projects.\n\n## Table of contents\n\n- [Overview](#overview)\n  - [The challenge](#the-challenge)\n  - [Screenshot](#screenshot)\n  - [Links](#links)\n- [My proces..."
+    }
+  }
+]

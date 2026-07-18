@@ -1,0 +1,250 @@
+[
+  {
+    "title": "List of some SAP SuccessFactors Recruiting Marketing ...",
+    "url": "https://gist.github.com/joergrech/c7c7415896897fc62192052c2f898209",
+    "snippet": "careers.carlsberg.com. careers.cbh.com.au. careers.ccbss.com. careers.cdmig.com. careers.ceetelcogroup.com. careers.celestica.com. careers.centralgroup.com.",
+    "source": "github_search",
+    "filetype": "github_repo",
+    "repository_details": {
+      "type": "gist",
+      "gist_id": "joergrech",
+      "note": "GitHub Gist (not a repository)"
+    }
+  },
+  {
+    "title": "forbesglobal2000-2016-clean.csv",
+    "url": "https://github.com/uwdata/latent-space-cartography/blob/master/spider_logo/input/forbesglobal2000-2016-clean.csv",
+    "snippet": "carlsberg.com, carlsberg, 1017, Carlsberg, Denmark, -435, 14691, Cees't Hart, 9716, Denmark, Beverages. 376. carnivalcorp.com, carnival, 311, Carnival, United ...",
+    "source": "github_search",
+    "filetype": "github_repo",
+    "repository_details": {
+      "type": "repository",
+      "owner": "uwdata",
+      "repo": "latent-space-cartography",
+      "full_name": "uwdata/latent-space-cartography",
+      "description": "Visual analysis of vector space embeddings",
+      "stars": 84,
+      "forks": 13,
+      "language": "HTML",
+      "created_at": "2018-02-06T23:50:34Z",
+      "updated_at": "2026-04-12T15:50:08Z",
+      "has_wiki": true,
+      "has_pages": false,
+      "open_issues": 11,
+      "license": "Other",
+      "readme_preview": "# Latent Space Cartography\n\n[![Build Status](https://travis-ci.org/uwdata/latent-space-cartography.svg?branch=master)](https://travis-ci.org/uwdata/latent-space-cartography)\n[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)\n\nLatent Space Cartography (LSC) is a visual analysis tool for mapping and comparing meaningful \"semantic\" dimensions in latent spaces. This repository contains the source code of LSC and includes three ex..."
+    }
+  },
+  {
+    "title": "test-lists/lists/ir.csv at master · citizenlab ...",
+    "url": "https://github.com/citizenlab/test-lists/blob/master/lists/ir.csv",
+    "snippet": "https://www.carlsberg.com/en/, ALDR, Alcohol & Drugs, 2014-04-15, citizenlab, blocked with 503 error code. 242. https://www.dd-sunnah.net/, REL, Religion, 2014- ...",
+    "source": "github_search",
+    "filetype": "github_repo",
+    "repository_details": {
+      "type": "repository",
+      "owner": "citizenlab",
+      "repo": "test-lists",
+      "full_name": "citizenlab/test-lists",
+      "description": "URL testing lists intended for discovering website censorship",
+      "stars": 540,
+      "forks": 350,
+      "language": "Python",
+      "created_at": "2014-04-15T19:14:11Z",
+      "updated_at": "2026-07-10T04:35:42Z",
+      "has_wiki": true,
+      "has_pages": false,
+      "open_issues": 117,
+      "license": "",
+      "readme_preview": "Usage\n=====\n\nWhat Is It?\n===========\n\nContained are URL testing lists intended to help in testing URL censorship,\ndivided by country codes.   In addition to these *local* lists, the *global*\nlist consists of a wide range of internationally relevant and popular websites,\nincluding sites with content that is perceived to be provocative or\nobjectionable.  Most of the websites on the global list are in English.  In\ncontrast, the local lists are designed individually for each country by regional\nexpe..."
+    }
+  },
+  {
+    "title": "pod.csv",
+    "url": "https://github.com/okfn/opd-brand-manager/blob/master/manager/apps/brand/management/commands/pod.csv",
+    "snippet": "http://www.carlsberg.com. 1589. DNWHXC, Flora, 2, 1, http://www.flora.com. 1590. DNZ8FG, Babyganics, NULL, 1, http://www.babyganics.com. 1591. DP43DC, Dalvic ...",
+    "source": "github_search",
+    "filetype": "github_repo",
+    "repository_details": {
+      "type": "repository",
+      "owner": "okfn",
+      "repo": "opd-brand-manager",
+      "full_name": "okfn/opd-brand-manager",
+      "description": "A web interface for managing a directory of brands for the Open Product Data working group.",
+      "stars": 13,
+      "forks": 8,
+      "language": "Python",
+      "created_at": "2013-11-13T11:23:05Z",
+      "updated_at": "2025-07-26T23:11:33Z",
+      "has_wiki": true,
+      "has_pages": false,
+      "open_issues": 19,
+      "license": "MIT License",
+      "readme_preview": "# 1 - DESCRIPTION\n\nThis is the source code corresponding to [Open Knowledge Foundation Open Product Data] [1] brand manager developped with Python Django framework version 1.6.\n\n[1]: <http://product.okfn.org> \"OKFN Open Product Data website\"\n\n# 2 - INSTALLATION\n\n## 21 - DEVELOPMENT ENVIRONMENT\n\n### 211 - PREREQUISITES\n\n**Mandatory :**\n\n* [Python 2.7.5+] [2]\n* [Pip 1.3.1+] [3]\n* [VirtualEnv 1.9+] [4]\n* [PostgreSQL 9.1.9] [5]\n* [libffi 3.0.13+] [6]\n* [ElasticSearch 0.90.8+] [7]\n\n[2]: <http://www.p..."
+    }
+  },
+  {
+    "title": "Carlsberg Group",
+    "url": "https://github.com/customer-stories/carlsberg-group",
+    "snippet": "Carlsberg unifies development on GitHub Enterprise and accelerates innovation with Copilot. 600 secrets detected in Source Code with GitHub Secret Scanning.",
+    "source": "github_search",
+    "filetype": "github_repo",
+    "repository_details": {
+      "type": "repository",
+      "owner": "customer-stories",
+      "repo": "carlsberg-group",
+      "full_name": "customer-stories/carlsberg-group",
+      "api_error": "HTTP 404"
+    }
+  },
+  {
+    "title": "Malty, probably the best code in the world.",
+    "url": "https://github.com/CarlsbergGBS/cx-component-library",
+    "snippet": "Malty is a Design System, and the code contained in this repository is its Component Library. Malty Carlsberg Group's. https://github.com/carlsberg/malty",
+    "source": "github_search",
+    "filetype": "github_repo",
+    "repository_details": {
+      "type": "repository",
+      "owner": "CarlsbergGBS",
+      "repo": "cx-component-library",
+      "full_name": "CarlsbergGBS/cx-component-library",
+      "description": "Malty, probably the best code in the world.",
+      "stars": 3,
+      "forks": 1,
+      "language": "TypeScript",
+      "created_at": "2021-04-09T15:17:57Z",
+      "updated_at": "2024-09-23T13:26:56Z",
+      "has_wiki": false,
+      "has_pages": false,
+      "open_issues": 7,
+      "license": "MIT License",
+      "readme_preview": "# Malty Component Library\n\nMalty is a Design System, and the code contained in this repository is its Component Library.\n\n### Notes to keep in mind:\n\n- **You don't have to clone this repo** in order to use Malty, and this Component Library.\n- Development of components for this library **must be in close coordination with Malty's Maintainers**, and should only happen after previous coordination in [Malty's GitHub Discussions](https://github.com/CarlsbergGBS/cx-component-library/discussions) or an..."
+    }
+  },
+  {
+    "title": "Carlsberg",
+    "url": "https://github.com/carlsberg",
+    "snippet": "Carlsberg has 10 repositories available. Follow their code on GitHub. carlsberggroup.com … simplify starting and closing releases in GitFlow-based projects. ...",
+    "source": "github_search",
+    "filetype": "github_repo",
+    "repository_details": {
+      "type": "unknown"
+    }
+  },
+  {
+    "title": "Carlsberg GBS",
+    "url": "https://github.com/CarlsbergGBS",
+    "snippet": "We've verified that the organization CarlsbergGBS controls the domain: carlsberggroup.com. Learn more about verified organizations.",
+    "source": "github_search",
+    "filetype": "github_repo",
+    "repository_details": {
+      "type": "unknown"
+    }
+  },
+  {
+    "title": "Carlsberg Research Laboratory — Publications",
+    "url": "https://github.com/carlsberglaboratorium-publications/",
+    "snippet": "This organisation contains curated and versioned research artifacts from the Carlsberg Research Laboratory. Since 1875,",
+    "source": "github_search",
+    "filetype": "github_repo",
+    "repository_details": {
+      "type": "unknown"
+    }
+  },
+  {
+    "title": "carlsberg/gh-releaser",
+    "url": "https://github.com/carlsberg/gh-releaser/releases",
+    "snippet": "GitHub CLI extension to simplify starting and closing releases in GitFlow-based projects. - Releases · carlsberg/gh-releaser.",
+    "source": "github_search",
+    "filetype": "github_repo",
+    "repository_details": {
+      "type": "repository",
+      "owner": "carlsberg",
+      "repo": "gh-releaser",
+      "full_name": "carlsberg/gh-releaser",
+      "description": "GitHub CLI extension to simplify starting and closing releases in GitFlow-based projects.",
+      "stars": 25,
+      "forks": 2,
+      "language": "TypeScript",
+      "created_at": "2021-09-13T18:28:29Z",
+      "updated_at": "2026-06-18T06:45:36Z",
+      "has_wiki": false,
+      "has_pages": false,
+      "open_issues": 8,
+      "license": "MIT License",
+      "readme_preview": "# GitHub Releaser\n\n> [GitHub CLI](https://cli.github.com) extension to simplify starting and\n> closing releases in GitFlow-based projects.\n\n## Installation\n\n```bash\n$ gh extensions install carlsberg/gh-releaser\n```\n\n## Commands\n\n### `gh releaser start <tag>`\n\nStarts a new release.\n\n- Creates a release branch (i.e. `release/1.0.0`)\n- Creates a GitHub Release in _draft_\n- Creates a Pull Request to merge the release branch to the main branch\n\n### `gh releaser close`\n\nCloses an existing release.\n\n- ..."
+    }
+  },
+  {
+    "title": "carlsberg.github.io/README.md at main ...",
+    "url": "https://github.com/carlsberg/carlsberg.github.io/blob/main/README.md",
+    "snippet": "Contribute to carlsberg/carlsberg.github.io development by creating an account on GitHub. Search code, repositories, users, issues, pull requests... Edit and raw ...",
+    "source": "github_search",
+    "filetype": "github_repo",
+    "repository_details": {
+      "type": "repository",
+      "owner": "carlsberg",
+      "repo": "carlsberg.github.io",
+      "full_name": "carlsberg/carlsberg.github.io",
+      "description": null,
+      "stars": 1,
+      "forks": 0,
+      "language": null,
+      "created_at": "2021-09-07T08:53:58Z",
+      "updated_at": "2021-09-07T09:52:32Z",
+      "has_wiki": false,
+      "has_pages": true,
+      "open_issues": 0,
+      "license": "",
+      "readme_preview": "# carlsberg.github.io"
+    }
+  },
+  {
+    "title": "Resume-Screening/resume_dataset.csv at main",
+    "url": "https://github.com/anukalp-mishra/Resume-Screening/blob/main/resume_dataset.csv",
+    "snippet": "Machine Learning Project on Resume Screening using Python. The project involved analysing historic deals and coming with insights to optimize future deals. ...",
+    "source": "github_search",
+    "filetype": "github_repo",
+    "repository_details": {
+      "type": "repository",
+      "owner": "anukalp-mishra",
+      "repo": "Resume-Screening",
+      "full_name": "anukalp-mishra/Resume-Screening",
+      "description": "Machine Learning Project on Resume Screening using Python",
+      "stars": 75,
+      "forks": 32,
+      "language": "Jupyter Notebook",
+      "created_at": "2021-08-11T11:48:04Z",
+      "updated_at": "2026-05-08T04:34:48Z",
+      "has_wiki": true,
+      "has_pages": false,
+      "open_issues": 1,
+      "license": "",
+      "readme_preview": "# Resume Screening\n\nThis repository contains a machine learning project focused on automating the resume screening process using Python. The primary goal is to develop a model that can efficiently and accurately evaluate resumes based on predefined criteria.\n\n<img src=\"Cover.png\" alt=\"resume cover\">\n\n## Table of Contents\n\n- [Why do we need Resume Screening?](#why-do-we-need-resume-screening)\n- [Introduction](#introduction)\n- [Modules & Libraries](#modules--libraries)\n- [Functionality of Applicat..."
+    }
+  },
+  {
+    "title": "List of most used passwords (Why this approach??)",
+    "url": "https://gist.github.com/Lysak/a0ca30a3e6732d39199b27c170a8cd28",
+    "snippet": "List of most used passwords … instantly share code, notes, and snippets. ,carlsberg,woodbird,adnama,45auto,codyman,truck2,1w2w3w4w,pvjegu,method1,luetdi,41d8cd ...",
+    "source": "github_search",
+    "filetype": "github_repo",
+    "repository_details": {
+      "type": "gist",
+      "gist_id": "Lysak",
+      "note": "GitHub Gist (not a repository)"
+    }
+  },
+  {
+    "title": "List of some SAP SuccessFactors Recruiting Marketing ... - Gist",
+    "url": "https://gist.github.com/cetteup/76c6707b23217020d8f06020ad34149b",
+    "snippet": "careers.carlsberg.com. careers.cbh.com.au. careers.ccbss.com. careers.cdmig.com ... Sign up for free to join this conversation on GitHub. Already have an account?Read more",
+    "source": "github_search",
+    "filetype": "github_repo",
+    "repository_details": {
+      "type": "gist",
+      "gist_id": "cetteup",
+      "note": "GitHub Gist (not a repository)"
+    }
+  }
+]

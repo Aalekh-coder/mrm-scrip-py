@@ -1,0 +1,60 @@
+[
+  {
+    "title": "opensource.microsoft.com",
+    "url": "https://github.com/microsoft/opensource.microsoft.com",
+    "snippet": "The opensource.microsoft.com web site is a simple, factual web site sharing information about Microsoft's open source program, the open source ecosystem ...Read more",
+    "source": "github_search",
+    "filetype": "github_repo",
+    "repository_details": {
+      "type": "repository",
+      "owner": "microsoft",
+      "repo": "opensource.microsoft.com",
+      "full_name": "microsoft/opensource.microsoft.com",
+      "description": "This is the source code to the mostly-static Microsoft Open Source site featuring projects, program information, and \"get involved\" pages.",
+      "stars": 1140,
+      "forks": 565,
+      "language": "TypeScript",
+      "created_at": "2020-03-25T22:04:31Z",
+      "updated_at": "2026-07-17T04:35:29Z",
+      "has_wiki": false,
+      "has_pages": false,
+      "open_issues": 6,
+      "license": "MIT License",
+      "readme_preview": "# opensource.microsoft.com\r\n\r\nThe `opensource.microsoft.com` web site is a simple, factual web site sharing information about Microsoft's\r\nopen source program, the open source ecosystem that we support, and opportunities to get involved in projects\r\nand learn more.\r\n\r\nMost of the content is static, and Next.js is now used to generate that modern static site, ported from an\r\nold Jekyll site. The rendered site is retrieved at runtime by a separate site hosting solution.\r\n\r\nCreated by the Microsoft..."
+    }
+  },
+  {
+    "title": "Microsoft Azure",
+    "url": "https://github.com/azure",
+    "snippet": "We've verified that the organization Azure controls the domain: docs.microsoft.com. Learn more about verified organizations.Read more",
+    "source": "github_search",
+    "filetype": "github_repo",
+    "repository_details": {
+      "type": "unknown"
+    }
+  },
+  {
+    "title": "Official Microsoft Learn MCP Server and CLI tool ...",
+    "url": "https://github.com/microsoftdocs/mcp",
+    "snippet": "github .github · add Copilot CLI compatible plugin.json folder (#136). 4 ... codex mcp add \"microsoft-learn\" --url \"https://learn.microsoft.com/api/mcp\" ...Read more",
+    "source": "github_search",
+    "filetype": "github_repo",
+    "repository_details": {
+      "type": "repository",
+      "owner": "microsoftdocs",
+      "repo": "mcp",
+      "full_name": "microsoftdocs/mcp",
+      "description": "Official Microsoft Learn MCP Server and CLI tool – powering LLMs and AI agents with real-time, trusted Microsoft docs & code samples.",
+      "stars": 1780,
+      "forks": 216,
+      "language": "TypeScript",
+      "created_at": "2025-06-09T03:31:49Z",
+      "updated_at": "2026-07-16T19:22:53Z",
+      "has_wiki": true,
+      "has_pages": false,
+      "open_issues": 17,
+      "license": "Creative Commons Attribution 4.0 International",
+      "readme_preview": "# 🌟 Microsoft Learn MCP Server\n[![Install in VS Code](https://img.shields.io/badge/VS_Code-Install_Microsoft_Learn_MCP-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white)](https://vscode.dev/redirect/mcp/install?name=microsoft-learn&config=%7B%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Flearn.microsoft.com%2Fapi%2Fmcp%22%7D)\n[![Install in VS Code Insiders](https://img.shields.io/badge/VS_Code_Insiders-Install_Microsoft_Learn_MCP-24bfa5?style=flat-square&logo=visualstudiocod..."
+    }
+  }
+]

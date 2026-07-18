@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Diaper Framework.i7x",
+    "url": "https://github.com/aika092/TrapQuest/blob/master/Trap%20Quest.inform/Inform/Extensions/Knickers/Diaper%20Framework.i7x",
+    "snippet": "if D is in pink wardrobe, decide no; Definition: a pink bikini bottoms is soilable: decide no. if D is in pink wardrobe, decide no; diapers is a list of ...",
+    "source": "github_search",
+    "filetype": "github_repo",
+    "repository_details": {
+      "type": "repository",
+      "owner": "aika092",
+      "repo": "TrapQuest",
+      "full_name": "aika092/TrapQuest",
+      "description": "Partially redacted public version of the source code for the indie adult roguelike game.",
+      "stars": 41,
+      "forks": 59,
+      "language": "Inform 7",
+      "created_at": "2017-11-12T09:32:13Z",
+      "updated_at": "2026-04-05T14:57:11Z",
+      "has_wiki": true,
+      "has_pages": false,
+      "open_issues": 6,
+      "license": "",
+      "readme_preview": "# TrapQuest\r\n\r\n**PLEASE NOTE THAT THIS IS CURRENTLY NOT COMPILABLE - IT IS FOR INFORMATIONAL USE ONLY, TO CHECK INNACCURACIES ON THE WIKI. AIKA IS WORKING ON A COMPILABLE VERSION.**\r\n\r\nPartially redacted public version of the source code for the indie adult roguelike game.\r\n\r\nRead this first:\r\nhttps://github.com/aika092/TrapQuest/wiki/\r\n\r\n"
+    }
+  },
+  {
+    "title": "Cow Ears.i7x - TrapQuest",
+    "url": "https://github.com/aika092/TrapQuest/blob/master/Trap%20Quest.inform/Inform/Extensions/Headgear/Cow%20Ears.i7x",
+    "snippet": "Partially redacted public version of the source code for the indie adult roguelike game. - TrapQuest/Trap Quest.inform/Inform/Extensions/Headgear/Cow ...",
+    "source": "github_search",
+    "filetype": "github_repo",
+    "repository_details": {
+      "type": "repository",
+      "owner": "aika092",
+      "repo": "TrapQuest",
+      "full_name": "aika092/TrapQuest",
+      "description": "Partially redacted public version of the source code for the indie adult roguelike game.",
+      "stars": 41,
+      "forks": 59,
+      "language": "Inform 7",
+      "created_at": "2017-11-12T09:32:13Z",
+      "updated_at": "2026-04-05T14:57:11Z",
+      "has_wiki": true,
+      "has_pages": false,
+      "open_issues": 6,
+      "license": "",
+      "readme_preview": "# TrapQuest\r\n\r\n**PLEASE NOTE THAT THIS IS CURRENTLY NOT COMPILABLE - IT IS FOR INFORMATIONAL USE ONLY, TO CHECK INNACCURACIES ON THE WIKI. AIKA IS WORKING ON A COMPILABLE VERSION.**\r\n\r\nPartially redacted public version of the source code for the indie adult roguelike game.\r\n\r\nRead this first:\r\nhttps://github.com/aika092/TrapQuest/wiki/\r\n\r\n"
+    }
+  },
+  {
+    "title": "Boogeymonster.i7x",
+    "url": "https://github.com/aika092/TrapQuest/blob/master/Trap%20Quest.inform/Inform/Extensions/Monster/Boogeymonster.i7x",
+    "snippet": "Partially redacted public version of the source code for the indie adult roguelike game.",
+    "source": "github_search",
+    "filetype": "github_repo",
+    "repository_details": {
+      "type": "repository",
+      "owner": "aika092",
+      "repo": "TrapQuest",
+      "full_name": "aika092/TrapQuest",
+      "description": "Partially redacted public version of the source code for the indie adult roguelike game.",
+      "stars": 41,
+      "forks": 59,
+      "language": "Inform 7",
+      "created_at": "2017-11-12T09:32:13Z",
+      "updated_at": "2026-04-05T14:57:11Z",
+      "has_wiki": true,
+      "has_pages": false,
+      "open_issues": 6,
+      "license": "",
+      "readme_preview": "# TrapQuest\r\n\r\n**PLEASE NOTE THAT THIS IS CURRENTLY NOT COMPILABLE - IT IS FOR INFORMATIONAL USE ONLY, TO CHECK INNACCURACIES ON THE WIKI. AIKA IS WORKING ON A COMPILABLE VERSION.**\r\n\r\nPartially redacted public version of the source code for the indie adult roguelike game.\r\n\r\nRead this first:\r\nhttps://github.com/aika092/TrapQuest/wiki/\r\n\r\n"
+    }
+  }
+]

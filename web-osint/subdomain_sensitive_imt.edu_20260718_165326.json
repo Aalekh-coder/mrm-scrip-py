@@ -1,0 +1,2843 @@
+{
+  "domain": "imt.edu",
+  "search_time": "2026-07-18T16:32:21.314981",
+  "total_subdomains": 13,
+  "subdomains": [
+    {
+      "subdomain": "admin.imt.edu",
+      "repositories": [
+        {
+          "url": "https://github.com/imt-timezone-project",
+          "title": "IMT Atlantique — Timezone Meeting Manager",
+          "snippet": "Improve timezone meeting management. IMT Atlantique — Timezone Meeting Manager has 3 repositories available. Follow their code on GitHub.",
+          "details": {
+            "type": "unknown"
+          }
+        },
+        {
+          "url": "https://github.com/topics/imt?l=python&o=asc&s=forks",
+          "title": "imt · GitHub Topics",
+          "snippet": "GitHub is where people build software. More than 150 million people use GitHub to discover, fork, and contribute to over 420 million projects.",
+          "details": {
+            "type": "repository",
+            "owner": "topics",
+            "repo": "imt",
+            "full_name": "topics/imt"
+          }
+        },
+        {
+          "url": "https://github.com/orgs/integromat/repositories",
+          "title": "integromat repositories",
+          "snippet": "From tasks and workflows to apps and systems, Make is where you create and automate at the speed of your ideas. - Make.",
+          "details": {
+            "type": "repository",
+            "owner": "orgs",
+            "repo": "integromat",
+            "full_name": "orgs/integromat"
+          }
+        },
+        {
+          "url": "https://github.com/xuming/micolog/blob/master/admin.py",
+          "title": "micolog/admin.py at master",
+          "snippet": "Blog for Google App Engine. Contribute to xuming/micolog development by creating an account on GitHub.",
+          "details": {
+            "type": "repository",
+            "owner": "xuming",
+            "repo": "micolog",
+            "full_name": "xuming/micolog"
+          }
+        },
+        {
+          "url": "https://github.com/orgs/imt-atlantique/repositories",
+          "title": "imt-atlantique repositories",
+          "snippet": "IMT Atlantique has 25 repositories available. Follow their code on GitHub.",
+          "details": {
+            "type": "repository",
+            "owner": "orgs",
+            "repo": "imt-atlantique",
+            "full_name": "orgs/imt-atlantique"
+          }
+        },
+        {
+          "url": "https://github.com/jkerdreux-imt/homepage-lite",
+          "title": "jkerdreux-imt/homepage-lite",
+          "snippet": "A lightweight, Go-powered homepage dashboard for managing and monitoring your homelab services and bookmarks. Built with modern web technologies and real-time ...",
+          "details": {
+            "type": "repository",
+            "owner": "jkerdreux-imt",
+            "repo": "homepage-lite",
+            "full_name": "jkerdreux-imt/homepage-lite"
+          }
+        },
+        {
+          "url": "https://github.com/PROCOM-ERP/IMT-3A-PROCOM-ERP",
+          "title": "imt-3a-procom-erp",
+          "snippet": "31 mar 2024 — IMT-3A-PROCOM-ERP is a project to develop a modular Enterprise Resource Planning system. It's a pedagogical model to showcase distributed ...",
+          "details": {
+            "type": "repository",
+            "owner": "PROCOM-ERP",
+            "repo": "IMT-3A-PROCOM-ERP",
+            "full_name": "PROCOM-ERP/IMT-3A-PROCOM-ERP"
+          }
+        },
+        {
+          "url": "https://github.com/intercontinentalexchange/imt-developerconnect-dotnet-bindings",
+          "title": "intercontinentalexchange/imt-developerconnect-dotnet- ...",
+          "snippet": "Step 1: Install the .NET Language Binding. This step gets all the required packages and dependencies. Execute the following command from your Visual Studio's ...",
+          "details": {
+            "type": "repository",
+            "owner": "intercontinentalexchange",
+            "repo": "imt-developerconnect-dotnet-bindings",
+            "full_name": "intercontinentalexchange/imt-developerconnect-dotnet-bindings"
+          }
+        },
+        {
+          "url": "https://github.com/Micke-K/IntuneManagement",
+          "title": "IntuneManagement with PowerShell and WPF UI",
+          "snippet": "Copy, export, import, delete, document and compare policies and profiles in Intune and Azure with PowerShell script and WPF UI. Import ADMX files and ...",
+          "details": {
+            "type": "repository",
+            "owner": "Micke-K",
+            "repo": "IntuneManagement",
+            "full_name": "Micke-K/IntuneManagement"
+          }
+        },
+        {
+          "url": "https://github.com/1password",
+          "title": "1Password",
+          "snippet": "1Password remembers all your passwords for you. It keeps your digital life secure and always available, safe behind the one password that only you know.",
+          "details": {
+            "type": "unknown"
+          }
+        },
+        {
+          "url": "https://gist.github.com/e87252275b437133d2f0",
+          "title": "arrays file types php",
+          "snippet": "arrays file types php. GitHub Gist: instantly share code, notes, and snippets.",
+          "details": {
+            "type": "unknown"
+          }
+        },
+        {
+          "url": "https://gist.github.com/crypto-cypher/f216d6fa4816ffa93c5270b001dc4bdc",
+          "title": "Fortinet Victim List - \"Hackers leak passwords for 500000 ...",
+          "snippet": "Fortinet Victim List - \"Hackers leak passwords for 500000 Fortinet VPN accounts\" #TrackThePlanet - fortinet_victim_list_2021.txt.",
+          "details": {
+            "type": "gist",
+            "gist_id": "crypto-cypher"
+          }
+        },
+        {
+          "url": "https://gist.github.com/jedisct1/5e4ae2f5d6d3333e546e",
+          "title": "a · GitHub",
+          "snippet": "GitHub Gist: instantly share code, notes, and snippets.",
+          "details": {
+            "type": "gist",
+            "gist_id": "jedisct1"
+          }
+        },
+        {
+          "url": "https://github.com/colonelsalt/Rocket-Edition",
+          "title": "colonelsalt/Rocket-Edition: ROM hack of Pokémon FireRed ...",
+          "snippet": "Rocket Edition is a completed ROM hack of Pokémon FireRed, and is available freely to download here: https://bit.ly/pkmfrrocketed.",
+          "details": {
+            "type": "repository",
+            "owner": "colonelsalt",
+            "repo": "Rocket-Edition",
+            "full_name": "colonelsalt/Rocket-Edition"
+          }
+        },
+        {
+          "url": "https://github.com/Open-Cascade-SAS",
+          "title": "Open Cascade SAS",
+          "snippet": "Open CASCADE Technology (OCCT) is an open-source software development platform for 3D CAD, CAM, CAE.",
+          "details": {
+            "type": "unknown"
+          }
+        },
+        {
+          "url": "https://github.com/kgretzky/evilginx2",
+          "title": "kgretzky/evilginx2: Standalone man-in-the-middle attack ...",
+          "snippet": "Evilginx is a man-in-the-middle attack framework used for phishing login credentials along with session cookies, which in turn allows to bypass 2-factor ...",
+          "details": {
+            "type": "repository",
+            "owner": "kgretzky",
+            "repo": "evilginx2",
+            "full_name": "kgretzky/evilginx2"
+          }
+        },
+        {
+          "url": "https://github.com/tlhunter",
+          "title": "Thomas Hunter II tlhunter",
+          "snippet": "Software Engineer with 18+ years writing scalable, production-grade software. Deep expertise in Node.js, observability, and developer tooling, with a strong ...",
+          "details": {
+            "type": "unknown"
+          }
+        },
+        {
+          "url": "https://github.com/bradjasper/Markov-Chains/blob/master/crunchbase.txt",
+          "title": "crunchbase.txt - bradjasper/Markov-Chains",
+          "snippet": "Experiments with Markov Chains. Contribute to bradjasper/Markov-Chains development by creating an account on GitHub.",
+          "details": {
+            "type": "repository",
+            "owner": "bradjasper",
+            "repo": "Markov-Chains",
+            "full_name": "bradjasper/Markov-Chains"
+          }
+        }
+      ],
+      "sensitive_repositories": 0,
+      "total_sensitive_findings": 0
+    },
+    {
+      "subdomain": "alumni.imt.edu",
+      "repositories": [
+        {
+          "url": "https://github.com/zokuji/Zokuji",
+          "title": "zokuji/Zokuji · GitHub - GitHub",
+          "snippet": "IMT Atlantique alumni; Work at Metron as DevOps & Cloud Engineer. I'm passionnate about. Green IT & IT for green; Sciences & New technologies ...",
+          "details": {
+            "type": "repository",
+            "owner": "zokuji",
+            "repo": "Zokuji",
+            "full_name": "zokuji/Zokuji"
+          }
+        },
+        {
+          "url": "https://github.com/JetBrains/swot/blob/master/lib/domains/stoplist.txt",
+          "title": "swot/lib/domains/stoplist.txt at master · JetBrains/swot - GitHub",
+          "snippet": "... alumni.albany.edu alumni.altinbas.edu.tr alumni.anu.edu.au alumni.baylor.edu ... imt.ac.in in.ac ind.suezuni.edu.eg indianschool.bh infinity.edu.kg ...",
+          "details": {
+            "type": "repository",
+            "owner": "JetBrains",
+            "repo": "swot",
+            "full_name": "JetBrains/swot"
+          }
+        },
+        {
+          "url": "https://github.com/zokuji",
+          "title": "zokuji (Jules Lesaulnier) · GitHub",
+          "snippet": "IMT Atlantique alumni; Work at Metron as DevOps & Cloud Engineer. I'm passionnate about. Green IT & IT for green; Sciences & New technologies ...",
+          "details": {
+            "type": "unknown"
+          }
+        },
+        {
+          "url": "https://github.com/h00dieB0y",
+          "title": "Manne Emile KITSOUKOU h00dieB0y - GitHub",
+          "snippet": "imt-2023-go-project-ZEBIAN-KITSOUKOU-MILLION-LEBRAS-ACHEK · Go ; Algorithme-Genetique-CoreWare · Java ; agile-project-alumni-web-app · Java ; EasyTask · JavaScript ...",
+          "details": {
+            "type": "unknown"
+          }
+        },
+        {
+          "url": "https://github.com/cthoyt/ror-wikidata-enrichment/blob/main/data/6-diff-suggestions.tsv",
+          "title": "ror-wikidata-enrichment/data/6-diff-suggestions.tsv at main",
+          "snippet": "IMT Nord Europe, P361, part of, 03btvgn05, University of Lille Nord de France ... Florida International University Alumni Association, P361, part of ...",
+          "details": {
+            "type": "repository",
+            "owner": "cthoyt",
+            "repo": "ror-wikidata-enrichment",
+            "full_name": "cthoyt/ror-wikidata-enrichment"
+          }
+        },
+        {
+          "url": "https://github.com/rukmal/UW-OpenData/blob/master/out.txt",
+          "title": "UW-OpenData/out.txt at master - GitHub",
+          "snippet": "... alumni/\">Alumni</a></h4> <br class=\"clear\" /> <div class=\"text\"> <div class=\"mainNavBG\"> <ul class=\"mainNavLinks\"> <li><a href=\"//www.washington.edu/alumni ...",
+          "details": {
+            "type": "repository",
+            "owner": "rukmal",
+            "repo": "UW-OpenData",
+            "full_name": "rukmal/UW-OpenData"
+          }
+        },
+        {
+          "url": "https://github.com/olange/learning-neo4j/blob/main/training/reco/import/groups.csv",
+          "title": "learning-neo4j/training/reco/import/groups.csv at main - GitHub",
+          "snippet": "<p>IMT is the digital health marketplace with largest digital health community in the UK. ... alumni.</p> <p>Owing to the interactive nature of the event ...",
+          "details": {
+            "type": "repository",
+            "owner": "olange",
+            "repo": "learning-neo4j",
+            "full_name": "olange/learning-neo4j"
+          }
+        },
+        {
+          "url": "https://github.com/rochester-rcl/preservica-exit/blob/main/sample_metadata/Campus_April_05_1935.pax.zip.opex",
+          "title": "Campus_April_05_1935.pax.zip.opex - Rochester - GitHub",
+          "snippet": "\" The intended audience was students, alumni, and faculty, and the ... IMT\">image/tiff</dc:format> <dc:type xsi:type=\"dcterms:AAT\">newspapers</dc ...",
+          "details": {
+            "type": "repository",
+            "owner": "rochester-rcl",
+            "repo": "preservica-exit",
+            "full_name": "rochester-rcl/preservica-exit"
+          }
+        },
+        {
+          "url": "https://gist.github.com/tolotrasamuel/57e4d265190343b038c4f60a566a5211",
+          "title": "Google Summer of Code 2020 All Organizations JSON - Gist",
+          "snippet": "\"ideas_list\": \"https://gpac.wp.imt.fr/jobs/google-summer-of-code-ideas ... alumni who are the developers and maintainers of projects that are used by ...",
+          "details": {
+            "type": "gist",
+            "gist_id": "tolotrasamuel"
+          }
+        },
+        {
+          "url": "https://github.com/unexpectedBy/SQLi-Dork-Repository/blob/master/randon.txt",
+          "title": "SQLi-Dork-Repository/randon.txt at master - GitHub",
+          "snippet": "alumni.php?id=125. page.php?id=3. faq.php?id=19. viewpage.action?pageId=2949826 ... cmps_index.php?pageid=IMT-Website-Submitter. mem-gallery.php?id=117.",
+          "details": {
+            "type": "repository",
+            "owner": "unexpectedBy",
+            "repo": "SQLi-Dork-Repository",
+            "full_name": "unexpectedBy/SQLi-Dork-Repository"
+          }
+        },
+        {
+          "url": "https://github.com/Open-Cascade-SAS",
+          "title": "Open Cascade SAS",
+          "snippet": "Open CASCADE Technology (OCCT) is an open-source software development platform for 3D CAD, CAM, CAE.Read more",
+          "details": {
+            "type": "unknown"
+          }
+        },
+        {
+          "url": "https://github.com/MrezaMomeni/IMT",
+          "title": "MrezaMomeni/IMT: A collection of open-source projects, ...",
+          "snippet": "Developing real-world AI projects that solve meaningful problems. Creating learning experiences for interns and students through guided, hands-on projects.",
+          "details": {
+            "type": "repository",
+            "owner": "MrezaMomeni",
+            "repo": "IMT",
+            "full_name": "MrezaMomeni/IMT"
+          }
+        },
+        {
+          "url": "https://github.com/google/imt",
+          "title": "google/imt",
+          "snippet": "A collection of straightforward tools designed to assist in impact measurement. These tools include functions for randomization, checking baseline balance,Read more",
+          "details": {
+            "type": "repository",
+            "owner": "google",
+            "repo": "imt",
+            "full_name": "google/imt"
+          }
+        },
+        {
+          "url": "https://github.com/CoAxLab/multimodal-imt",
+          "title": "CoAxLab/multimodal-imt",
+          "snippet": ": imt edu title: CoAxLab/multimodal-<b>imt</b> - GitHub document: Contribute to CoAxLab/multimodal-imt development by creating an account on GitHub. Search or ...",
+          "details": {
+            "type": "repository",
+            "owner": "CoAxLab",
+            "repo": "multimodal-imt",
+            "full_name": "CoAxLab/multimodal-imt"
+          }
+        },
+        {
+          "url": "https://github.com/movabletype/mt-plugin-imt",
+          "title": "movabletype/mt-plugin-imt: Movable Type plugin for ...",
+          "snippet": "This plugin provides a more natural user interface for Apple's iPhone and iPod touch products. Once installed, you can access your Movable Type installation",
+          "details": {
+            "type": "repository",
+            "owner": "movabletype",
+            "repo": "mt-plugin-imt",
+            "full_name": "movabletype/mt-plugin-imt"
+          }
+        },
+        {
+          "url": "https://github.com/wmo-im/sc-imt",
+          "title": "wmo-im/sc-imt: Standing Committee on Information Management ...",
+          "snippet": "Standing Committee on Information Management and Technology - wmo-im/sc-imt.",
+          "details": {
+            "type": "repository",
+            "owner": "wmo-im",
+            "repo": "sc-imt",
+            "full_name": "wmo-im/sc-imt"
+          }
+        },
+        {
+          "url": "https://github.com/codecadre/imt-school-addresses",
+          "title": "codecadre/imt-school-addresses: pulls addresses from IMT",
+          "snippet": "This repository mirrors the driving schools available at imt-ip.pt. It's a collection of scripts that scrape the website and respective school files.Read more",
+          "details": {
+            "type": "repository",
+            "owner": "codecadre",
+            "repo": "imt-school-addresses",
+            "full_name": "codecadre/imt-school-addresses"
+          }
+        },
+        {
+          "url": "https://github.com/CoAxLab/reappraisal-imt-progression",
+          "title": "CoAxLab/reappraisal-imt-progression",
+          "snippet": "A LassoPCR model to predict Multiyear Progression of Preclinical Atherosclerosis from Viewing and Reappraising Affective ScenesRead more",
+          "details": {
+            "type": "repository",
+            "owner": "CoAxLab",
+            "repo": "reappraisal-imt-progression",
+            "full_name": "CoAxLab/reappraisal-imt-progression"
+          }
+        },
+        {
+          "url": "https://github.com/vocdoni/lean-imt-go",
+          "title": "Lean Incremental Merkle Tree (Go Implementation)",
+          "snippet": "The LeanIMT is an optimized binary version of traditional Incremental Merkle Trees (IMT), eliminating the need for zero values and allowing dynamic depth ...Read more",
+          "details": {
+            "type": "repository",
+            "owner": "vocdoni",
+            "repo": "lean-imt-go",
+            "full_name": "vocdoni/lean-imt-go"
+          }
+        },
+        {
+          "url": "https://github.com/Idun-Group/imt-lab/blob/main/.gitignore",
+          "title": "gitignore - Idun-Group/imt-lab",
+          "snippet": "Contribute to Idun-Group/imt-lab development by creating an account on GitHub. Search code, repositories, users, issues, pull requests...",
+          "details": {
+            "type": "repository",
+            "owner": "Idun-Group",
+            "repo": "imt-lab",
+            "full_name": "Idun-Group/imt-lab"
+          }
+        },
+        {
+          "url": "https://github.com/google/imt/blob/main/configure.win",
+          "title": "imt/configure.win at main · google/imt",
+          "snippet": "Contribute to google/imt development by creating an account on GitHub. Search code, repositories, users, issues, pull requests...",
+          "details": {
+            "type": "repository",
+            "owner": "google",
+            "repo": "imt",
+            "full_name": "google/imt"
+          }
+        },
+        {
+          "url": "https://github.com/acontis",
+          "title": "acontis technologies GmbH",
+          "snippet": "Open Source Projects of acontis technologies GmbH. acontis technologies GmbH has 4 repositories available. Follow their code on GitHub.",
+          "details": {
+            "type": "unknown"
+          }
+        }
+      ],
+      "sensitive_repositories": 0,
+      "total_sensitive_findings": 0
+    },
+    {
+      "subdomain": "autoconfig.imt.edu",
+      "repositories": [
+        {
+          "url": "https://github.com/tmahlburg/picorv32-imt",
+          "title": "PicoRV32-imt - A Size-Optimized RISC-V CPU ...",
+          "snippet": "PicoRV32-imt is a CPU core based on Claire Wolf's PicoRV32 and implementing IMT with up to six threads.Read more",
+          "details": {
+            "type": "repository",
+            "owner": "tmahlburg",
+            "repo": "picorv32-imt",
+            "full_name": "tmahlburg/picorv32-imt"
+          }
+        },
+        {
+          "url": "https://github.com/Immortality-IMT/freqtrade-for-stocks-and-forex/blob/stocks_and_forex/setup.sh",
+          "title": "freqtrade-for-stocks-and-forex/setup.sh at stocks_and_forex",
+          "snippet": "Free, open source crypto trading bot. Contribute to Immortality-IMT/freqtrade-for-stocks-and-forex development by creating an account on GitHub.",
+          "details": {
+            "type": "repository",
+            "owner": "Immortality-IMT",
+            "repo": "freqtrade-for-stocks-and-forex",
+            "full_name": "Immortality-IMT/freqtrade-for-stocks-and-forex"
+          }
+        },
+        {
+          "url": "https://github.com/YosysHQ/picorv32",
+          "title": "PicoRV32 - A Size-Optimized RISC-V CPU",
+          "snippet": "PicoRV32 is a CPU core that implements the RISC-V RV32IMC Instruction Set. It can be configured as RV32E, RV32I, RV32IC, RV32IM, or RV32IMC core.Read more",
+          "details": {
+            "type": "repository",
+            "owner": "YosysHQ",
+            "repo": "picorv32",
+            "full_name": "YosysHQ/picorv32"
+          }
+        },
+        {
+          "url": "https://github.com/autotools-mirror/automake/blob/master/THANKS",
+          "title": "automake/THANKS at master · autotools-mirror ...",
+          "snippet": "GNU Automake. Edit and raw actions Automake was originally written by David J. MacKenzie @imt.uni-luebeck.de … autoconf@technoplaza.net",
+          "details": {
+            "type": "repository",
+            "owner": "autotools-mirror",
+            "repo": "automake",
+            "full_name": "autotools-mirror/automake"
+          }
+        },
+        {
+          "url": "https://github.com/NetAppDocs/ontap-sanhost/blob/main/nvme-aix.adoc",
+          "title": "nvme-aix.adoc - NetAppDocs/ontap-sanhost",
+          "snippet": "Before troubleshooting any NVMe/FC failures, verify that you are running a configuration that is compliant with the IMT specifications. If you continue to have ...",
+          "details": {
+            "type": "repository",
+            "owner": "NetAppDocs",
+            "repo": "ontap-sanhost",
+            "full_name": "NetAppDocs/ontap-sanhost"
+          }
+        },
+        {
+          "url": "https://github.com/Herbert-Karl/masterthesis/blob/main/data/manual_pages.csv",
+          "title": "masterthesis/data/manual_pages.csv at main · Herbert-Karl ...",
+          "snippet": "Masterthesis &quot;Forensic investigation artifacts on BSD&quot; File metadata and controls ・ pkg-config.1 ・ alpha/autoconf.4 no 5129",
+          "details": {
+            "type": "repository",
+            "owner": "Herbert-Karl",
+            "repo": "masterthesis",
+            "full_name": "Herbert-Karl/masterthesis"
+          }
+        },
+        {
+          "url": "https://github.com/CiscoDevNet/ncc/blob/master/notebooks/CLEU-2020.ipynb",
+          "title": "ncc/notebooks/CLEU-2020.ipynb at master",
+          "snippet": "The ncclient library provides for some simple operations. config and getting end setting it. For that, ncclient provides two methods: get_config - takes a ...",
+          "details": {
+            "type": "repository",
+            "owner": "CiscoDevNet",
+            "repo": "ncc",
+            "full_name": "CiscoDevNet/ncc"
+          }
+        },
+        {
+          "url": "https://github.com/pkgforge-dev/Termux-Packages",
+          "title": "pkgforge-dev/Termux-Packages: Markdown List (Table) ...",
+          "snippet": "A fully compatible autoconf replacement. A collection of freely re-usable Autoconf macros .imt.fr/",
+          "details": {
+            "type": "repository",
+            "owner": "pkgforge-dev",
+            "repo": "Termux-Packages",
+            "full_name": "pkgforge-dev/Termux-Packages"
+          }
+        },
+        {
+          "url": "https://gist.github.com/trapd00r/554f03450ed114fee191e794c87b0215",
+          "title": "All the filetypes in the universe",
+          "snippet": "Dec 14, 2018 — All the filetypes in the universe. GitHub Gist: instantly share code, notes, and snippets.",
+          "details": {
+            "type": "gist",
+            "gist_id": "trapd00r"
+          }
+        }
+      ],
+      "sensitive_repositories": 0,
+      "total_sensitive_findings": 0
+    },
+    {
+      "subdomain": "autodiscover.imt.edu",
+      "repositories": [
+        {
+          "url": "https://github.com/topics/zimbra?l=python&o=asc&s=stars",
+          "title": "zimbra · GitHub Topics",
+          "snippet": "GitHub is where people build software. to discover, fork, and contribute to over 420 million projects. demonstrated by Autodiscover/Autodiscover.xml.",
+          "details": {
+            "type": "repository",
+            "owner": "topics",
+            "repo": "zimbra",
+            "full_name": "topics/zimbra"
+          }
+        },
+        {
+          "url": "https://github.com/logicmonitor/monitoring-recipes/blob/master/DataSources/Groovy/SNMP/Examples/ActiveDiscovery_with_properties_with_enumeration.groovy",
+          "title": "monitoring-recipes/DataSources/Groovy/SNMP/Examples ...",
+          "snippet": "This script can be used as an Auto Discovery script for a multi-instance data * source. It returns the list of instances with their name and any defined prop- ...",
+          "details": {
+            "type": "repository",
+            "owner": "logicmonitor",
+            "repo": "monitoring-recipes",
+            "full_name": "logicmonitor/monitoring-recipes"
+          }
+        },
+        {
+          "url": "https://github.com/MarcBresson",
+          "title": "Marc Bresson MarcBresson",
+          "snippet": "Artificial Intelligence engineer and former student from Cranfield University and IMT Nord Europe - MarcBresson. auto discovery in Home Assistant (HA)",
+          "details": {
+            "type": "unknown"
+          }
+        },
+        {
+          "url": "https://gist.github.com/jedisct1/e8d205453b9bcbe1f36f",
+          "title": "a · GitHub",
+          "snippet": "GitHub Gist: instantly share code, notes, and snippets. e-imt.co.jp … autodiscover-s.outlook.com",
+          "details": {
+            "type": "gist",
+            "gist_id": "jedisct1"
+          }
+        },
+        {
+          "url": "https://gist.github.com/Jonty/f6f48495d8695378649a",
+          "title": "Every IPv4 address with reverse dns ending in .gov.uk",
+          "snippet": "This file contains a list of every IPv4 address with reverse DNS ending in .gov.uk. There's some interesting things in here.Read more",
+          "details": {
+            "type": "gist",
+            "gist_id": "Jonty"
+          }
+        },
+        {
+          "url": "https://gist.github.com/crypto-cypher/f216d6fa4816ffa93c5270b001dc4bdc?fbclid=IwAR2EDA09OVpjnMstMLeT7gSW6A3IuUG6o3LOjIurWqEaWLSJu_K8v_3TYwY",
+          "title": "Fortinet Victim List - \"Hackers leak passwords for ...",
+          "snippet": "Fortinet Victim List - &quot;Hackers leak passwords for 500000 Fortinet VPN accounts&quot; Instantly share code, notes, and snippets. [\"imt.com.vn\"] \",\" ...",
+          "details": {
+            "type": "gist",
+            "gist_id": "crypto-cypher"
+          }
+        },
+        {
+          "url": "https://github.com/cubeos-app/meshsat",
+          "title": "cubeos-app/meshsat: Meshtastic-to-Iridium satellite bridge. ...",
+          "snippet": "MeshSat is a multi-transport mesh and satellite gateway that bridges Meshtastic LoRa networks to satellite, cellular, and tactical data channels.Read more",
+          "details": {
+            "type": "repository",
+            "owner": "cubeos-app",
+            "repo": "meshsat",
+            "full_name": "cubeos-app/meshsat"
+          }
+        },
+        {
+          "url": "https://github.com/JAIR0MEL0/Tensorflow-Ticket-Resolution-Predictor/blob/master/ML1030%20Capstone%20ITSM%20Ticket%20Prediction%20-%20Sub%20Category.ipynb",
+          "title": "ML1030 Capstone ITSM Ticket Prediction - Sub Category. ...",
+          "snippet": "Balance the data sample. Description has null values; we will use short description in case of missing description, and filter any record where no description ...Read more",
+          "details": {
+            "type": "repository",
+            "owner": "JAIR0MEL0",
+            "repo": "Tensorflow-Ticket-Resolution-Predictor",
+            "full_name": "JAIR0MEL0/Tensorflow-Ticket-Resolution-Predictor"
+          }
+        },
+        {
+          "url": "https://gist.github.com/danielloader/81c46e872cbcf7c5bb9b7dcf14431947",
+          "title": "domains - Discover gists - GitHub",
+          "snippet": "GitHub Gist: instantly share code, notes, and snippets.",
+          "details": {
+            "type": "gist",
+            "gist_id": "danielloader"
+          }
+        },
+        {
+          "url": "https://gist.github.com/5856180",
+          "title": "Purported 50000 common subdomains. Useful for brute ...",
+          "snippet": "Purported 50,000 common subdomains. Useful for brute-force discovery during the information gathering phase of a penetration test. Raw. subdomains ...Read more",
+          "details": {
+            "type": "unknown"
+          }
+        },
+        {
+          "url": "https://gist.github.com/crypto-cypher/f216d6fa4816ffa93c5270b001dc4bdc",
+          "title": "Fortinet Victim List - \"Hackers leak passwords for 500000 ...",
+          "snippet": "Fortinet Victim List ;Hackers leak passwords for 500000 Fortinet VPN accounts&quot; Instantly share code, notes, and snippets. This file has been truncated, ...",
+          "details": {
+            "type": "gist",
+            "gist_id": "crypto-cypher"
+          }
+        }
+      ],
+      "sensitive_repositories": 0,
+      "total_sensitive_findings": 0
+    },
+    {
+      "subdomain": "cpanel.imt.edu",
+      "repositories": [
+        {
+          "url": "https://gist.github.com/pzb/ffab25cbe7d32c616792a5dec3711315",
+          "title": "root-clusters-all-u.txt",
+          "snippet": "... cPanel Extended Validation ECC Certification Authority,OU=Controlled by ... IMT (Zentrum fuer Informations- und Medientechnologien),O=Universitaet ...Read more",
+          "details": {
+            "type": "gist",
+            "gist_id": "pzb"
+          }
+        },
+        {
+          "url": "https://github.com/frappe/lms",
+          "title": "frappe/lms: Easy to Use, 100% Open Source Learning ...",
+          "snippet": "Frappe Learning is an easy-to-use learning system that helps you bring structure to your content. make knowledge sharing easier.",
+          "details": {
+            "type": "repository",
+            "owner": "frappe",
+            "repo": "lms",
+            "full_name": "frappe/lms"
+          }
+        },
+        {
+          "url": "https://gist.github.com/sl4v/d587cc7ab1612ca12a13",
+          "title": "hostnames.txt",
+          "snippet": "GitHub Gist: instantly share code, notes, and snippets. cpanel cpb cpbridge",
+          "details": {
+            "type": "gist",
+            "gist_id": "sl4v"
+          }
+        },
+        {
+          "url": "https://github.com/NoTsPepino/Shodan-Dorking",
+          "title": "NoTsPepino/Shodan-Dorking: Lista de ...",
+          "snippet": "Es una aplicación de terminal que le permite conectarse al servicio ADB shell de otros dispositivos Android a través de la red.Read more",
+          "details": {
+            "type": "repository",
+            "owner": "NoTsPepino",
+            "repo": "Shodan-Dorking",
+            "full_name": "NoTsPepino/Shodan-Dorking"
+          }
+        },
+        {
+          "url": "https://gist.github.com/5856180",
+          "title": "Purported 50000 common subdomains. Useful for brute ...",
+          "snippet": "Purported 50000 common subdomains. Useful for brute-force discovery during the information gathering phase of a penetration test.",
+          "details": {
+            "type": "unknown"
+          }
+        },
+        {
+          "url": "https://gist.github.com/LucaMell/bb7fa6c7ff58f5869b793e7ba85a187d?short_path=897e916",
+          "title": "Spam+Classifier - Discover gists - GitHub",
+          "snippet": "Spam+Classifier. GitHub Gist: instantly share code, notes, and snippets. 'cpanel', 'imputting', 'imt',",
+          "details": {
+            "type": "gist",
+            "gist_id": "LucaMell"
+          }
+        },
+        {
+          "url": "https://github.com/SP2-MC2/Readability-Resources/blob/master/cyberDictionary.txt",
+          "title": "cyberDictionary.txt - SP2-MC2/Readability-Resources",
+          "snippet": "Code for generating Smart Cloze and Traditional Cloze (fill in the blank) readability tests AND repository of human-written comprehension questions.",
+          "details": {
+            "type": "repository",
+            "owner": "SP2-MC2",
+            "repo": "Readability-Resources",
+            "full_name": "SP2-MC2/Readability-Resources"
+          }
+        },
+        {
+          "url": "https://github.com/grant/npm-crawler/blob/master/modules.txt",
+          "title": "modules.txt - grant/npm-crawler",
+          "snippet": "Jun 4, 2014 — A npm registry crawler. Contribute to grant/npm-crawler development by creating an account on GitHub.",
+          "details": {
+            "type": "repository",
+            "owner": "grant",
+            "repo": "npm-crawler",
+            "full_name": "grant/npm-crawler"
+          }
+        },
+        {
+          "url": "https://github.com/stacks-archive/pybitcoin/blob/master/pybitcoin/passphrases/english_words.py",
+          "title": "pybitcoin/pybitcoin/passphrases/english_words.py at master",
+          "snippet": "Mar 26, 2025 — A Bitcoin python library for private + public keys, addresses, transactions, & RPC - pybitcoin/pybitcoin/passphrases/english_words.py at ...",
+          "details": {
+            "type": "repository",
+            "owner": "stacks-archive",
+            "repo": "pybitcoin",
+            "full_name": "stacks-archive/pybitcoin"
+          }
+        },
+        {
+          "url": "https://github.com/videosdk-live",
+          "title": "Video SDK",
+          "snippet": "Video SDK is an API that enables developers to easily build live audio & video experiences in any platform within minutes.Read more",
+          "details": {
+            "type": "unknown"
+          }
+        }
+      ],
+      "sensitive_repositories": 0,
+      "total_sensitive_findings": 0
+    },
+    {
+      "subdomain": "erp.imt.edu",
+      "repositories": [
+        {
+          "url": "https://github.com/PROCOM-ERP/IMT-3A-PROCOM-ERP/blob/main/docs/SYSTEM_SECURITY.md",
+          "title": "IMT-3A-PROCOM-ERP/docs/SYSTEM_SECURITY.md at main",
+          "snippet": "IMT-3A-PROCOM-ERP is a project to develop a modular Enterprise Resource Planning system. It's a pedagogical model to showcase distributed systems' ...",
+          "details": {
+            "type": "repository",
+            "owner": "PROCOM-ERP",
+            "repo": "IMT-3A-PROCOM-ERP",
+            "full_name": "PROCOM-ERP/IMT-3A-PROCOM-ERP"
+          }
+        },
+        {
+          "url": "https://github.com/PROCOM-ERP/IMT-3A-PROCOM-ERP",
+          "title": "imt-3a-procom-erp",
+          "snippet": "Mar 31, 2024 — IMT-3A-PROCOM-ERP is a project to develop a modular Enterprise Resource Planning system. It's a pedagogical model to showcase distributed ...",
+          "details": {
+            "type": "repository",
+            "owner": "PROCOM-ERP",
+            "repo": "IMT-3A-PROCOM-ERP",
+            "full_name": "PROCOM-ERP/IMT-3A-PROCOM-ERP"
+          }
+        },
+        {
+          "url": "https://github.com/PROCOM-ERP/IMT-3A-PROCOM-ERP/blob/main/LICENSE.md",
+          "title": "IMT-3A-PROCOM-ERP/LICENSE.md at main",
+          "snippet": "IMT-3A-PROCOM-ERP is a project to develop a modular Enterprise Resource Planning system. It's a pedagogical model to showcase distributed systems' ...",
+          "details": {
+            "type": "repository",
+            "owner": "PROCOM-ERP",
+            "repo": "IMT-3A-PROCOM-ERP",
+            "full_name": "PROCOM-ERP/IMT-3A-PROCOM-ERP"
+          }
+        },
+        {
+          "url": "https://github.com/PROCOM-ERP/IMT-3A-PROCOM-ERP/custom-properties",
+          "title": "Settings · Custom properties · PROCOM-ERP/IMT-3A ...",
+          "snippet": "Custom properties allow you to decorate your repository with information such as compliance frameworks, data sensitivity, or project details. No custom ...",
+          "details": {
+            "type": "repository",
+            "owner": "PROCOM-ERP",
+            "repo": "IMT-3A-PROCOM-ERP",
+            "full_name": "PROCOM-ERP/IMT-3A-PROCOM-ERP"
+          }
+        },
+        {
+          "url": "https://github.com/PROCOM-ERP",
+          "title": "PROCOM-ERP",
+          "snippet": "Mar 31, 2024 — IMT-3A-PROCOM-ERP is a project to develop a modular Enterprise Resource Planning system. It's a pedagogical model to showcase distributed ...Read more",
+          "details": {
+            "type": "unknown"
+          }
+        },
+        {
+          "url": "https://github.com/topics/reference-implementation?l=c%23&o=asc&s=forks",
+          "title": "reference-implementation · GitHub Topics",
+          "snippet": "Microservices reference implementation using Dapr with service-to-service invocation, state management, publish-subscribe pattern, resource bindings and ...Read more",
+          "details": {
+            "type": "repository",
+            "owner": "topics",
+            "repo": "reference-implementation",
+            "full_name": "topics/reference-implementation"
+          }
+        },
+        {
+          "url": "https://github.com/dashboard-app/AMS/blob/master/TestUpload.php",
+          "title": "AMS/TestUpload.php at master · dashboard-app/AMS",
+          "snippet": "Contribute to dashboard-app/AMS development by creating an account on GitHub. ','IMT- Sharepoint IMT Rationalization",
+          "details": {
+            "type": "repository",
+            "owner": "dashboard-app",
+            "repo": "AMS",
+            "full_name": "dashboard-app/AMS"
+          }
+        },
+        {
+          "url": "https://github.com/afcarl/hackermath/commit/93326c501ecb5c77b3fd4644b28b96012772f468.patch",
+          "title": "https://github.com/afcarl/hackermath/commit/93326c...",
+          "snippet": "... erP>9Lj+p&wUb{> z1(J8^_mSf*42eK4HLK3iv4?g^!1SOERr+gQ66{kSOMdZMEz*HaLbmW&S6 ... ImT_!0Y2qS#6ktxOIyif#x0wNO$e*_XM!<)eYDKLqpm7M)iYjre0z`5p?oEWfGV ...Read more",
+          "details": {
+            "type": "repository",
+            "owner": "afcarl",
+            "repo": "hackermath",
+            "full_name": "afcarl/hackermath"
+          }
+        },
+        {
+          "url": "https://github.com/frappe/lms",
+          "title": "frappe/lms: Easy to Use, 100% Open Source Learning ...",
+          "snippet": "Frappe Learning is an easy-to-use learning system that helps you bring structure to your content. anyone can use to launch a course of their own and make ...",
+          "details": {
+            "type": "repository",
+            "owner": "frappe",
+            "repo": "lms",
+            "full_name": "frappe/lms"
+          }
+        },
+        {
+          "url": "https://github.com/MrezaMomeni/IMT",
+          "title": "MrezaMomeni/IMT: A collection of open-source projects, ...",
+          "snippet": "Developing real-world AI projects that solve meaningful problems. Creating learning experiences for interns and students through guided, hands-on projects.",
+          "details": {
+            "type": "repository",
+            "owner": "MrezaMomeni",
+            "repo": "IMT",
+            "full_name": "MrezaMomeni/IMT"
+          }
+        },
+        {
+          "url": "https://github.com/google/imt",
+          "title": "google/imt",
+          "snippet": "A collection of straightforward tools designed to assist in impact measurement. These tools include functions for randomization, checking baseline balance,Read more",
+          "details": {
+            "type": "repository",
+            "owner": "google",
+            "repo": "imt",
+            "full_name": "google/imt"
+          }
+        },
+        {
+          "url": "https://github.com/CoAxLab/multimodal-imt",
+          "title": "CoAxLab/multimodal-imt",
+          "snippet": "\"Integrating Multiple Imaging Modalities does not Boost Prediction of Carotid Artery Intima-Media Thickness in Midlife Adults\".Read more",
+          "details": {
+            "type": "repository",
+            "owner": "CoAxLab",
+            "repo": "multimodal-imt",
+            "full_name": "CoAxLab/multimodal-imt"
+          }
+        },
+        {
+          "url": "https://github.com/wmo-im/sc-imt",
+          "title": "wmo-im/sc-imt: Standing Committee on Information Management ...",
+          "snippet": "Standing Committee on Information Management and Technology - wmo-im/sc-imt.",
+          "details": {
+            "type": "repository",
+            "owner": "wmo-im",
+            "repo": "sc-imt",
+            "full_name": "wmo-im/sc-imt"
+          }
+        },
+        {
+          "url": "https://github.com/movabletype/mt-plugin-imt",
+          "title": "movabletype/mt-plugin-imt: Movable Type plugin for ...",
+          "snippet": "This plugin provides a more natural user interface for Apple's iPhone and iPod touch products. Once installed, you can access your Movable Type installation ...Read more",
+          "details": {
+            "type": "repository",
+            "owner": "movabletype",
+            "repo": "mt-plugin-imt",
+            "full_name": "movabletype/mt-plugin-imt"
+          }
+        },
+        {
+          "url": "https://github.com/codecadre/imt-school-addresses",
+          "title": "codecadre/imt-school-addresses: pulls addresses from IMT",
+          "snippet": "This repository mirrors the driving schools available at imt-ip.pt. It's a collection of scripts that scrape the website and respective school files.Read more",
+          "details": {
+            "type": "repository",
+            "owner": "codecadre",
+            "repo": "imt-school-addresses",
+            "full_name": "codecadre/imt-school-addresses"
+          }
+        },
+        {
+          "url": "https://github.com/CoAxLab/reappraisal-imt-progression",
+          "title": "CoAxLab/reappraisal-imt-progression",
+          "snippet": "A LassoPCR model to predict Multiyear Progression of Preclinical Atherosclerosis from Viewing and Reappraising Affective ScenesRead more",
+          "details": {
+            "type": "repository",
+            "owner": "CoAxLab",
+            "repo": "reappraisal-imt-progression",
+            "full_name": "CoAxLab/reappraisal-imt-progression"
+          }
+        },
+        {
+          "url": "https://github.com/vocdoni/lean-imt-go",
+          "title": "Lean Incremental Merkle Tree (Go Implementation)",
+          "snippet": "The LeanIMT is an optimized binary version of traditional Incremental Merkle Trees (IMT), eliminating the need for zero values and allowing dynamic depth ...Read more",
+          "details": {
+            "type": "repository",
+            "owner": "vocdoni",
+            "repo": "lean-imt-go",
+            "full_name": "vocdoni/lean-imt-go"
+          }
+        },
+        {
+          "url": "https://github.com/google/imt/blob/main/configure.win",
+          "title": "imt/configure.win at main · google/imt",
+          "snippet": "Contribute to google/imt development by creating an account on GitHub. Search code, repositories, users, issues, pull requests...",
+          "details": {
+            "type": "repository",
+            "owner": "google",
+            "repo": "imt",
+            "full_name": "google/imt"
+          }
+        },
+        {
+          "url": "https://github.com/Idun-Group/imt-lab/blob/main/.gitignore",
+          "title": "gitignore - Idun-Group/imt-lab",
+          "snippet": "Contribute to Idun-Group/imt-lab development by creating an account on GitHub. Search code, repositories, users, issues, pull requests... Edit and raw actions",
+          "details": {
+            "type": "repository",
+            "owner": "Idun-Group",
+            "repo": "imt-lab",
+            "full_name": "Idun-Group/imt-lab"
+          }
+        },
+        {
+          "url": "https://gist.github.com/crypto-cypher/f216d6fa4816ffa93c5270b001dc4bdc",
+          "title": "Fortinet Victim List - \"Hackers leak passwords for 500000 ...",
+          "snippet": "Fortinet Victim List - &quot;Hackers leak passwords for 500000 Fortinet VPN accounts&quot; Instantly share code, notes, and snippets. This file has been ...",
+          "details": {
+            "type": "gist",
+            "gist_id": "crypto-cypher"
+          }
+        },
+        {
+          "url": "https://gist.github.com/e87252275b437133d2f0",
+          "title": "arrays file types php",
+          "snippet": "arrays file types php. instantly share code, notes, and snippets. \".erp\" u Report File\", \".imt\" => \"My Time Data File\",",
+          "details": {
+            "type": "unknown"
+          }
+        },
+        {
+          "url": "https://gist.github.com/trapd00r/554f03450ed114fee191e794c87b0215",
+          "title": "All the filetypes in the universe",
+          "snippet": "Dec 14, 2018 — All the filetypes in the universe. 'ERP' =>. Error Correction File\", 'IMT' => \"My Time Data File\",",
+          "details": {
+            "type": "gist",
+            "gist_id": "trapd00r"
+          }
+        }
+      ],
+      "sensitive_repositories": 0,
+      "total_sensitive_findings": 0
+    },
+    {
+      "subdomain": "ftp.imt.edu",
+      "repositories": [
+        {
+          "url": "https://gist.github.com/PressStartandSelect/dbf8ced4fe76a7e11da8",
+          "title": "ftp-sites.org list",
+          "snippet": "GitHub Gist: instantly share code, notes, and snippets. ftp-sites.org list ftp://ftp.intron.ac/ ftp://ftp.imt.mu-luebeck.de/ ftp://ftp.imt-mrs.fr/ ftp://ftp. ...",
+          "details": {
+            "type": "gist",
+            "gist_id": "PressStartandSelect"
+          }
+        },
+        {
+          "url": "https://github.com/orgs/integromat/repositories",
+          "title": "integromat repositories",
+          "snippet": "imt-proto Public Integromat. An FTP client module for node.js JavaScript. Integromat Importer Extension for Chrome JavaScript • MIT",
+          "details": {
+            "type": "repository",
+            "owner": "orgs",
+            "repo": "integromat",
+            "full_name": "orgs/integromat"
+          }
+        },
+        {
+          "url": "https://github.com/smangul1/good.software/blob/master/manual.evaluation/manual.test.csv",
+          "title": "good.software/manual.evaluation/manual.test.csv at master ...",
+          "snippet": "This is the GitHub repository for our recent study \"A comprehensive analysis of the usability and archival stability of omics computational tools and ...",
+          "details": {
+            "type": "repository",
+            "owner": "smangul1",
+            "repo": "good.software",
+            "full_name": "smangul1/good.software"
+          }
+        },
+        {
+          "url": "https://gist.github.com/celliern",
+          "title": "celliern's gists",
+          "snippet": "GitHub Gist: star and fork celliern's gists by creating an account on GitHub.",
+          "details": {
+            "type": "unknown"
+          }
+        },
+        {
+          "url": "https://gist.github.com/MTRNord?direction=asc&sort=created",
+          "title": "MTRNord's gists",
+          "snippet": "GitHub Gist: star and fork MTRNord's gists by creating an account on GitHub.",
+          "details": {
+            "type": "unknown"
+          }
+        },
+        {
+          "url": "https://github.com/openbsd/www/blob/master/68.html",
+          "title": "www/68.html at master · openbsd/www",
+          "snippet": "Read-only git conversion of OpenBSD's official cvs www repository. Pull requests not accepted - send diffs to the tech@ mailing list. - www/68.html at ...",
+          "details": {
+            "type": "repository",
+            "owner": "openbsd",
+            "repo": "www",
+            "full_name": "openbsd/www"
+          }
+        },
+        {
+          "url": "https://github.com/ocean-data-challenges/2022a_SWOT_karin_error_filtering",
+          "title": "SWOT karin error filtering 2022a",
+          "snippet": "SWOT Karin instrumental error filtering organised by Datlas, IMT Altlantique and CLS. You may also use ftp , rsync or curl to donwload the data. training ...",
+          "details": {
+            "type": "repository",
+            "owner": "ocean-data-challenges",
+            "repo": "2022a_SWOT_karin_error_filtering",
+            "full_name": "ocean-data-challenges/2022a_SWOT_karin_error_filtering"
+          }
+        },
+        {
+          "url": "https://gist.github.com/kamilturek/82a2afdb99ed1b1d55aedd5a77c7c618",
+          "title": "INF-IMT · GitHub",
+          "snippet": "... FTP, SSH, SMTP; warstwa transportowa - odpowiada za kanał komunikacyjny, kieruje właściwe informacje do odpowiednich aplikacji, wykorzystując numery portów ...Read more",
+          "details": {
+            "type": "gist",
+            "gist_id": "kamilturek"
+          }
+        },
+        {
+          "url": "https://github.com/arquivo/Research-Websites-Preservation/blob/master/GCSE%20Experiments/acronym%2Btitle%2B3common_terms-cordis-cordis-ec/output.csv",
+          "title": "output.csv",
+          "snippet": "Study about preserving R&D website projects. Methods to automatically identify these URLs. - Research-Websites-Preservation/GCSE ...",
+          "details": {
+            "type": "repository",
+            "owner": "arquivo",
+            "repo": "Research-Websites-Preservation",
+            "full_name": "arquivo/Research-Websites-Preservation"
+          }
+        },
+        {
+          "url": "https://github.com/MrezaMomeni/IMT",
+          "title": "MrezaMomeni/IMT: A collection of open-source projects, ...",
+          "snippet": "Developing real-world AI projects that solve meaningful problems. Creating learning experiences for interns and students through guided, hands-on projects.",
+          "details": {
+            "type": "repository",
+            "owner": "MrezaMomeni",
+            "repo": "IMT",
+            "full_name": "MrezaMomeni/IMT"
+          }
+        },
+        {
+          "url": "https://github.com/google/imt",
+          "title": "google/imt",
+          "snippet": "A collection of straightforward tools designed to assist in impact measurement. These tools include functions for randomization, checking baseline balance,Read more",
+          "details": {
+            "type": "repository",
+            "owner": "google",
+            "repo": "imt",
+            "full_name": "google/imt"
+          }
+        },
+        {
+          "url": "https://github.com/CoAxLab/multimodal-imt",
+          "title": "CoAxLab/multimodal-imt",
+          "snippet": "\"Integrating Multiple Imaging Modalities does not Boost Prediction of Carotid Artery Intima-Media Thickness in Midlife Adults\".Read more",
+          "details": {
+            "type": "repository",
+            "owner": "CoAxLab",
+            "repo": "multimodal-imt",
+            "full_name": "CoAxLab/multimodal-imt"
+          }
+        },
+        {
+          "url": "https://github.com/wmo-im/sc-imt",
+          "title": "wmo-im/sc-imt: Standing Committee on Information Management ...",
+          "snippet": "Standing Committee on Information Management and Technology - wmo-im/sc-imt.",
+          "details": {
+            "type": "repository",
+            "owner": "wmo-im",
+            "repo": "sc-imt",
+            "full_name": "wmo-im/sc-imt"
+          }
+        },
+        {
+          "url": "https://github.com/movabletype/mt-plugin-imt",
+          "title": "movabletype/mt-plugin-imt: Movable Type plugin for ...",
+          "snippet": "This plugin provides a more natural user interface for Apple's iPhone and iPod touch products. Once installed, you can access your Movable Type installation ...Read more",
+          "details": {
+            "type": "repository",
+            "owner": "movabletype",
+            "repo": "mt-plugin-imt",
+            "full_name": "movabletype/mt-plugin-imt"
+          }
+        },
+        {
+          "url": "https://github.com/codecadre/imt-school-addresses",
+          "title": "codecadre/imt-school-addresses: pulls addresses from IMT",
+          "snippet": "This repository mirrors the driving schools available at imt-ip.pt. It's a collection of scripts that scrape the website and respective school files.Read more",
+          "details": {
+            "type": "repository",
+            "owner": "codecadre",
+            "repo": "imt-school-addresses",
+            "full_name": "codecadre/imt-school-addresses"
+          }
+        },
+        {
+          "url": "https://github.com/CoAxLab/reappraisal-imt-progression",
+          "title": "CoAxLab/reappraisal-imt-progression",
+          "snippet": "A LassoPCR model to predict Multiyear Progression of Preclinical Atherosclerosis from Viewing and Reappraising Affective ScenesRead more",
+          "details": {
+            "type": "repository",
+            "owner": "CoAxLab",
+            "repo": "reappraisal-imt-progression",
+            "full_name": "CoAxLab/reappraisal-imt-progression"
+          }
+        },
+        {
+          "url": "https://github.com/vocdoni/lean-imt-go",
+          "title": "Lean Incremental Merkle Tree (Go Implementation)",
+          "snippet": "The LeanIMT is an optimized binary version of traditional Incremental Merkle Trees (IMT), eliminating the need for zero values and allowing dynamic depth ...Read more",
+          "details": {
+            "type": "repository",
+            "owner": "vocdoni",
+            "repo": "lean-imt-go",
+            "full_name": "vocdoni/lean-imt-go"
+          }
+        },
+        {
+          "url": "https://github.com/google/imt/blob/main/configure.win",
+          "title": "imt/configure.win at main · google/imt",
+          "snippet": "Contribute to google/imt development by creating an account on GitHub. Search code, repositories, users, issues, pull requests...",
+          "details": {
+            "type": "repository",
+            "owner": "google",
+            "repo": "imt",
+            "full_name": "google/imt"
+          }
+        },
+        {
+          "url": "https://github.com/Idun-Group/imt-lab/blob/main/.gitignore",
+          "title": "gitignore - Idun-Group/imt-lab",
+          "snippet": "Contribute to Idun-Group/imt-lab development by creating an account on GitHub. Search code, repositories, users, issues, pull requests... Edit and raw actions",
+          "details": {
+            "type": "repository",
+            "owner": "Idun-Group",
+            "repo": "imt-lab",
+            "full_name": "Idun-Group/imt-lab"
+          }
+        },
+        {
+          "url": "https://github.com/acontis",
+          "title": "acontis technologies GmbH",
+          "snippet": "Kernel module that grants direct access to hardware, improving the performance of the LinkLayers, used in the EtherCAT Master Stack Software EC-Master.",
+          "details": {
+            "type": "unknown"
+          }
+        },
+        {
+          "url": "https://github.com/pkgforge-dev/Termux-Packages",
+          "title": "pkgforge-dev/Termux-Packages: Markdown List (Table) ...",
+          "snippet": "Markdown List (Table), JSON & YAML of all the officially Available Packages in the Termux Registry :: https://termux-packages.ajam.dev ...",
+          "details": {
+            "type": "repository",
+            "owner": "pkgforge-dev",
+            "repo": "Termux-Packages",
+            "full_name": "pkgforge-dev/Termux-Packages"
+          }
+        },
+        {
+          "url": "https://github.com/1password",
+          "title": "1Password",
+          "snippet": "1Password remembers all your passwords for you. It keeps your digital life secure and always available, safe behind the one password that only you know.",
+          "details": {
+            "type": "unknown"
+          }
+        },
+        {
+          "url": "https://github.com/aesim-tech/simba-python-examples",
+          "title": "aesim-tech/simba-python-examples",
+          "snippet": "A Python package that contains hundreds of functions providing direct access to SIMBA such as creating a circuit, modifying parameters, running a simulation, ...",
+          "details": {
+            "type": "repository",
+            "owner": "aesim-tech",
+            "repo": "simba-python-examples",
+            "full_name": "aesim-tech/simba-python-examples"
+          }
+        },
+        {
+          "url": "https://gist.github.com/e87252275b437133d2f0",
+          "title": "arrays file types php",
+          "snippet": "\".imt\" => \"My Time Data File\",. \".in\" => \"Input File\",. \".incp\" => \"InCopy CS3 Package File\",. \".ini\" => \"Finale Preferences File\",. \".ink\" => \"Mimio Ink Data ...",
+          "details": {
+            "type": "unknown"
+          }
+        },
+        {
+          "url": "https://github.com/doc-bok",
+          "title": "doc-bok",
+          "snippet": "Programming games since I was 7 years old, now I'm a nomadic developer exploring the world one country at a time. - doc-bok.",
+          "details": {
+            "type": "unknown"
+          }
+        },
+        {
+          "url": "https://gist.github.com/crypto-cypher/f216d6fa4816ffa93c5270b001dc4bdc",
+          "title": "Fortinet Victim List - \"Hackers leak passwords for 500000 ...",
+          "snippet": "Fortinet Victim List - \"Hackers leak passwords for 500000 Fortinet VPN accounts\" #TrackThePlanet - fortinet_victim_list_2021.txt.",
+          "details": {
+            "type": "gist",
+            "gist_id": "crypto-cypher"
+          }
+        },
+        {
+          "url": "https://github.com/Open-Cascade-SAS",
+          "title": "Open Cascade SAS",
+          "snippet": "Open CASCADE Technology (OCCT) is an open-source software development platform for 3D CAD, CAM, CAE.",
+          "details": {
+            "type": "unknown"
+          }
+        },
+        {
+          "url": "https://github.com/team-cymru",
+          "title": "Team Cymru",
+          "snippet": "Demisto is now Cortex XSOAR. Automate and orchestrate your Security Operations with Cortex XSOAR's ever-growing Content Repository. Pull Requests are always ...",
+          "details": {
+            "type": "unknown"
+          }
+        }
+      ],
+      "sensitive_repositories": 0,
+      "total_sensitive_findings": 0
+    },
+    {
+      "subdomain": "lms.imt.edu",
+      "repositories": [
+        {
+          "url": "https://github.com/frappe/lms",
+          "title": "frappe/lms: Easy to Use, 100% Open Source Learning ...",
+          "snippet": "Frappe Learning is an easy-to-use learning system that helps you bring structure to your content. anyone can use to launch a course of their own and make ...",
+          "details": {
+            "type": "repository",
+            "owner": "frappe",
+            "repo": "lms",
+            "full_name": "frappe/lms"
+          }
+        },
+        {
+          "url": "https://github.com/ronak66/LMS-Scraper",
+          "title": "ronak66/LMS-Scraper: It's a web scraper that scrapes ...",
+          "snippet": "For those of you wondering what LMS is, my college has a portal called Learning Management System where you can find all the assignments that you have to ...Read more",
+          "details": {
+            "type": "repository",
+            "owner": "ronak66",
+            "repo": "LMS-Scraper",
+            "full_name": "ronak66/LMS-Scraper"
+          }
+        },
+        {
+          "url": "https://github.com/robert-koch-institut/Carotid_intima-media_thickness-Reference_percentiles_from_the_KiGGS_study",
+          "title": "Reference percentiles for carotid measures of subclinical ...",
+          "snippet": "The dataset presents reference centile data for carotid intima-media thickness. This dataset supports the longitudinal monitoring of cardiovascular health. LMS ...",
+          "details": {
+            "type": "repository",
+            "owner": "robert-koch-institut",
+            "repo": "Carotid_intima-media_thickness-Reference_percentiles_from_the_KiGGS_study",
+            "full_name": "robert-koch-institut/Carotid_intima-media_thickness-Reference_percentiles_from_the_KiGGS_study"
+          }
+        },
+        {
+          "url": "https://github.com/youenimmay/brainiacs-academy-showcase",
+          "title": "youenimmay/brainiacs-academy-showcase: 🤖 Digital learning ...",
+          "snippet": "Brainiacs Academy is a comprehensive web-based learning management system designed to deliver structured robotics education that bridges the gap between ...",
+          "details": {
+            "type": "repository",
+            "owner": "youenimmay",
+            "repo": "brainiacs-academy-showcase",
+            "full_name": "youenimmay/brainiacs-academy-showcase"
+          }
+        },
+        {
+          "url": "https://github.com/Microsoft/UVAtlas/blob/master/UVAtlasTool/UVAtlas.cpp",
+          "title": "UVAtlas/UVAtlasTool/UVAtlas.cpp at main · microsoft/UVAtlas",
+          "snippet": "File: UVAtlas.cpp // // UVAtlas command-line tool (sample for UVAtlas library) // // Copyright (c) Microsoft Corporation. // Licensed under the MIT License.",
+          "details": {
+            "type": "repository",
+            "owner": "Microsoft",
+            "repo": "UVAtlas",
+            "full_name": "Microsoft/UVAtlas"
+          }
+        },
+        {
+          "url": "https://github.com/omz/AppSales-Mobile/commit/3a4da5b88097633fe7a7ba91cd5730a491a50179.patch",
+          "title": "https://github.com/omz/AppSales-Mobile/commit/3a4d...",
+          "snippet": "... LMS`Uay5^}v}gqI&n4h4s$=JDgaGNnZ)8k|el^7c8uB`#UmQCHjRV<b<x=xi zB1UdQ4enG<g7x ... imT$O6ucczqt_5=DH`k{!W|^aqiv6!r0z(zkBnZ$+uBs8Kd=|$VHMa ...Read more",
+          "details": {
+            "type": "repository",
+            "owner": "omz",
+            "repo": "AppSales-Mobile",
+            "full_name": "omz/AppSales-Mobile"
+          }
+        },
+        {
+          "url": "https://github.com/EdwinTSalcedo/Bootcamp-Computer-Vision-for-the-SDGs",
+          "title": "EdwinTSalcedo/Bootcamp-Computer-Vision-for-the-SDGs",
+          "snippet": "All course materials for the Bootcamp on Computer Vision for the SDGs, organised by HackCities: Urban Innovation and Google AI .",
+          "details": {
+            "type": "repository",
+            "owner": "EdwinTSalcedo",
+            "repo": "Bootcamp-Computer-Vision-for-the-SDGs",
+            "full_name": "EdwinTSalcedo/Bootcamp-Computer-Vision-for-the-SDGs"
+          }
+        },
+        {
+          "url": "https://gist.github.com/Jonty/f6f48495d8695378649a",
+          "title": "Every IPv4 address with reverse dns ending in .gov.uk",
+          "snippet": "This file contains a list of every IPv4 address with reverse DNS ending in .gov.uk. There's some interesting things in here.Read more",
+          "details": {
+            "type": "gist",
+            "gist_id": "Jonty"
+          }
+        },
+        {
+          "url": "https://github.com/jorgerivera",
+          "title": "Jorge Rivera jorgerivera",
+          "snippet": "jorgerivera has 13 repositories available. Public Universidad Latina de Costa Rica. LMS-Community/slimserver Server for Logitech Squeezebox players. This ...",
+          "details": {
+            "type": "unknown"
+          }
+        },
+        {
+          "url": "https://github.com/hmdmsd",
+          "title": "Messaoud Hamdi hmdmsd",
+          "snippet": "‍   About Me. Fullstack Software Engineer passionate about building scalable, production-ready systems. Currently completing my Engineering degree at IMT ...",
+          "details": {
+            "type": "unknown"
+          }
+        },
+        {
+          "url": "https://github.com/MrezaMomeni/IMT",
+          "title": "MrezaMomeni/IMT: A collection of open-source projects, ...",
+          "snippet": "Developing real-world AI projects that solve meaningful problems. Creating learning experiences for interns and students through guided, hands-on projects.",
+          "details": {
+            "type": "repository",
+            "owner": "MrezaMomeni",
+            "repo": "IMT",
+            "full_name": "MrezaMomeni/IMT"
+          }
+        },
+        {
+          "url": "https://github.com/google/imt",
+          "title": "google/imt",
+          "snippet": "A collection of straightforward tools designed to assist in impact measurement. These tools include functions for randomization, checking baseline balance,Read more",
+          "details": {
+            "type": "repository",
+            "owner": "google",
+            "repo": "imt",
+            "full_name": "google/imt"
+          }
+        },
+        {
+          "url": "https://github.com/CoAxLab/multimodal-imt",
+          "title": "CoAxLab/multimodal-imt",
+          "snippet": "\"Integrating Multiple Imaging Modalities does not Boost Prediction of Carotid Artery Intima-Media Thickness in Midlife Adults\".Read more",
+          "details": {
+            "type": "repository",
+            "owner": "CoAxLab",
+            "repo": "multimodal-imt",
+            "full_name": "CoAxLab/multimodal-imt"
+          }
+        },
+        {
+          "url": "https://github.com/wmo-im/sc-imt",
+          "title": "wmo-im/sc-imt: Standing Committee on Information Management ...",
+          "snippet": "Standing Committee on Information Management and Technology - wmo-im/sc-imt.",
+          "details": {
+            "type": "repository",
+            "owner": "wmo-im",
+            "repo": "sc-imt",
+            "full_name": "wmo-im/sc-imt"
+          }
+        },
+        {
+          "url": "https://github.com/movabletype/mt-plugin-imt",
+          "title": "movabletype/mt-plugin-imt: Movable Type plugin for ...",
+          "snippet": "This plugin provides a more natural user interface for Apple's iPhone and iPod touch products. Once installed, you can access your Movable Type installation ...Read more",
+          "details": {
+            "type": "repository",
+            "owner": "movabletype",
+            "repo": "mt-plugin-imt",
+            "full_name": "movabletype/mt-plugin-imt"
+          }
+        },
+        {
+          "url": "https://github.com/codecadre/imt-school-addresses",
+          "title": "codecadre/imt-school-addresses: pulls addresses from IMT",
+          "snippet": "This repository mirrors the driving schools available at imt-ip.pt. It's a collection of scripts that scrape the website and respective school files.Read more",
+          "details": {
+            "type": "repository",
+            "owner": "codecadre",
+            "repo": "imt-school-addresses",
+            "full_name": "codecadre/imt-school-addresses"
+          }
+        },
+        {
+          "url": "https://github.com/CoAxLab/reappraisal-imt-progression",
+          "title": "CoAxLab/reappraisal-imt-progression",
+          "snippet": "A LassoPCR model to predict Multiyear Progression of Preclinical Atherosclerosis from Viewing and Reappraising Affective ScenesRead more",
+          "details": {
+            "type": "repository",
+            "owner": "CoAxLab",
+            "repo": "reappraisal-imt-progression",
+            "full_name": "CoAxLab/reappraisal-imt-progression"
+          }
+        },
+        {
+          "url": "https://github.com/vocdoni/lean-imt-go",
+          "title": "Lean Incremental Merkle Tree (Go Implementation)",
+          "snippet": "The LeanIMT is an optimized binary version of traditional Incremental Merkle Trees (IMT), eliminating the need for zero values and allowing dynamic depth ...Read more",
+          "details": {
+            "type": "repository",
+            "owner": "vocdoni",
+            "repo": "lean-imt-go",
+            "full_name": "vocdoni/lean-imt-go"
+          }
+        },
+        {
+          "url": "https://github.com/google/imt/blob/main/configure.win",
+          "title": "imt/configure.win at main · google/imt",
+          "snippet": "Contribute to google/imt development by creating an account on GitHub. Search code, repositories, users, issues, pull requests...",
+          "details": {
+            "type": "repository",
+            "owner": "google",
+            "repo": "imt",
+            "full_name": "google/imt"
+          }
+        },
+        {
+          "url": "https://github.com/Idun-Group/imt-lab/blob/main/.gitignore",
+          "title": "gitignore - Idun-Group/imt-lab",
+          "snippet": "Contribute to Idun-Group/imt-lab development by creating an account on GitHub. Search code, repositories, users, issues, pull requests... Edit and raw actions",
+          "details": {
+            "type": "repository",
+            "owner": "Idun-Group",
+            "repo": "imt-lab",
+            "full_name": "Idun-Group/imt-lab"
+          }
+        },
+        {
+          "url": "https://github.com/1password",
+          "title": "1Password",
+          "snippet": "1Password remembers all your passwords for you. It keeps your digital life secure and always available, safe behind the one password that only you know.",
+          "details": {
+            "type": "unknown"
+          }
+        },
+        {
+          "url": "https://gist.github.com/codejake/00f3f1c6e000e7d0baf93f72fd6be325",
+          "title": "Mirror of https://91.215.85.103/pay_or_leak ...",
+          "snippet": "LMS Charter Schools - Operated by Ta'aleem ... Airstreams Renewables, Inc. 1st Learn To Drive. British Academy of Jewellery. Arvin Union School District. IMT- ...",
+          "details": {
+            "type": "gist",
+            "gist_id": "codejake"
+          }
+        },
+        {
+          "url": "https://gist.github.com/PressStartandSelect/dbf8ced4fe76a7e11da8",
+          "title": "ftp-sites.org list",
+          "snippet": "Select an option. Embed Embed this gist in your website. Share Copy sharable link for this gist. Clone via HTTPS Clone using the web URL. No results found.",
+          "details": {
+            "type": "gist",
+            "gist_id": "PressStartandSelect"
+          }
+        },
+        {
+          "url": "https://gist.github.com/e87252275b437133d2f0",
+          "title": "arrays file types php",
+          "snippet": "\".imt\" => \"My Time Data File\",. \".in\" => \"Input File\",. \".incp\" => \"InCopy CS3 ... \".lms\" => \"LenMus Score File\",. \".lmx\" => \"Landmark Exchange File ...",
+          "details": {
+            "type": "unknown"
+          }
+        },
+        {
+          "url": "https://github.com/panimesh14/user-relevance-scoring-model-improved/blob/main/Jan_03_2023_test_v2.csv",
+          "title": "Jan_03_2023_test_v2.csv",
+          "snippet": "The project involves building models for scoring & segregating users acccording to certain threshold criteria based on features from LinkedIn on threshold ...",
+          "details": {
+            "type": "repository",
+            "owner": "panimesh14",
+            "repo": "user-relevance-scoring-model-improved",
+            "full_name": "panimesh14/user-relevance-scoring-model-improved"
+          }
+        },
+        {
+          "url": "https://github.com/Eloise1988/COINGECKO/blob/master/OLD/CoinGeckoV2_withoutcache.gs",
+          "title": "COINGECKO/OLD/CoinGeckoV2_withoutcache.gs at master",
+          "snippet": "Imports CoinGecko's cryptocurrency market capitalization into Google spreadsheets. The id_coin of cryptocurrency ticker is found in web address of Coingecko ...",
+          "details": {
+            "type": "repository",
+            "owner": "Eloise1988",
+            "repo": "COINGECKO",
+            "full_name": "Eloise1988/COINGECKO"
+          }
+        },
+        {
+          "url": "https://gist.github.com/philshem/5d2d8c76c671afb8ae3c6bdb1617f228",
+          "title": "cleanup script and csv file (needs some cleaning) based ...",
+          "snippet": "IMT Integrated Management Tool. IMU International Mathematical Union. In ... LMS London Mathematical Society-London, Midland and Scottish (Railway). LMS ...",
+          "details": {
+            "type": "gist",
+            "gist_id": "philshem"
+          }
+        },
+        {
+          "url": "https://github.com/grant/npm-crawler/blob/master/modules.txt",
+          "title": "modules.txt - grant/npm-crawler",
+          "snippet": "4 thg 6, 2014 — A npm registry crawler. Contribute to grant/npm-crawler development by creating an account on GitHub.",
+          "details": {
+            "type": "repository",
+            "owner": "grant",
+            "repo": "npm-crawler",
+            "full_name": "grant/npm-crawler"
+          }
+        }
+      ],
+      "sensitive_repositories": 0,
+      "total_sensitive_findings": 0
+    },
+    {
+      "subdomain": "mail.imt.edu",
+      "repositories": [
+        {
+          "url": "https://github.com/imt-lab",
+          "title": "imt-lab",
+          "snippet": "imt-lab has 16 repositories available. Follow their code on GitHub.",
+          "details": {
+            "type": "unknown"
+          }
+        },
+        {
+          "url": "https://github.com/imt-lab/zimbra-mailbox-stress-test",
+          "title": "imt-lab/zimbra-mailbox-stress-test",
+          "snippet": "A stress test tool for zimbra mailbox. Contribute to imt-lab/zimbra-mailbox-stress-test development by creating an account on GitHub.",
+          "details": {
+            "type": "repository",
+            "owner": "imt-lab",
+            "repo": "zimbra-mailbox-stress-test",
+            "full_name": "imt-lab/zimbra-mailbox-stress-test"
+          }
+        },
+        {
+          "url": "https://github.com/a2-stuff/Indicium-Mail-TUI/blob/main/README.md",
+          "title": "README.md - Indicium Mail TUI",
+          "snippet": "A keyboard-driven terminal email client built in Rust. Reads and sends mail over standard IMAP/SMTP with real push delivery via RFC 2177 IDLE, ...",
+          "details": {
+            "type": "repository",
+            "owner": "a2-stuff",
+            "repo": "Indicium-Mail-TUI",
+            "full_name": "a2-stuff/Indicium-Mail-TUI"
+          }
+        },
+        {
+          "url": "https://github.com/a2-stuff/Indicium-Mail-TUI/blob/main/DOCUMENTATION.md",
+          "title": "DOCUMENTATION.md - a2-stuff/Indicium-Mail-TUI",
+          "snippet": "A keyboard-driven terminal email client built in Rust. Reads and sends mail over standard IMAP/SMTP with real push delivery via RFC 2177 IDLE, ...",
+          "details": {
+            "type": "repository",
+            "owner": "a2-stuff",
+            "repo": "Indicium-Mail-TUI",
+            "full_name": "a2-stuff/Indicium-Mail-TUI"
+          }
+        },
+        {
+          "url": "https://github.com/a2-stuff/Indicium-Mail-TUI/blob/main/MCP_DOCUMENTATION.md",
+          "title": "MCP_DOCUMENTATION.md - a2-stuff/Indicium-Mail-TUI",
+          "snippet": "A keyboard-driven terminal email client built in Rust. Reads and sends mail over standard IMAP/SMTP with real push delivery via RFC 2177 IDLE, ...",
+          "details": {
+            "type": "repository",
+            "owner": "a2-stuff",
+            "repo": "Indicium-Mail-TUI",
+            "full_name": "a2-stuff/Indicium-Mail-TUI"
+          }
+        },
+        {
+          "url": "https://github.com/topics/lmtp?l=python&o=asc&s=forks",
+          "title": "lmtp · GitHub Topics",
+          "snippet": "A simple LMTP delivery proxy that is able to deliver to different backends depending on the rcpt to user. proxy imap proxy-server smtp smtp-server ...",
+          "details": {
+            "type": "repository",
+            "owner": "topics",
+            "repo": "lmtp",
+            "full_name": "topics/lmtp"
+          }
+        },
+        {
+          "url": "https://github.com/topics/zimbra?l=python&o=asc&s=stars",
+          "title": "zimbra · GitHub Topics",
+          "snippet": "This is a simple bot that can send emails to multiple recipients Which is made by python and selenium. python selenium zimbra. Updated on Aug 26, 2024; Python ...",
+          "details": {
+            "type": "repository",
+            "owner": "topics",
+            "repo": "zimbra",
+            "full_name": "topics/zimbra"
+          }
+        },
+        {
+          "url": "https://github.com/jonathanlys01",
+          "title": "Jonathan Lys jonathanlys01",
+          "snippet": "‍   I am a second-year PhD student at IMT Atlantique in the BRoader Artificial Intelligence (BRAIN) team. My research interests include deep learning ...",
+          "details": {
+            "type": "unknown"
+          }
+        },
+        {
+          "url": "https://github.com/topics/lmtp?o=asc&s=forks",
+          "title": "lmtp · GitHub Topics",
+          "snippet": "A simple application designed to manage Email, Domains, and Aliases on a standalone Postfix + Dovecot system that uses MySQL as its dynamic storage backend.",
+          "details": {
+            "type": "repository",
+            "owner": "topics",
+            "repo": "lmtp",
+            "full_name": "topics/lmtp"
+          }
+        },
+        {
+          "url": "https://github.com/MrezaMomeni/IMT",
+          "title": "MrezaMomeni/IMT: A collection of open-source projects, ...",
+          "snippet": "Developing real-world AI projects that solve meaningful problems. Creating learning experiences for interns and students through guided, hands-on projects.",
+          "details": {
+            "type": "repository",
+            "owner": "MrezaMomeni",
+            "repo": "IMT",
+            "full_name": "MrezaMomeni/IMT"
+          }
+        },
+        {
+          "url": "https://github.com/google/imt",
+          "title": "google/imt",
+          "snippet": "A collection of straightforward tools designed to assist in impact measurement. These tools include functions for randomization, checking baseline balance,Read more",
+          "details": {
+            "type": "repository",
+            "owner": "google",
+            "repo": "imt",
+            "full_name": "google/imt"
+          }
+        },
+        {
+          "url": "https://github.com/CoAxLab/multimodal-imt",
+          "title": "CoAxLab/multimodal-imt",
+          "snippet": "\"Integrating Multiple Imaging Modalities does not Boost Prediction of Carotid Artery Intima-Media Thickness in Midlife Adults\".Read more",
+          "details": {
+            "type": "repository",
+            "owner": "CoAxLab",
+            "repo": "multimodal-imt",
+            "full_name": "CoAxLab/multimodal-imt"
+          }
+        },
+        {
+          "url": "https://github.com/wmo-im/sc-imt",
+          "title": "wmo-im/sc-imt: Standing Committee on Information Management ...",
+          "snippet": "Standing Committee on Information Management and Technology - wmo-im/sc-imt.",
+          "details": {
+            "type": "repository",
+            "owner": "wmo-im",
+            "repo": "sc-imt",
+            "full_name": "wmo-im/sc-imt"
+          }
+        },
+        {
+          "url": "https://github.com/movabletype/mt-plugin-imt",
+          "title": "movabletype/mt-plugin-imt: Movable Type plugin for ...",
+          "snippet": "This plugin provides a more natural user interface for Apple's iPhone and iPod touch products. Once installed, you can access your Movable Type installation ...Read more",
+          "details": {
+            "type": "repository",
+            "owner": "movabletype",
+            "repo": "mt-plugin-imt",
+            "full_name": "movabletype/mt-plugin-imt"
+          }
+        },
+        {
+          "url": "https://github.com/codecadre/imt-school-addresses",
+          "title": "codecadre/imt-school-addresses: pulls addresses from IMT",
+          "snippet": "This repository mirrors the driving schools available at imt-ip.pt. It's a collection of scripts that scrape the website and respective school files.Read more",
+          "details": {
+            "type": "repository",
+            "owner": "codecadre",
+            "repo": "imt-school-addresses",
+            "full_name": "codecadre/imt-school-addresses"
+          }
+        },
+        {
+          "url": "https://github.com/CoAxLab/reappraisal-imt-progression",
+          "title": "CoAxLab/reappraisal-imt-progression",
+          "snippet": "A LassoPCR model to predict Multiyear Progression of Preclinical Atherosclerosis from Viewing and Reappraising Affective ScenesRead more",
+          "details": {
+            "type": "repository",
+            "owner": "CoAxLab",
+            "repo": "reappraisal-imt-progression",
+            "full_name": "CoAxLab/reappraisal-imt-progression"
+          }
+        },
+        {
+          "url": "https://github.com/vocdoni/lean-imt-go",
+          "title": "Lean Incremental Merkle Tree (Go Implementation)",
+          "snippet": "The LeanIMT is an optimized binary version of traditional Incremental Merkle Trees (IMT), eliminating the need for zero values and allowing dynamic depth ...Read more",
+          "details": {
+            "type": "repository",
+            "owner": "vocdoni",
+            "repo": "lean-imt-go",
+            "full_name": "vocdoni/lean-imt-go"
+          }
+        },
+        {
+          "url": "https://github.com/google/imt/blob/main/configure.win",
+          "title": "imt/configure.win at main · google/imt",
+          "snippet": "Contribute to google/imt development by creating an account on GitHub. Search code, repositories, users, issues, pull requests...",
+          "details": {
+            "type": "repository",
+            "owner": "google",
+            "repo": "imt",
+            "full_name": "google/imt"
+          }
+        },
+        {
+          "url": "https://github.com/Idun-Group/imt-lab/blob/main/.gitignore",
+          "title": "gitignore - Idun-Group/imt-lab",
+          "snippet": "Contribute to Idun-Group/imt-lab development by creating an account on GitHub. Search code, repositories, users, issues, pull requests... Edit and raw actions",
+          "details": {
+            "type": "repository",
+            "owner": "Idun-Group",
+            "repo": "imt-lab",
+            "full_name": "Idun-Group/imt-lab"
+          }
+        },
+        {
+          "url": "https://github.com/1password",
+          "title": "1Password",
+          "snippet": "1Password remembers all your passwords for you. It keeps your digital life secure and always available, safe behind the one password that only you know.Read more",
+          "details": {
+            "type": "unknown"
+          }
+        },
+        {
+          "url": "https://github.com/Open-Cascade-SAS",
+          "title": "Open Cascade SAS",
+          "snippet": "Open CASCADE Technology (OCCT) is an open-source software development platform for 3D CAD, CAM, CAE.Read more",
+          "details": {
+            "type": "unknown"
+          }
+        },
+        {
+          "url": "https://gist.github.com/crypto-cypher/f216d6fa4816ffa93c5270b001dc4bdc",
+          "title": "Fortinet Victim List - \"Hackers leak passwords for 500000 ...",
+          "snippet": "Fortinet Victim List ;Hackers leak passwords for 500000 Fortinet VPN accounts&quot; Instantly share code, notes, and snippets. has been truncated, but you can ...",
+          "details": {
+            "type": "gist",
+            "gist_id": "crypto-cypher"
+          }
+        },
+        {
+          "url": "https://gist.github.com/e87252275b437133d2f0",
+          "title": "arrays file types php",
+          "snippet": "instantly share code, notes, and snippets. \"Windows Live Mail Email File\", \".imt\" =>",
+          "details": {
+            "type": "unknown"
+          }
+        },
+        {
+          "url": "https://github.com/tlhunter",
+          "title": "Thomas Hunter II tlhunter",
+          "snippet": "Software Engineer with 18+ years writing scalable, production-grade software. Deep expertise in Node.js, observability, and developer tooling,",
+          "details": {
+            "type": "unknown"
+          }
+        },
+        {
+          "url": "https://github.com/videosdk-live",
+          "title": "Video SDK",
+          "snippet": "Video SDK is an API that enables developers to easily build live audio & video experiences in any platform within minutes.Read more",
+          "details": {
+            "type": "unknown"
+          }
+        },
+        {
+          "url": "https://github.com/team-cymru",
+          "title": "Team Cymru",
+          "snippet": "Team Cymru has 9 repositories available. Include my email address so I can be contacted. Automate and orchestrate your Security Operations with Cortex XSOAR's ...",
+          "details": {
+            "type": "unknown"
+          }
+        },
+        {
+          "url": "https://github.com/bradjasper/Markov-Chains/blob/master/crunchbase.txt",
+          "title": "crunchbase.txt - bradjasper/Markov-Chains",
+          "snippet": "Experiments with Markov Chains. Contribute to bradjasper/Markov-Chains development by creating an account on GitHub.",
+          "details": {
+            "type": "repository",
+            "owner": "bradjasper",
+            "repo": "Markov-Chains",
+            "full_name": "bradjasper/Markov-Chains"
+          }
+        }
+      ],
+      "sensitive_repositories": 0,
+      "total_sensitive_findings": 0
+    },
+    {
+      "subdomain": "web.imt.edu",
+      "repositories": [
+        {
+          "url": "https://github.com/google/imt",
+          "title": "google/imt - GitHub",
+          "snippet": "imt. Within this package, you will find a collection of straightforward ... No description, website, or topics provided. Resources. Readme. License. Apache ...Read more",
+          "details": {
+            "type": "repository",
+            "owner": "google",
+            "repo": "imt",
+            "full_name": "google/imt"
+          }
+        },
+        {
+          "url": "https://github.com/imt-mobisyst/imt-mobisyst.github.io",
+          "title": "imt-mobisyst.github.io",
+          "snippet": "It is a master website regrouping severals mkdocs based sites. Each site has its own directory (lct-mobile-robot for instance for the lescture on ROS2) and a ...Read more",
+          "details": {
+            "type": "repository",
+            "owner": "imt-mobisyst",
+            "repo": "imt-mobisyst.github.io",
+            "full_name": "imt-mobisyst/imt-mobisyst.github.io"
+          }
+        },
+        {
+          "url": "https://github.com/codecadre/imt-school-addresses",
+          "title": "codecadre/imt-school-addresses: pulls addresses from IMT",
+          "snippet": "This repository mirrors the driving schools available at imt-ip.pt. It's a collection of scripts that scrape the website and respective school files.Read more",
+          "details": {
+            "type": "repository",
+            "owner": "codecadre",
+            "repo": "imt-school-addresses",
+            "full_name": "codecadre/imt-school-addresses"
+          }
+        },
+        {
+          "url": "https://github.com/Idun-Group/imt-lab/blob/main/.gitignore",
+          "title": "gitignore - Idun-Group/imt-lab - GitHub",
+          "snippet": "Contribute to Idun-Group/imt-lab development by creating an account on GitHub ... web/.next/ web/out/ web/.turbo/ web/next-env.d.ts # Logs *.log npm-debug.log ...Read more",
+          "details": {
+            "type": "repository",
+            "owner": "Idun-Group",
+            "repo": "imt-lab",
+            "full_name": "Idun-Group/imt-lab"
+          }
+        },
+        {
+          "url": "https://github.com/codecadre/imt-pass-rates",
+          "title": "IMT pass rates from 2015-2020 parsed and ready to use in a ...",
+          "snippet": "Originally it was only a web app, but we decided to release some of the ... A collection of pdfs on the Imt Website. Data issues. Some schools show up ...Read more",
+          "details": {
+            "type": "repository",
+            "owner": "codecadre",
+            "repo": "imt-pass-rates",
+            "full_name": "codecadre/imt-pass-rates"
+          }
+        },
+        {
+          "url": "https://github.com/Jarrome/IMT_Mapping",
+          "title": "Jarrome/IMT_Mapping: [RAL 2022] SE(3)-Transformation on ...",
+          "snippet": "Brief intro of this project shows in website. Update 7. Aug 2022: seems ... jarrome.github.io/IMT-MAP/. Topics. reconstruction remapping neuralimplicit ...Read more",
+          "details": {
+            "type": "repository",
+            "owner": "Jarrome",
+            "repo": "IMT_Mapping",
+            "full_name": "Jarrome/IMT_Mapping"
+          }
+        },
+        {
+          "url": "https://github.com/CoAxLab/multimodal-imt",
+          "title": "CoAxLab/multimodal-imt - GitHub",
+          "snippet": "multimodal-imt. \"Integrating Multiple Imaging Modalities does not Boost ... No description, website, or topics provided. Resources. Readme. Uh oh! There ...Read more",
+          "details": {
+            "type": "repository",
+            "owner": "CoAxLab",
+            "repo": "multimodal-imt",
+            "full_name": "CoAxLab/multimodal-imt"
+          }
+        },
+        {
+          "url": "https://github.com/imtapps",
+          "title": "IMT Software Services - GitHub",
+          "snippet": "IMT Software Services has 92 repositories available. Follow their code on GitHub ... Python interface to Amazon Web Services. Uh oh! There was an error while ...Read more",
+          "details": {
+            "type": "unknown"
+          }
+        },
+        {
+          "url": "https://github.com/CoAxLab/reappraisal-imt-progression",
+          "title": "CoAxLab/reappraisal-imt-progression - GitHub",
+          "snippet": "Contribute to CoAxLab/reappraisal-imt-progression development by creating an account on GitHub ... No description, website, or topics provided. Resources. Readme ...Read more",
+          "details": {
+            "type": "repository",
+            "owner": "CoAxLab",
+            "repo": "reappraisal-imt-progression",
+            "full_name": "CoAxLab/reappraisal-imt-progression"
+          }
+        },
+        {
+          "url": "https://github.com/Immortality-IMT/searxng_custom_features",
+          "title": "Immortality-IMT/searxng_custom_features: SearXNG ... - GitHub",
+          "snippet": "SearXNG is a free internet metasearch engine which aggregates results from various search services and databases. Users are neither tracked nor profiled.",
+          "details": {
+            "type": "repository",
+            "owner": "Immortality-IMT",
+            "repo": "searxng_custom_features",
+            "full_name": "Immortality-IMT/searxng_custom_features"
+          }
+        },
+        {
+          "url": "https://github.com/MrezaMomeni/IMT",
+          "title": "MrezaMomeni/IMT: A collection of open-source projects, ...",
+          "snippet": "Developing real-world AI projects that solve meaningful problems. Creating learning experiences for interns and students through guided, hands-on projects.",
+          "details": {
+            "type": "repository",
+            "owner": "MrezaMomeni",
+            "repo": "IMT",
+            "full_name": "MrezaMomeni/IMT"
+          }
+        },
+        {
+          "url": "https://github.com/wmo-im/sc-imt",
+          "title": "wmo-im/sc-imt: Standing Committee on Information Management ...",
+          "snippet": "Standing Committee on Information Management and Technology - wmo-im/sc-imt.",
+          "details": {
+            "type": "repository",
+            "owner": "wmo-im",
+            "repo": "sc-imt",
+            "full_name": "wmo-im/sc-imt"
+          }
+        },
+        {
+          "url": "https://github.com/movabletype/mt-plugin-imt",
+          "title": "movabletype/mt-plugin-imt: Movable Type plugin for ...",
+          "snippet": "This plugin provides a more natural user interface for Apple's iPhone and iPod touch products. Once installed, you can access your Movable Type installation ...",
+          "details": {
+            "type": "repository",
+            "owner": "movabletype",
+            "repo": "mt-plugin-imt",
+            "full_name": "movabletype/mt-plugin-imt"
+          }
+        },
+        {
+          "url": "https://github.com/Andrwyl/IMT-in-monolingual-IR",
+          "title": "The Impact of Incidental Multilingual Text on Cross-Lingual ...",
+          "snippet": "This repository provides the code for our paper The Impact of Incidental Multilingual Text on Cross-Lingual Transferring in Monolingual Retrieval published ...",
+          "details": {
+            "type": "repository",
+            "owner": "Andrwyl",
+            "repo": "IMT-in-monolingual-IR",
+            "full_name": "Andrwyl/IMT-in-monolingual-IR"
+          }
+        },
+        {
+          "url": "https://github.com/vocdoni/lean-imt-go",
+          "title": "Lean Incremental Merkle Tree (Go Implementation)",
+          "snippet": "The LeanIMT is an optimized binary version of traditional Incremental Merkle Trees (IMT), eliminating the need for zero values and allowing dynamic depth ...",
+          "details": {
+            "type": "repository",
+            "owner": "vocdoni",
+            "repo": "lean-imt-go",
+            "full_name": "vocdoni/lean-imt-go"
+          }
+        },
+        {
+          "url": "https://github.com/IMT-Atlantique-FIL-2020-2023",
+          "title": "IMT Atlantique FIL 2020-2023",
+          "snippet": "IMT Atlantique FIL 2020-2023. School work from students doing a Master's degree in software engineering in apprenticeship at IMT Atlantique.",
+          "details": {
+            "type": "unknown"
+          }
+        },
+        {
+          "url": "https://gist.github.com/yannbertrand/d511819edda1ba1b81ae12b822481dde",
+          "title": "Formation IMT 2023 · GitHub",
+          "snippet": "Formation IMT 2023. GitHub Gist: instantly share code, notes, and snippets.",
+          "details": {
+            "type": "gist",
+            "gist_id": "yannbertrand"
+          }
+        },
+        {
+          "url": "https://github.com/simon-bachhuber/imt",
+          "title": "simon-bachhuber/imt: Plug-and-Play Inertial Motion Tracking",
+          "snippet": "This python package combines many well-established methods to provide a unified interface applicable to diverse inertial motion tracking tasks. ℹ️ Installation:.",
+          "details": {
+            "type": "repository",
+            "owner": "simon-bachhuber",
+            "repo": "imt",
+            "full_name": "simon-bachhuber/imt"
+          }
+        },
+        {
+          "url": "https://github.com/kgretzky/evilginx2",
+          "title": "kgretzky/evilginx2: Standalone man-in-the-middle attack ...",
+          "snippet": "Evilginx is a man-in-the-middle attack framework used for phishing login credentials along with session cookies, which in turn allows to bypass 2-factor ...Read more",
+          "details": {
+            "type": "repository",
+            "owner": "kgretzky",
+            "repo": "evilginx2",
+            "full_name": "kgretzky/evilginx2"
+          }
+        },
+        {
+          "url": "https://github.com/tuya",
+          "title": "Tuya",
+          "snippet": "TuyaOpen: An open (open source and open access to many IoT clouds) IoT development framework that enables quick integration of smart devices into IoT clouds.Read more",
+          "details": {
+            "type": "unknown"
+          }
+        },
+        {
+          "url": "https://github.com/acontis",
+          "title": "acontis technologies GmbH",
+          "snippet": "Open Source Projects of acontis technologies GmbH. acontis technologies GmbH has 4 repositories available. Follow their code on GitHub.",
+          "details": {
+            "type": "unknown"
+          }
+        },
+        {
+          "url": "https://github.com/1password",
+          "title": "1Password",
+          "snippet": "1Password remembers all your passwords for you. It keeps your digital life secure and always available, safe behind the one password that only you know.Read more",
+          "details": {
+            "type": "unknown"
+          }
+        },
+        {
+          "url": "https://github.com/doc-bok",
+          "title": "doc-bok",
+          "snippet": "Anki 2 add-on for use with HabitRPG. Automatically scores habits when you reach the end of your Anki timebox and when you review all cards in a deck. Python.Read more",
+          "details": {
+            "type": "unknown"
+          }
+        },
+        {
+          "url": "https://github.com/colonelsalt/Rocket-Edition",
+          "title": "colonelsalt/Rocket-Edition: ROM hack of Pokémon FireRed ...",
+          "snippet": "Rocket Edition is a completed ROM hack of Pokémon FireRed, and is available freely to download here: https://bit.ly/pkmfrrocketed.Read more",
+          "details": {
+            "type": "repository",
+            "owner": "colonelsalt",
+            "repo": "Rocket-Edition",
+            "full_name": "colonelsalt/Rocket-Edition"
+          }
+        },
+        {
+          "url": "https://gist.github.com/crypto-cypher/f216d6fa4816ffa93c5270b001dc4bdc",
+          "title": "Fortinet Victim List - \"Hackers leak passwords for 500000 ...",
+          "snippet": "Fortinet Victim List - \"Hackers leak passwords for 500000 Fortinet VPN accounts\" #TrackThePlanet - fortinet_victim_list_2021.txt.",
+          "details": {
+            "type": "gist",
+            "gist_id": "crypto-cypher"
+          }
+        },
+        {
+          "url": "https://github.com/tlhunter",
+          "title": "Thomas Hunter II tlhunter",
+          "snippet": "Software Engineer with 18+ years writing scalable, production-grade software. Deep expertise in Node.js, observability, and developer tooling,",
+          "details": {
+            "type": "unknown"
+          }
+        },
+        {
+          "url": "https://gist.github.com/e87252275b437133d2f0",
+          "title": "arrays file types php",
+          "snippet": "arrays file types php. GitHub Gist: instantly share code, notes, and snippets.",
+          "details": {
+            "type": "unknown"
+          }
+        },
+        {
+          "url": "https://github.com/Open-Cascade-SAS",
+          "title": "Open Cascade SAS",
+          "snippet": "Open CASCADE Technology (OCCT) is an open-source software development platform for 3D CAD, CAM, CAE.Read more",
+          "details": {
+            "type": "unknown"
+          }
+        }
+      ],
+      "sensitive_repositories": 0,
+      "total_sensitive_findings": 0
+    },
+    {
+      "subdomain": "whm.imt.edu",
+      "repositories": [
+        {
+          "url": "https://github.com/s-yagyu/V-LBLP/blob/main/docs/Analysis_manual.md",
+          "title": "V-LBLP/docs/Analysis_manual.md at main",
+          "snippet": "This tool can be used to analyze and visualization of local bending of the lattice planes (V-LBLP) measured at a synchrotron radiation facility.",
+          "details": {
+            "type": "repository",
+            "owner": "s-yagyu",
+            "repo": "V-LBLP",
+            "full_name": "s-yagyu/V-LBLP"
+          }
+        },
+        {
+          "url": "https://gist.github.com/3954076",
+          "title": "Daily Programmer #107 difficult",
+          "snippet": "Daily Programmer #107 difficult. GitHub Gist: instantly share code, notes, and snippets. 'imh', 'iml', 'imr', 'imt', 'imv', 'imw', 'whm',",
+          "details": {
+            "type": "unknown"
+          }
+        },
+        {
+          "url": "https://github.com/ServiceStackApps/SocialBootstrapApi/commit/5c35304f999e4e487467d285a785395b80e7a450.patch",
+          "title": "https://github.com/ServiceStackApps/SocialBootstra...",
+          "snippet": "... ImT#@88ykSH$<GQ3{ zX(QAK!^BltaMaR#xK~7^5hUp`@6d?mMv{|SMzk<SN@_PeE~2F|ji}I ... wHM>9XT%HQRq?j?oA^ZhQ<&NiZG?8Nc9AwwTbprB#tj)CWoVgqXWo~&EAtPT zZ)bi#>t9 ...Read more",
+          "details": {
+            "type": "repository",
+            "owner": "ServiceStackApps",
+            "repo": "SocialBootstrapApi",
+            "full_name": "ServiceStackApps/SocialBootstrapApi"
+          }
+        },
+        {
+          "url": "https://github.com/openbabel/openbabel/blob/master/src/formats/libinchi/ikey_base26.c",
+          "title": "openbabel/src/formats/libinchi/ikey_base26.c at master",
+          "snippet": "Open Babel is a chemical toolbox designed to speak the many languages of chemical data. International Chemical Identifier",
+          "details": {
+            "type": "repository",
+            "owner": "openbabel",
+            "repo": "openbabel",
+            "full_name": "openbabel/openbabel"
+          }
+        },
+        {
+          "url": "https://github.com/droidcon/conference-mobile-app/commit/8e88c0d0662036cb4e93be8adb91be7c5302f292.patch",
+          "title": "https://github.com/droidcon/conference-mobile-app/...",
+          "snippet": "... Imt~jW=<~2wGek5BnKQ3%E>`4z2EFQn z>YhS39sJ$9=XB7N<EEllHB9oEc5_w|ip;X?$fywv+ ... {WHm#FWfi}3^=YxVa<mh&Lo;Jt^_*mBjk}9FbZfYS!jM&b5@m7Rdry>;H z*Mo4IX;FA%Q ...Read more",
+          "details": {
+            "type": "repository",
+            "owner": "droidcon",
+            "repo": "conference-mobile-app",
+            "full_name": "droidcon/conference-mobile-app"
+          }
+        },
+        {
+          "url": "https://github.com/rapgro/ocproxy/commit/5876cf460b248e53548b7aa37d0ee58f024fed81.patch",
+          "title": "https://github.com/rapgro/ocproxy/commit/5876cf460...",
+          "snippet": "... wHM - AUMC/wHuAYgB/wHsAdIBhgH/AvcB8QH/AvcB8QH/AtYBxQH/AvcB8QH/AvcB8QH/AtEBwAH/AvcB8QH/ - AvcB8QH/As0BvAH/AvcB6wH/AkcBPwFzAkIBQQFzAvcB6wL/AcwBQgL/Ae4BiAH ...Read more",
+          "details": {
+            "type": "repository",
+            "owner": "rapgro",
+            "repo": "ocproxy",
+            "full_name": "rapgro/ocproxy"
+          }
+        },
+        {
+          "url": "https://gist.github.com/aseyboldt/57ebb66dd6597d6ea7a9d59f24f264e0?short_path=38b61d8",
+          "title": "exoplanet.ipynb",
+          "snippet": "GitHub Gist: instantly share code, notes, and snippets. t/exoplanet.ipynb. Learn more about clone URLs",
+          "details": {
+            "type": "gist",
+            "gist_id": "aseyboldt"
+          }
+        },
+        {
+          "url": "https://github.com/matteoferla/tangents/blob/master/namegen.py",
+          "title": "tangents/namegen.py at master",
+          "snippet": "This is a very simple script. Autogen is the main function. It returns a string, the first value is the number of species, the second the kmer (1 or 2).Read more",
+          "details": {
+            "type": "repository",
+            "owner": "matteoferla",
+            "repo": "tangents",
+            "full_name": "matteoferla/tangents"
+          }
+        },
+        {
+          "url": "https://github.com/SP2-MC2/Readability-Resources/blob/master/cyberDictionary.txt",
+          "title": "cyberDictionary.txt - SP2-MC2/Readability-Resources",
+          "snippet": "Code for generating Smart Cloze and Traditional Cloze (fill in the blank) readability tests AND repository of human-written comprehension questions.",
+          "details": {
+            "type": "repository",
+            "owner": "SP2-MC2",
+            "repo": "Readability-Resources",
+            "full_name": "SP2-MC2/Readability-Resources"
+          }
+        },
+        {
+          "url": "https://github.com/nanxstats/protr/blob/master/R/desc-10-CTriad.R",
+          "title": "protr/R/desc-10-CTriad.R at master",
+          "snippet": "Toolkit for generating various numerical features of protein sequences - protr/R/desc-10-CTriad.R at master · nanxstats/protr.",
+          "details": {
+            "type": "repository",
+            "owner": "nanxstats",
+            "repo": "protr",
+            "full_name": "nanxstats/protr"
+          }
+        },
+        {
+          "url": "https://github.com/MrezaMomeni/IMT",
+          "title": "MrezaMomeni/IMT: A collection of open-source projects, ...",
+          "snippet": "Developing real-world AI projects that solve meaningful problems. Creating learning experiences for interns and students through guided, hands-on projects.",
+          "details": {
+            "type": "repository",
+            "owner": "MrezaMomeni",
+            "repo": "IMT",
+            "full_name": "MrezaMomeni/IMT"
+          }
+        },
+        {
+          "url": "https://github.com/google/imt",
+          "title": "google/imt",
+          "snippet": "A collection of straightforward tools designed to assist in impact measurement. These tools include functions for randomization, checking baseline balance,Read more",
+          "details": {
+            "type": "repository",
+            "owner": "google",
+            "repo": "imt",
+            "full_name": "google/imt"
+          }
+        },
+        {
+          "url": "https://github.com/movabletype/mt-plugin-imt",
+          "title": "movabletype/mt-plugin-imt: Movable Type plugin for ...",
+          "snippet": "This plugin provides a more natural user interface for Apple's iPhone and iPod touch products. Once installed, you can access your Movable Type installation ...Read more",
+          "details": {
+            "type": "repository",
+            "owner": "movabletype",
+            "repo": "mt-plugin-imt",
+            "full_name": "movabletype/mt-plugin-imt"
+          }
+        },
+        {
+          "url": "https://github.com/CoAxLab/multimodal-imt",
+          "title": "CoAxLab/multimodal-imt",
+          "snippet": "\"Integrating Multiple Imaging Modalities does not Boost Prediction of Carotid Artery Intima-Media Thickness in Midlife Adults\".Read more",
+          "details": {
+            "type": "repository",
+            "owner": "CoAxLab",
+            "repo": "multimodal-imt",
+            "full_name": "CoAxLab/multimodal-imt"
+          }
+        },
+        {
+          "url": "https://github.com/wmo-im/sc-imt",
+          "title": "wmo-im/sc-imt: Standing Committee on Information Management ...",
+          "snippet": "Standing Committee on Information Management and Technology - wmo-im/sc-imt.",
+          "details": {
+            "type": "repository",
+            "owner": "wmo-im",
+            "repo": "sc-imt",
+            "full_name": "wmo-im/sc-imt"
+          }
+        },
+        {
+          "url": "https://github.com/codecadre/imt-school-addresses",
+          "title": "codecadre/imt-school-addresses: pulls addresses from IMT",
+          "snippet": "This repository mirrors the driving schools available at imt-ip.pt. It's a collection of scripts that scrape the website and respective school files.Read more",
+          "details": {
+            "type": "repository",
+            "owner": "codecadre",
+            "repo": "imt-school-addresses",
+            "full_name": "codecadre/imt-school-addresses"
+          }
+        },
+        {
+          "url": "https://github.com/CoAxLab/reappraisal-imt-progression",
+          "title": "CoAxLab/reappraisal-imt-progression",
+          "snippet": "A LassoPCR model to predict Multiyear Progression of Preclinical Atherosclerosis from Viewing and Reappraising Affective ScenesRead more",
+          "details": {
+            "type": "repository",
+            "owner": "CoAxLab",
+            "repo": "reappraisal-imt-progression",
+            "full_name": "CoAxLab/reappraisal-imt-progression"
+          }
+        },
+        {
+          "url": "https://github.com/vocdoni/lean-imt-go",
+          "title": "Lean Incremental Merkle Tree (Go Implementation)",
+          "snippet": "The LeanIMT is an optimized binary version of traditional Incremental Merkle Trees (IMT), eliminating the need for zero values and allowing dynamic depth ...Read more",
+          "details": {
+            "type": "repository",
+            "owner": "vocdoni",
+            "repo": "lean-imt-go",
+            "full_name": "vocdoni/lean-imt-go"
+          }
+        },
+        {
+          "url": "https://github.com/google/imt/blob/main/configure.win",
+          "title": "imt/configure.win at main · google/imt",
+          "snippet": "Contribute to google/imt development by creating an account on GitHub. Search code, repositories, users, issues, pull requests...",
+          "details": {
+            "type": "repository",
+            "owner": "google",
+            "repo": "imt",
+            "full_name": "google/imt"
+          }
+        },
+        {
+          "url": "https://github.com/Idun-Group/imt-lab/blob/main/.gitignore",
+          "title": "gitignore - Idun-Group/imt-lab",
+          "snippet": "Contribute to Idun-Group/imt-lab development by creating an account on GitHub. Search code, repositories, users, issues, pull requests... Edit and raw actions",
+          "details": {
+            "type": "repository",
+            "owner": "Idun-Group",
+            "repo": "imt-lab",
+            "full_name": "Idun-Group/imt-lab"
+          }
+        }
+      ],
+      "sensitive_repositories": 0,
+      "total_sensitive_findings": 0
+    },
+    {
+      "subdomain": "www.alumni.imt.edu",
+      "repositories": [
+        {
+          "url": "https://github.com/zokuji/Zokuji",
+          "title": "zokuji/Zokuji",
+          "snippet": "IMT Atlantique alumni; Work at Metron as DevOps & Cloud Engineer. I'm passionnate about. Green IT & IT for green; Sciences & New technologies ...",
+          "details": {
+            "type": "repository",
+            "owner": "zokuji",
+            "repo": "Zokuji",
+            "full_name": "zokuji/Zokuji"
+          }
+        },
+        {
+          "url": "https://github.com/JetBrains/swot/blob/master/lib/domains/stoplist.txt",
+          "title": "swot/lib/domains/stoplist.txt at master · JetBrains/swot",
+          "snippet": "Identify email addresses or domains names that belong to colleges or universities. Help automate the process of approving or rejecting academic discounts.",
+          "details": {
+            "type": "repository",
+            "owner": "JetBrains",
+            "repo": "swot",
+            "full_name": "JetBrains/swot"
+          }
+        },
+        {
+          "url": "https://github.com/zokuji",
+          "title": "Jules Lesaulnier zokuji",
+          "snippet": "IMT Atlantique alumni; Work at Metron as DevOps & Cloud Engineer. I'm passionnate about. Green IT & IT for green; Sciences & New technologies ...",
+          "details": {
+            "type": "unknown"
+          }
+        },
+        {
+          "url": "https://github.com/h00dieB0y",
+          "title": "Manne Emile KITSOUKOU h00dieB0y",
+          "snippet": "Custom regex engine built from scratch in Java featuring pattern factories, modular architecture & comprehensive regex syntax support (literals, wildcards, ...",
+          "details": {
+            "type": "unknown"
+          }
+        },
+        {
+          "url": "https://github.com/rukmal/UW-OpenData/blob/master/out.txt",
+          "title": "UW-OpenData/out.txt at master",
+          "snippet": "RESTful API for UW online services. Contribute to rukmal/UW-OpenData development by creating an account on GitHub.",
+          "details": {
+            "type": "repository",
+            "owner": "rukmal",
+            "repo": "UW-OpenData",
+            "full_name": "rukmal/UW-OpenData"
+          }
+        },
+        {
+          "url": "https://github.com/cthoyt/ror-wikidata-enrichment/blob/main/data/6-diff-suggestions.tsv",
+          "title": "ror-wikidata-enrichment/data/6-diff-suggestions.tsv at main",
+          "snippet": "IMT Nord Europe, P361, part of, 03btvgn05, University of Lille Nord de France ... Florida International University Alumni Association, P361, part of ...",
+          "details": {
+            "type": "repository",
+            "owner": "cthoyt",
+            "repo": "ror-wikidata-enrichment",
+            "full_name": "cthoyt/ror-wikidata-enrichment"
+          }
+        },
+        {
+          "url": "https://github.com/olange/learning-neo4j/blob/main/training/reco/import/groups.csv",
+          "title": "learning-neo4j/training/reco/import/groups.csv at main",
+          "snippet": "<p>IMT is the digital health marketplace with largest digital health community in the UK. We create an environment where the drivers and influencers ...",
+          "details": {
+            "type": "repository",
+            "owner": "olange",
+            "repo": "learning-neo4j",
+            "full_name": "olange/learning-neo4j"
+          }
+        },
+        {
+          "url": "https://gist.github.com/tolotrasamuel/57e4d265190343b038c4f60a566a5211",
+          "title": "Google Summer of Code 2020 All Organizations JSON - Gist",
+          "snippet": "Google Summer of Code 2020 All Organizations JSON. GitHub Gist: instantly share code, notes, and snippets.",
+          "details": {
+            "type": "gist",
+            "gist_id": "tolotrasamuel"
+          }
+        },
+        {
+          "url": "https://github.com/unexpectedBy/SQLi-Dork-Repository/blob/master/randon.txt",
+          "title": "SQLi-Dork-Repository/randon.txt at master",
+          "snippet": "Dorks Hacking Database for educational proposal. Contribute to NoThrowForwardIt/SQLi-Dork-Repository development by creating an account on GitHub.",
+          "details": {
+            "type": "repository",
+            "owner": "unexpectedBy",
+            "repo": "SQLi-Dork-Repository",
+            "full_name": "unexpectedBy/SQLi-Dork-Repository"
+          }
+        },
+        {
+          "url": "https://github.com/pinard/paxutils/blob/master/THANKS",
+          "title": "paxutils/THANKS at master · pinard ...",
+          "snippet": "Free paxutils ``THANKS`` file GNU cpio has originally been written by John Oleynick. PDTAR has originally been written by John Gilmore, with contributions ...",
+          "details": {
+            "type": "repository",
+            "owner": "pinard",
+            "repo": "paxutils",
+            "full_name": "pinard/paxutils"
+          }
+        },
+        {
+          "url": "https://github.com/MrezaMomeni/IMT",
+          "title": "MrezaMomeni/IMT: A collection of open-source projects, ...",
+          "snippet": "Developing real-world AI projects that solve meaningful problems. Creating learning experiences for interns and students through guided, hands-on projects.",
+          "details": {
+            "type": "repository",
+            "owner": "MrezaMomeni",
+            "repo": "IMT",
+            "full_name": "MrezaMomeni/IMT"
+          }
+        },
+        {
+          "url": "https://github.com/google/imt",
+          "title": "google/imt",
+          "snippet": "A collection of straightforward tools designed to assist in impact measurement. These tools include functions for randomization, checking baseline balance,",
+          "details": {
+            "type": "repository",
+            "owner": "google",
+            "repo": "imt",
+            "full_name": "google/imt"
+          }
+        },
+        {
+          "url": "https://github.com/CoAxLab/multimodal-imt",
+          "title": "CoAxLab/multimodal-imt",
+          "snippet": "\"Integrating Multiple Imaging Modalities does not Boost Prediction of Carotid Artery Intima-Media Thickness in Midlife Adults\".",
+          "details": {
+            "type": "repository",
+            "owner": "CoAxLab",
+            "repo": "multimodal-imt",
+            "full_name": "CoAxLab/multimodal-imt"
+          }
+        },
+        {
+          "url": "https://github.com/wmo-im/sc-imt",
+          "title": "wmo-im/sc-imt: Standing Committee on Information Management ...",
+          "snippet": "Standing Committee on Information Management and Technology - wmo-im/sc-imt.",
+          "details": {
+            "type": "repository",
+            "owner": "wmo-im",
+            "repo": "sc-imt",
+            "full_name": "wmo-im/sc-imt"
+          }
+        },
+        {
+          "url": "https://github.com/movabletype/mt-plugin-imt",
+          "title": "movabletype/mt-plugin-imt: Movable Type plugin for ...",
+          "snippet": "This plugin provides a more natural user interface for Apple's iPhone and iPod touch products. Once installed, you can access your Movable Type installation ...",
+          "details": {
+            "type": "repository",
+            "owner": "movabletype",
+            "repo": "mt-plugin-imt",
+            "full_name": "movabletype/mt-plugin-imt"
+          }
+        },
+        {
+          "url": "https://github.com/codecadre/imt-school-addresses",
+          "title": "codecadre/imt-school-addresses: pulls addresses from IMT",
+          "snippet": "This repository mirrors the driving schools available at imt-ip.pt. It's a collection of scripts that scrape the website and respective school files.",
+          "details": {
+            "type": "repository",
+            "owner": "codecadre",
+            "repo": "imt-school-addresses",
+            "full_name": "codecadre/imt-school-addresses"
+          }
+        },
+        {
+          "url": "https://github.com/CoAxLab/reappraisal-imt-progression",
+          "title": "CoAxLab/reappraisal-imt-progression",
+          "snippet": "A LassoPCR model to predict Multiyear Progression of Preclinical Atherosclerosis from Viewing and Reappraising Affective Scenes",
+          "details": {
+            "type": "repository",
+            "owner": "CoAxLab",
+            "repo": "reappraisal-imt-progression",
+            "full_name": "CoAxLab/reappraisal-imt-progression"
+          }
+        },
+        {
+          "url": "https://github.com/vocdoni/lean-imt-go",
+          "title": "Lean Incremental Merkle Tree (Go Implementation)",
+          "snippet": "The LeanIMT is an optimized binary version of traditional Incremental Merkle Trees (IMT), eliminating the need for zero values and allowing dynamic depth ...",
+          "details": {
+            "type": "repository",
+            "owner": "vocdoni",
+            "repo": "lean-imt-go",
+            "full_name": "vocdoni/lean-imt-go"
+          }
+        },
+        {
+          "url": "https://github.com/google/imt/blob/main/configure.win",
+          "title": "imt/configure.win at main · google/imt",
+          "snippet": "Contribute to google/imt development by creating an account on GitHub. Search code, repositories, users, issues, pull requests...",
+          "details": {
+            "type": "repository",
+            "owner": "google",
+            "repo": "imt",
+            "full_name": "google/imt"
+          }
+        },
+        {
+          "url": "https://github.com/Idun-Group/imt-lab/blob/main/.gitignore",
+          "title": "gitignore - Idun-Group/imt-lab",
+          "snippet": "Contribute to Idun-Group/imt-lab development by creating an account on GitHub. Search code, repositories, users, issues, pull requests... Edit and raw actions",
+          "details": {
+            "type": "repository",
+            "owner": "Idun-Group",
+            "repo": "imt-lab",
+            "full_name": "Idun-Group/imt-lab"
+          }
+        }
+      ],
+      "sensitive_repositories": 0,
+      "total_sensitive_findings": 0
+    },
+    {
+      "subdomain": "www.imt.edu",
+      "repositories": [
+        {
+          "url": "https://github.com/codecadre/imt-school-addresses",
+          "title": "codecadre/imt-school-addresses: pulls addresses from IMT",
+          "snippet": "This repository mirrors the driving schools available at imt-ip.pt. It's a collection of scripts that scrape the website and respective school files.",
+          "details": {
+            "type": "repository",
+            "owner": "codecadre",
+            "repo": "imt-school-addresses",
+            "full_name": "codecadre/imt-school-addresses"
+          }
+        },
+        {
+          "url": "https://github.com/IMT",
+          "title": "IMT",
+          "snippet": "Jul 24, 2024 — Institut Mines-Télécom. IMT has one repository available. Follow their code on GitHub. Search code, repositories, users, issues, pull requests... ...",
+          "details": {
+            "type": "unknown"
+          }
+        },
+        {
+          "url": "https://github.com/IMT-Atlantique-FIL-2020-2023",
+          "title": "IMT Atlantique FIL 2020-2023",
+          "snippet": "IMT Atlantique FIL 2020-2023. School work from students doing a Master's degree in software engineering in apprenticeship at IMT Atlantique.",
+          "details": {
+            "type": "unknown"
+          }
+        },
+        {
+          "url": "https://github.com/clementgarbay/IMT-DSL",
+          "title": "clementgarbay/IMT-DSL: A DSL for browser automation with ...",
+          "snippet": "A DSL for browser automation with selenium. Contribute to clementgarbay/IMT-DSL development by creating an account on GitHub.",
+          "details": {
+            "type": "repository",
+            "owner": "clementgarbay",
+            "repo": "IMT-DSL",
+            "full_name": "clementgarbay/IMT-DSL"
+          }
+        },
+        {
+          "url": "https://github.com/google/imt",
+          "title": "google/imt",
+          "snippet": "A collection of straightforward tools designed to assist in impact measurement. These tools include functions for randomization, checking baseline balance,",
+          "details": {
+            "type": "repository",
+            "owner": "google",
+            "repo": "imt",
+            "full_name": "google/imt"
+          }
+        },
+        {
+          "url": "https://github.com/IMT-Humbel-Sebastian",
+          "title": "IMT-Humbel-Sebastian",
+          "snippet": "GitHub is where IMT-Humbel-Sebastian builds software. Search code, repositories, users, issues, pull requests...",
+          "details": {
+            "type": "unknown"
+          }
+        },
+        {
+          "url": "https://github.com/google/imt/blob/main/configure.win",
+          "title": "imt/configure.win at main · google/imt",
+          "snippet": "Contribute to google/imt development by creating an account on GitHub. Search code, repositories, users, issues, pull requests...",
+          "details": {
+            "type": "repository",
+            "owner": "google",
+            "repo": "imt",
+            "full_name": "google/imt"
+          }
+        },
+        {
+          "url": "https://github.com/LiU-IMT/EEE/blob/master/src/main/resources/www-file-root/AdHocQuery_examples/Composition_list_1.xml",
+          "title": "Composition_list_1.xml - LiU-IMT/EEE",
+          "snippet": "A REST based Educational EHR Environment based on openEHR - EEE/src/main/resources/www-file-root/AdHocQuery_examples/Composition_list_1.xml at master ...",
+          "details": {
+            "type": "repository",
+            "owner": "LiU-IMT",
+            "repo": "EEE",
+            "full_name": "LiU-IMT/EEE"
+          }
+        },
+        {
+          "url": "https://github.com/imt-lab",
+          "title": "imt-lab",
+          "snippet": "imt-lab has 16 repositories available. Follow their code on GitHub. 'm @imt-lab 👀. A stress test tool for zimbra mailbox Python. GitHub status page or contact ...",
+          "details": {
+            "type": "unknown"
+          }
+        },
+        {
+          "url": "https://github.com/LiU-IMT",
+          "title": "Department of Biomedical Engineering, Linköping ...",
+          "snippet": "Department of Biomedical Engineering, Linköping University, Sweden has 6 repositories available. Follow their code on GitHub.",
+          "details": {
+            "type": "unknown"
+          }
+        },
+        {
+          "url": "https://github.com/MrezaMomeni/IMT",
+          "title": "MrezaMomeni/IMT: A collection of open-source projects, ...",
+          "snippet": "Developing real-world AI projects that solve meaningful problems. Creating learning experiences for interns and students through guided, hands-on projects.",
+          "details": {
+            "type": "repository",
+            "owner": "MrezaMomeni",
+            "repo": "IMT",
+            "full_name": "MrezaMomeni/IMT"
+          }
+        },
+        {
+          "url": "https://github.com/movabletype/mt-plugin-imt",
+          "title": "movabletype/mt-plugin-imt: Movable Type plugin for ...",
+          "snippet": "This plugin provides a more natural user interface for Apple's iPhone and iPod touch products. Once installed, you can access your Movable Type installation ...Read more",
+          "details": {
+            "type": "repository",
+            "owner": "movabletype",
+            "repo": "mt-plugin-imt",
+            "full_name": "movabletype/mt-plugin-imt"
+          }
+        },
+        {
+          "url": "https://github.com/CoAxLab/multimodal-imt",
+          "title": "CoAxLab/multimodal-imt",
+          "snippet": "\"Integrating Multiple Imaging Modalities does not Boost Prediction of Carotid Artery Intima-Media Thickness in Midlife Adults\".Read more",
+          "details": {
+            "type": "repository",
+            "owner": "CoAxLab",
+            "repo": "multimodal-imt",
+            "full_name": "CoAxLab/multimodal-imt"
+          }
+        },
+        {
+          "url": "https://github.com/wmo-im/sc-imt",
+          "title": "wmo-im/sc-imt: Standing Committee on Information Management ...",
+          "snippet": "Standing Committee on Information Management and Technology - wmo-im/sc-imt.",
+          "details": {
+            "type": "repository",
+            "owner": "wmo-im",
+            "repo": "sc-imt",
+            "full_name": "wmo-im/sc-imt"
+          }
+        },
+        {
+          "url": "https://github.com/CoAxLab/reappraisal-imt-progression",
+          "title": "CoAxLab/reappraisal-imt-progression",
+          "snippet": "A LassoPCR model to predict Multiyear Progression of Preclinical Atherosclerosis from Viewing and Reappraising Affective ScenesRead more",
+          "details": {
+            "type": "repository",
+            "owner": "CoAxLab",
+            "repo": "reappraisal-imt-progression",
+            "full_name": "CoAxLab/reappraisal-imt-progression"
+          }
+        },
+        {
+          "url": "https://github.com/vocdoni/lean-imt-go",
+          "title": "Lean Incremental Merkle Tree (Go Implementation)",
+          "snippet": "The LeanIMT is an optimized binary version of traditional Incremental Merkle Trees (IMT), eliminating the need for zero values and allowing dynamic depth ...Read more",
+          "details": {
+            "type": "repository",
+            "owner": "vocdoni",
+            "repo": "lean-imt-go",
+            "full_name": "vocdoni/lean-imt-go"
+          }
+        },
+        {
+          "url": "https://github.com/Idun-Group/imt-lab/blob/main/.gitignore",
+          "title": "gitignore - Idun-Group/imt-lab",
+          "snippet": "Contribute to Idun-Group/imt-lab development by creating an account on GitHub. Search code, repositories, users, issues, pull requests... Edit and raw actions",
+          "details": {
+            "type": "repository",
+            "owner": "Idun-Group",
+            "repo": "imt-lab",
+            "full_name": "Idun-Group/imt-lab"
+          }
+        },
+        {
+          "url": "https://github.com/runZeroInc/nuclei-templates/blob/main/http/exposed-panels/spark-panel.yaml",
+          "title": "nuclei-templates/http/exposed-panels/spark-panel.yaml at main ...",
+          "snippet": "... imt/html/\" - http.title:\"spark master at\" fofa-query: - title=\"spark master at\" - body=\"/apps/imt/html/\" google-query: intitle:\"spark master at\" tags: panel ...",
+          "details": {
+            "type": "repository",
+            "owner": "runZeroInc",
+            "repo": "nuclei-templates",
+            "full_name": "runZeroInc/nuclei-templates"
+          }
+        },
+        {
+          "url": "https://github.com/1password",
+          "title": "1Password - GitHub",
+          "snippet": "1Password remembers all your passwords for you. It keeps your digital life secure and always available, safe behind the one password that only you know.Read more",
+          "details": {
+            "type": "unknown"
+          }
+        },
+        {
+          "url": "https://github.com/Micke-K/IntuneManagement",
+          "title": "IntuneManagement with PowerShell and WPF UI - GitHub",
+          "snippet": "Copy, export, import, delete, document and compare policies and profiles in Intune and Azure with PowerShell script and WPF UI. Import ADMX files and ...",
+          "details": {
+            "type": "repository",
+            "owner": "Micke-K",
+            "repo": "IntuneManagement",
+            "full_name": "Micke-K/IntuneManagement"
+          }
+        },
+        {
+          "url": "https://github.com/acontis",
+          "title": "acontis technologies GmbH - GitHub",
+          "snippet": "Kernel module that grants direct access to hardware, improving the performance of the LinkLayers, used in the EtherCAT Master Stack Software EC-Master.Read more",
+          "details": {
+            "type": "unknown"
+          }
+        },
+        {
+          "url": "https://github.com/tuya",
+          "title": "Tuya - GitHub",
+          "snippet": "Tuya Developer Platform is a global platform that builds IoT development and interconnectivity standards to bridge the needs of brand owners, OEMs, retail ...Read more",
+          "details": {
+            "type": "unknown"
+          }
+        },
+        {
+          "url": "https://gist.github.com/crypto-cypher/f216d6fa4816ffa93c5270b001dc4bdc",
+          "title": "\"Hackers leak passwords for 500000 Fortinet VPN accounts ...",
+          "snippet": "101.99.24.11:[\"imt.com.vn\"]. 101.99.26.190:{\"error\":\"no results found ... site\"]. 118.70.184.53:null. 118.70.186.91:[\"beta.ngs.com.vn\",\"support.ngs.com.vn ...Read more",
+          "details": {
+            "type": "gist",
+            "gist_id": "crypto-cypher"
+          }
+        },
+        {
+          "url": "https://gist.github.com/e87252275b437133d2f0",
+          "title": "arrays file types php - GitHub Gist",
+          "snippet": "\".dws\" => \"Adobe Dreamweaver Site Cache File\",. \".dwz\" => \"DVD ... \".imt\" => \"My Time Data File\",. \".in\" => \"Input File\",. \".incp\" => \"InCopy CS3 ...Read more",
+          "details": {
+            "type": "unknown"
+          }
+        },
+        {
+          "url": "https://github.com/kgretzky/evilginx2",
+          "title": "GitHub - kgretzky/evilginx2",
+          "snippet": "Evilginx is a man-in-the-middle attack framework used for phishing login credentials along with session cookies, which in turn allows to bypass 2-factor ...Read more",
+          "details": {
+            "type": "repository",
+            "owner": "kgretzky",
+            "repo": "evilginx2",
+            "full_name": "kgretzky/evilginx2"
+          }
+        },
+        {
+          "url": "https://github.com/doc-bok",
+          "title": "doc-bok - GitHub",
+          "snippet": "Programming games since I was 7 years old, now I'm a nomadic developer exploring the world one country at a time. - doc-bok.",
+          "details": {
+            "type": "unknown"
+          }
+        },
+        {
+          "url": "https://github.com/tlhunter",
+          "title": "Thomas Hunter II tlhunter - GitHub",
+          "snippet": "I came here to kick ass, build web applications, and chew bubble gum. And I'm all out of gum. - tlhunter.",
+          "details": {
+            "type": "unknown"
+          }
+        }
+      ],
+      "sensitive_repositories": 0,
+      "total_sensitive_findings": 0
+    }
+  ],
+  "total_repositories": 270,
+  "total_sensitive_findings": 0,
+  "repositories_with_sensitive": 0
+}

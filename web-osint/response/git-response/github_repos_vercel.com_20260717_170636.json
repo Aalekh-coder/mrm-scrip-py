@@ -1,0 +1,190 @@
+[
+  {
+    "title": "vercel/vercel: Develop. Preview. Ship.",
+    "url": "https://github.com/vercel/vercel",
+    "snippet": "Ensure the token scope is for your personal account. Grab the team ID from the Vercel dashboard at https://vercel.com/<MY-TEAM>/~/settings . Source ...",
+    "source": "github_search",
+    "filetype": "github_repo",
+    "repository_details": {
+      "type": "repository",
+      "owner": "vercel",
+      "repo": "vercel",
+      "full_name": "vercel/vercel",
+      "description": "Develop. Preview. Ship.",
+      "stars": 15929,
+      "forks": 3692,
+      "language": "TypeScript",
+      "created_at": "2016-09-09T01:12:08Z",
+      "updated_at": "2026-07-17T00:30:56Z",
+      "has_wiki": true,
+      "has_pages": false,
+      "open_issues": 790,
+      "license": "Apache License 2.0",
+      "readme_preview": "<p align=\"center\">\n  <a href=\"https://vercel.com\">\n    <img src=\"https://assets.vercel.com/image/upload/v1588805858/repositories/vercel/logo.png\" height=\"96\">\n    <h3 align=\"center\">Vercel</h3>\n  </a>\n</p>\n\n<p align=\"center\">\n  Develop. Preview. Ship.\n</p>\n\n<p align=\"center\">\n  <a href=\"https://vercel.com/docs\"><strong>Documentation</strong></a> ·\n  <a href=\"https://vercel.com/changelog\"><strong>Changelog</strong></a> ·\n  <a href=\"https://vercel.com/templates\"><strong>Templates</strong></a> ·\n  ..."
+    }
+  },
+  {
+    "title": "Vercel",
+    "url": "https://github.com/vercel",
+    "snippet": "Agentic infrastructure for every app and agent. Verified. We've verified that the organization vercel controls the domain: vercel.com.",
+    "source": "github_search",
+    "filetype": "github_repo",
+    "repository_details": {
+      "type": "unknown"
+    }
+  },
+  {
+    "title": "vercel/examples: Enjoy our curated collection ...",
+    "url": "https://github.com/vercel/examples",
+    "snippet": "Adding a template. If you would like the example to be featured in vercel.com/templates then also add the front matter metadata to ...",
+    "source": "github_search",
+    "filetype": "github_repo",
+    "repository_details": {
+      "type": "repository",
+      "owner": "vercel",
+      "repo": "examples",
+      "full_name": "vercel/examples",
+      "description": "Enjoy our curated collection of examples and solutions. Use these patterns to build your own robust and scalable applications.",
+      "stars": 5134,
+      "forks": 1800,
+      "language": "TypeScript",
+      "created_at": "2021-10-25T12:09:32Z",
+      "updated_at": "2026-07-17T05:37:22Z",
+      "has_wiki": false,
+      "has_pages": false,
+      "open_issues": 261,
+      "license": "MIT License",
+      "readme_preview": "<p align=\"center\">\n  <a href=\"https://vercel.com\">\n    <img src=\"https://assets.vercel.com/image/upload/v1588805858/repositories/vercel/logo.png\" height=\"96\">\n    <h3 align=\"center\">Vercel Examples</h3>\n  </a>\n</p>\n\n- [Solutions](/solutions) – Demos, reference architecture, and best practices\n- [Starter](/starter) – Functional applications which can act as a starting point\n- And more!\n\n## Vercel Templates\n\nMultiple examples are being featured in [Vercel's Templates](https://vercel.com/templates)..."
+    }
+  },
+  {
+    "title": "Content Security Policy and Live Feedback on vercel.com",
+    "url": "https://github.com/vercel/next.js/discussions/56562",
+    "snippet": "2023. 10. 7. — I am introducing CSP for a next.js app (version 13.4.12) deployed on vercel.com. This works perfectly for most parts of the app thanks to the new docs.",
+    "source": "github_search",
+    "filetype": "github_repo",
+    "repository_details": {
+      "type": "repository",
+      "owner": "vercel",
+      "repo": "next.js",
+      "full_name": "vercel/next.js",
+      "description": "The React Framework",
+      "stars": 140994,
+      "forks": 31470,
+      "language": "JavaScript",
+      "created_at": "2016-10-05T23:32:51Z",
+      "updated_at": "2026-07-17T10:36:02Z",
+      "has_wiki": false,
+      "has_pages": false,
+      "open_issues": 4199,
+      "license": "MIT License",
+      "readme_preview": "<div align=\"center\">\n  <a href=\"https://nextjs.org\">\n    <picture>\n      <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://assets.vercel.com/image/upload/v1662130559/nextjs/Icon_dark_background.png\">\n      <img alt=\"Next.js logo\" src=\"https://assets.vercel.com/image/upload/v1662130559/nextjs/Icon_light_background.png\" height=\"128\">\n    </picture>\n  </a>\n  <h1>Next.js</h1>\n\n<a href=\"https://vercel.com\"><img alt=\"Vercel logo\" src=\"https://img.shields.io/badge/MADE%20BY%20Vercel-000000.s..."
+    }
+  },
+  {
+    "title": "Vercel Plugin",
+    "url": "https://github.com/vercel/vercel-plugin",
+    "snippet": "Events are sent to Vercel's public telemetry bridge at https://telemetry.vercel.com/api/vercel-plugin/v1/events . ... Turns any AI agent into a Vercel expert.",
+    "source": "github_search",
+    "filetype": "github_repo",
+    "repository_details": {
+      "type": "repository",
+      "owner": "vercel",
+      "repo": "vercel-plugin",
+      "full_name": "vercel/vercel-plugin",
+      "description": "Comprehensive Vercel ecosystem plugin — relational knowledge graph, skills for every major product, specialized agents, and Vercel conventions. Turns any AI agent into a Vercel expert.",
+      "stars": 219,
+      "forks": 36,
+      "language": "TypeScript",
+      "created_at": "2026-03-04T16:46:22Z",
+      "updated_at": "2026-07-16T06:23:22Z",
+      "has_wiki": true,
+      "has_pages": false,
+      "open_issues": 36,
+      "license": "",
+      "readme_preview": "# vercel-plugin\n\n## Getting Started\n\n### Supported Tools\n\n| Tool                                                          | Status    |\n| ------------------------------------------------------------- | --------- |\n| [Claude Code](https://docs.anthropic.com/en/docs/claude-code) | Supported |\n| [Cursor](https://www.cursor.com)                              | Supported |\n| [GitHub Copilot CLI](https://github.com/github/copilot-cli)   | Supported |\n| [OpenAI Codex](https://openai.com/index/codex/)   ..."
+    }
+  },
+  {
+    "title": "How to resolve: Error! request to https://api.vercel.com/v13/ ...",
+    "url": "https://github.com/vercel/vercel/discussions/6058",
+    "snippet": "01‏/04‏/2021 — I have recently become unable to deploy. When I run vercel , the terminal hangs and then eventually prints: Error! request to https://api.vercel.com/v13/now/ ...",
+    "source": "github_search",
+    "filetype": "github_repo",
+    "repository_details": {
+      "type": "repository",
+      "owner": "vercel",
+      "repo": "vercel",
+      "full_name": "vercel/vercel",
+      "description": "Develop. Preview. Ship.",
+      "stars": 15929,
+      "forks": 3692,
+      "language": "TypeScript",
+      "created_at": "2016-09-09T01:12:08Z",
+      "updated_at": "2026-07-17T00:30:56Z",
+      "has_wiki": true,
+      "has_pages": false,
+      "open_issues": 790,
+      "license": "Apache License 2.0",
+      "readme_preview": "<p align=\"center\">\n  <a href=\"https://vercel.com\">\n    <img src=\"https://assets.vercel.com/image/upload/v1588805858/repositories/vercel/logo.png\" height=\"96\">\n    <h3 align=\"center\">Vercel</h3>\n  </a>\n</p>\n\n<p align=\"center\">\n  Develop. Preview. Ship.\n</p>\n\n<p align=\"center\">\n  <a href=\"https://vercel.com/docs\"><strong>Documentation</strong></a> ·\n  <a href=\"https://vercel.com/changelog\"><strong>Changelog</strong></a> ·\n  <a href=\"https://vercel.com/templates\"><strong>Templates</strong></a> ·\n  ..."
+    }
+  },
+  {
+    "title": "Vercel Solutions",
+    "url": "https://github.com/vercel-solutions",
+    "snippet": "Vercel Solutions has 31 repositories available. Follow their code on GitHub.",
+    "source": "github_search",
+    "filetype": "github_repo",
+    "repository_details": {
+      "type": "unknown"
+    }
+  },
+  {
+    "title": "wabarc/on-vercel",
+    "url": "https://github.com/wabarc/on-vercel",
+    "snippet": "on-vercel is designed to deploy the wayback service as a Vercel web service, expect to reduce the cost of running the wayback service, and providing additional ...",
+    "source": "github_search",
+    "filetype": "github_repo",
+    "repository_details": {
+      "type": "repository",
+      "owner": "wabarc",
+      "repo": "on-vercel",
+      "full_name": "wabarc/on-vercel",
+      "description": "Deploy wayback service on vercel.com easily and quickly.",
+      "stars": 0,
+      "forks": 0,
+      "language": "HTML",
+      "created_at": "2025-09-28T14:55:53Z",
+      "updated_at": "2025-09-28T14:59:58Z",
+      "has_wiki": false,
+      "has_pages": false,
+      "open_issues": 11,
+      "license": "GNU General Public License v3.0",
+      "readme_preview": "# on-vercel\n\n`on-vercel` is designed to deploy the `wayback` service as a Vercel web service, expect to\nreduce the cost of running the `wayback` service, and providing additional anonymity.\n\n## Related projects\n\n- [wabarc/wayback](https://github.com/wabarc/wayback)\n\n## Credits\n\n- [Vercel](https://vercel.com/)\n\n## License\n\nPermissive GPL 3.0 license, see the [LICENSE](/LICENSE) file for details.\n"
+    }
+  },
+  {
+    "title": "Domain-Connect-Templates/vercel.com.website.json at master",
+    "url": "https://github.com/railwayapp/Domain-Connect-Templates/blob/master/vercel.com.website.json",
+    "snippet": "Templates for use in the Domain Connect Protocol. Contribute to railwayapp/Domain-Connect-Templates development by creating an account on GitHub.",
+    "source": "github_search",
+    "filetype": "github_repo",
+    "repository_details": {
+      "type": "repository",
+      "owner": "railwayapp",
+      "repo": "Domain-Connect-Templates",
+      "full_name": "railwayapp/Domain-Connect-Templates",
+      "description": "Templates for use in the Domain Connect Protocol",
+      "stars": 1,
+      "forks": 0,
+      "language": null,
+      "created_at": "2026-01-29T18:48:39Z",
+      "updated_at": "2026-01-30T07:57:08Z",
+      "has_wiki": false,
+      "has_pages": false,
+      "open_issues": 0,
+      "license": "",
+      "readme_preview": "# Templates\n[![Build Status](https://travis-ci.com/Domain-Connect/Templates.svg?branch=master)](https://travis-ci.com/Domain-Connect/Templates)\n\nTemplates for use in the Domain Connect Protocol\nThese map to the individual service providers for domain connect. See https://www.domainconnect.org/getting-started/\n\nFor details on how to constuct a Domain Connect template, refer to section 5.2 and 5.3 of the Domain Connect Spec:\n\nhttps://github.com/Domain-Connect/spec/blob/master/Domain%20Connect%20Sp..."
+    }
+  }
+]
